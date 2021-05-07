@@ -1,0 +1,3524 @@
+/*
+
+  var zeros = [];
+  var groupSizes = [];
+  var groupBases = [];
+
+  var s = '';
+  var i = -1;
+  while (++i < BN.wordSize) {
+    zeros[i] = s;
+    s += '0';
+  }
+  groupSizes[0] = 0;
+  groupSizes[1] = 0;
+  groupBases[0] = 0;
+  groupBases[1] = 0;
+  var base = 2 - 1;
+  while (++base < 36 + 1) {
+    var groupSize = 0;
+    var groupBase = 1;
+    while (groupBase < (1 << BN.wordSize) / base) {
+      groupBase *= base;
+      groupSize += 1;
+    }
+    groupSizes[base] = groupSize;
+    groupBases[base] = groupBase;
+  }
+
+  */
+
+/*
+      const a = document.querySelector(`a[href*="${SEARCH_TEXT}"]`) as HTMLAnchorElement;
+      const constactSelect = document.querySelector('[data-edition-option-id="Contract"] select') as HTMLSelectElement;
+      const tokenIDSelect = document.querySelector('[data-edition-option-id="TokenID"] select') as HTMLSelectElement;
+       if (a && constactSelect && tokenIDSelect) {
+        const href = join(a.href.substr(0, a.href.indexOf(SEARCH_TEXT) + SEARCH_TEXT.length), constactSelect.value, tokenIDSelect.value);
+        if (a.href !== href) {
+          a.href = href;
+        }
+      }
+      */
+
+/*
+ * Need to make sure that buffer isn't trying to write out of bounds.
+ */
+
+/*
+ Modernizr 3.0.0pre (Custom Build) | MIT
+*/
+
+/*
+function unoddify(value: BytesLike | Hexable | number): BytesLike | Hexable | number {
+    if (typeof(value) === "string" && value.length % 2 && value.substring(0, 2) === "0x") {
+        return "0x0" + value.substring(2);
+    }
+    return value;
+}
+*/
+
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
+
+/* -1 -1 */
+
+/* -1 0 */
+
+/* -1 1 */
+
+/* 0 -1 */
+
+/* 0 0 */
+
+/* 0 1 */
+
+/* 1 */
+
+/* 1 -1 */
+
+/* 1 0 */
+
+/* 3 */
+
+/* 5 */
+
+/* Z+1 */
+
+/* binding */
+
+/* default */
+
+/* eslint-disable no-proto */
+
+/* eslint-disable no-unused-vars */
+
+/* eslint-disable node/no-deprecated-api */
+
+/* global Reflect, Promise */
+
+/* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */
+
+/* harmony default export */
+
+/* harmony export */
+
+/* istanbul ignore if */
+
+/* istanbul ignore next */
+
+/* jshint maxdepth : false */
+
+/* k = 0 */
+
+/* k = 1 */
+
+/* k = 10 */
+
+/* k = 11 */
+
+/* k = 12 */
+
+/* k = 13 */
+
+/* k = 14 */
+
+/* k = 15 */
+
+/* k = 16 */
+
+/* k = 17 */
+
+/* k = 18 */
+
+/* k = 2 */
+
+/* k = 3 */
+
+/* k = 4 */
+
+/* k = 5 */
+
+/* k = 6 */
+
+/* k = 7 */
+
+/* k = 8 */
+
+/* k = 9 */
+
+/* module decorator */
+
+/* n */
+
+/* o */
+
+/* provided dependency */
+
+/* reexport */
+
+/* webpack/runtime/amd options */
+
+/*!
+ * The buffer module from node.js, for the browser.
+ *
+ * @author   Feross Aboukhadijeh <https://feross.org>
+ * @license  MIT
+ */
+
+/*! *****************************************************************************
+Copyright (c) Microsoft Corporation.
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+***************************************************************************** */
+
+/*! MIT License. Copyright 2015-2018 Richard Moore <me@ricmoo.com>. See LICENSE.txt. */
+
+/*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
+
+/*#__PURE__*/
+
+/**
+     *  Counter object for CTR common mode of operation
+     */
+
+/**
+     *  Mode Of Operation - Cipher Block Chaining (CBC)
+     */
+
+/**
+     *  Mode Of Operation - Cipher Feedback (CFB)
+     */
+
+/**
+     *  Mode Of Operation - Counter (CTR)
+     */
+
+/**
+     *  Mode Of Operation - Electonic Codebook (ECB)
+     */
+
+/**
+     *  Mode Of Operation - Output Feedback (OFB)
+     */
+
+/**
+     *  Static methods to create Wallet instances.
+     */
+
+/**
+     *  This constructor should not be called directly.
+     *
+     *  Please use:
+     *   - fromMnemonic
+     *   - fromSeed
+     */
+
+/**
+     * Add a new item to the queue and ensure the highest priority element
+     * is at the front of the queue.
+     */
+
+/**
+     * Return the highest priority element in the queue.
+     */
+
+/**
+   * A very naive priority queue implementation.
+   */
+
+/**
+ *  BigNumber
+ *
+ *  A wrapper around the BN.js object. We use the BN.js library
+ *  because it is used by elliptic, so it is required regardless.
+ *
+ */
+
+/**
+ * Add alignment patterns bits to matrix
+ *
+ * Note: this function must be called after {@link setupTimingPattern}
+ *
+ * @param  {BitMatrix} matrix  Modules matrix
+ * @param  {Number}    version QR Code version
+ */
+
+/**
+ * Add encoded data bits to matrix
+ *
+ * @param  {BitMatrix} matrix Modules matrix
+ * @param  {Buffer}    data   Data codewords
+ */
+
+/**
+ * Add finder patterns bits to matrix
+ *
+ * @param  {BitMatrix} matrix  Modules matrix
+ * @param  {Number}    version QR Code version
+ */
+
+/**
+ * Add format info bits to matrix
+ *
+ * @param  {BitMatrix} matrix               Modules matrix
+ * @param  {ErrorCorrectionLevel}    errorCorrectionLevel Error correction level
+ * @param  {Number}    maskPattern          Mask pattern reference value
+ */
+
+/**
+ * Add timing pattern bits to matrix
+ *
+ * Note: this function must be called before {@link setupAlignmentPattern}
+ *
+ * @param  {BitMatrix} matrix Modules matrix
+ */
+
+/**
+ * Add version info bits to matrix
+ *
+ * @param  {BitMatrix} matrix  Modules matrix
+ * @param  {Number}    version QR Code version
+ */
+
+/**
+ * Alignment pattern are fixed reference pattern in defined positions
+ * in a matrix symbology, which enables the decode software to re-synchronise
+ * the coordinate mapping of the image modules in the event of moderate amounts
+ * of distortion of the image.
+ *
+ * Alignment patterns are present only in QR Code symbols of version 2 or larger
+ * and their number depends on the symbol version.
+ */
+
+/**
+ * Alphanumeric mode encodes data from a set of 45 characters,
+ * i.e. 10 numeric digits (0 - 9),
+ *      26 alphabetic characters (A - Z),
+ *   and 9 symbols (SP, $, %, *, +, -, ., /, :).
+ * Normally, two input characters are represented by 11 bits.
+ *
+ * @type {Object}
+ */
+
+/**
+ * Applies xor operator at specified location
+ * (used during masking process)
+ *
+ * @param {Number}  row
+ * @param {Number}  col
+ * @param {Boolean} value
+ */
+
+/**
+ * Apply a mask pattern to a BitMatrix
+ *
+ * @param  {Number}    pattern Pattern reference number
+ * @param  {BitMatrix} data    BitMatrix data
+ */
+
+/**
+ * Array of characters available in alphanumeric mode
+ *
+ * As per QR Code specification, to each character
+ * is assigned a value from 0 to 44 which in this case coincides
+ * with the array index
+ *
+ * @type {Array}
+ */
+
+/**
+ * Build QR Code symbol
+ *
+ * @param  {String} data                 Input string
+ * @param  {Number} version              QR Code version
+ * @param  {ErrorCorretionLevel} errorCorrectionLevel Error level
+ * @param  {MaskPattern} maskPattern     Mask pattern
+ * @return {Object}                      Object containing symbol data
+ */
+
+/**
+ * Builds a graph from a list of nodes.
+ * All segments in each node group will be connected with all the segments of
+ * the next group and so on.
+ *
+ * At each connection will be assigned a weight depending on the
+ * segment's byte length.
+ *
+ * @param  {Array} nodes    Array of object with segments data
+ * @param  {Number} version QR Code version
+ * @return {Object}         Graph of all possible segments
+ */
+
+/**
+ * Builds a list of segments from an array.
+ * Array can contain Strings or Objects with segment's info.
+ *
+ * For each item which is a string, will be generated a segment with the given
+ * string and the more appropriate encoding mode.
+ *
+ * For each item which is an object, will be generated a segment with the given
+ * data and mode.
+ * Objects must contain at least the property "data".
+ * If property "mode" is not present, the more suitable mode will be used.
+ *
+ * @param  {Array} array Array of objects with segments data
+ * @return {Array}       Array of Segments
+ */
+
+/**
+ * Builds a segment from a specified data and mode.
+ * If a mode is not specified, the more suitable will be used.
+ *
+ * @param  {String} data             Input data
+ * @param  {Mode | String} modesHint Data mode
+ * @return {Segment}                 Segment
+ */
+
+/**
+ * Builds an optimized sequence of segments from a string,
+ * which will produce the shortest possible bitstream.
+ *
+ * @param  {String} data    Input string
+ * @param  {Number} version QR Code version
+ * @return {Array}          Array of segments
+ */
+
+/**
+ * Calculate proportion of dark modules in entire symbol
+ *
+ * Points: N4 * k
+ *
+ * k is the rating of the deviation of the proportion of dark modules
+ * in the symbol from 50% in steps of 5%
+ */
+
+/**
+ * Calculate the remainder of polynomials division
+ *
+ * @param  {Buffer} divident Polynomial
+ * @param  {Buffer} divisor  Polynomial
+ * @return {Buffer}          Remainder
+ */
+
+/**
+ * Calculate the row/column coordinates of the center module of each alignment pattern
+ * for the specified QR Code version.
+ *
+ * The alignment patterns are positioned symmetrically on either side of the diagonal
+ * running from the top left corner of the symbol to the bottom right corner.
+ *
+ * Since positions are simmetrical only half of the coordinates are returned.
+ * Each item of the array will represent in turn the x and y coordinate.
+ * @see {@link getPositions}
+ *
+ * @param  {Number} version QR Code version
+ * @return {Array}          Array of coordinate
+ */
+
+/**
+ * Check if QR Code version is valid
+ *
+ * @param  {Number}  version QR Code version
+ * @return {Boolean}         true if valid version, false otherwise
+ */
+
+/**
+ * Check if bit at specified location is reserved
+ *
+ * @param {Number}   row
+ * @param {Number}   col
+ * @return {Boolean}
+ */
+
+/**
+ * Check if input param is a valid mode object
+ *
+ * @param   {Mode}    mode Mode object
+ * @returns {Boolean} True if valid mode, false otherwise
+ */
+
+/**
+ * Check if mask pattern value is valid
+ *
+ * @param  {Number}  mask    Mask pattern
+ * @return {Boolean}         true if valid, false otherwise
+ */
+
+/**
+ * Convert a typed array to a Buffer without a copy
+ *
+ * Author:   Feross Aboukhadijeh <https://feross.org>
+ * License:  MIT
+ *
+ * `npm install typedarray-to-buffer`
+ */
+
+/**
+ * Copyright (c) 2014, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * https://raw.github.com/facebook/regenerator/master/LICENSE file. An
+ * additional grant of patent rights can be found in the PATENTS file in
+ * the same directory.
+ */
+
+/**
+ * Copyright 2015, Yahoo! Inc.
+ * Copyrights licensed under the New BSD License. See the accompanying LICENSE file for terms.
+ */
+
+/**
+ * Create encoded codewords from data input
+ *
+ * @param  {Number}   version              QR Code version
+ * @param  {ErrorCorrectionLevel}   errorCorrectionLevel Error correction level
+ * @param  {ByteData} data                 Data input
+ * @return {Buffer}                        Buffer containing encoded codewords
+ */
+
+/**
+ * Creates a new filled Buffer instance.
+ * alloc(size[, fill[, encoding]])
+ **/
+
+/**
+ * Data mask pattern reference
+ * @type {Object}
+ */
+
+/**
+ * Encode data with Bose-Chaudhuri-Hocquenghem
+ *
+ * @param  {Number} data Value to encode
+ * @return {Number}      Encoded value
+ */
+
+/**
+ * Encode input data with Reed-Solomon and return codewords with
+ * relative error correction bits
+ *
+ * @param  {BitBuffer} bitBuffer            Data to encode
+ * @param  {Number}    version              QR Code version
+ * @param  {ErrorCorrectionLevel} errorCorrectionLevel Error correction level
+ * @return {Buffer}                         Buffer containing encoded codewords
+ */
+
+/**
+ * Encodes a chunk of data
+ *
+ * @param  {Buffer} data Buffer containing input data
+ * @return {Buffer}      Buffer containing encoded data
+ */
+
+/**
+ * Equivalent to Buffer(num), by default creates a non-zero-filled Buffer instance.
+ * */
+
+/**
+ * Equivalent to SlowBuffer(num), by default creates a non-zero-filled Buffer instance.
+ */
+
+/**
+ * Extracts a series of segments with the appropriate
+ * modes from a string
+ *
+ * @param  {String} dataStr Input string
+ * @return {Array}          Array of object with segments data
+ */
+
+/**
+ * Find 1:1:3:1:1 ratio (dark:light:dark:light:dark) pattern in row/column,
+ * preceded or followed by light area 4 modules wide
+ *
+ * Points: N3 * number of pattern found
+ */
+
+/**
+ * Find 2x2 blocks with the same color and assign a penalty value
+ *
+ * Points: N2 * (m - 1) * (n - 1)
+ */
+
+/**
+ * Functionally equivalent to Buffer(arg, encoding) but throws a TypeError
+ * if value is a number.
+ * Buffer.from(str[, encoding])
+ * Buffer.from(array)
+ * Buffer.from(buffer)
+ * Buffer.from(arrayBuffer[, byteOffset[, length]])
+ **/
+
+/**
+ * Generate an irreducible generator polynomial of specified degree
+ * (used by Reed-Solomon encoder)
+ *
+ * @param  {Number} degree Degree of the generator polynomial
+ * @return {Buffer}        Buffer containing polynomial coefficients
+ */
+
+/**
+ * Generates a list of all possible nodes combination which
+ * will be used to build a segments graph.
+ *
+ * Nodes are divided by groups. Each group will contain a list of all the modes
+ * in which is possible to encode the given text.
+ *
+ * For example the text '12345' can be encoded as Numeric, Alphanumeric or Byte.
+ * The group for '12345' will contain then 3 objects, one for each
+ * possible encoding mode.
+ *
+ * Each node represents a possible segment.
+ *
+ * @param  {Array} segs Array of object with segments data
+ * @return {Array}      Array of object with segments data
+ */
+
+/**
+ * Get a list of segments of the specified mode
+ * from a string
+ *
+ * @param  {Mode}   mode Segment mode
+ * @param  {String} str  String to process
+ * @return {Array}       Array of object with segments data
+ */
+
+/**
+ * Get mode object from its name
+ *
+ * @param   {String} string Mode name
+ * @returns {Mode}          Mode object
+ */
+
+/**
+ * Helper class to handle QR Code symbol modules
+ *
+ * @param {Number} size Symbol size
+ */
+
+/**
+ * If `Buffer.TYPED_ARRAY_SUPPORT`:
+ *   === true    Use Uint8Array implementation (fastest)
+ *   === false   Print warning and recommend using `buffer` v4.x which has an Object
+ *               implementation (most compatible, even IE6)
+ *
+ * Browsers that support typed arrays are IE 10+, Firefox 4+, Chrome 7+, Safari 5.1+,
+ * Opera 11.6+, iOS 4.2+.
+ *
+ * We report that the browser does not support typed arrays if the are not subclassable
+ * using __proto__. Firefox 4-29 lacks support for adding new properties to `Uint8Array`
+ * (See: https://bugzilla.mozilla.org/show_bug.cgi?id=695438). IE 10 lacks support
+ * for __proto__ and has a buggy typed array implementation.
+ */
+
+/**
+ * Implementation of a subset of node.js Buffer methods for the browser.
+ * Based on https://github.com/feross/buffer
+ */
+
+/**
+ * In byte mode, data is encoded at 8 bits per character.
+ *
+ * @type {Object}
+ */
+
+/**
+ * Initialize the encoder.
+ * The input param should correspond to the number of error correction codewords.
+ *
+ * @param  {Number} degree
+ */
+
+/**
+ * Merges adjacent segments which have the same mode
+ *
+ * @param  {Array} segs Array of object with segments data
+ * @return {Array}      Array of object with segments data
+ */
+
+/**
+ * Mixed mode will contain a sequences of data in a combination of any of
+ * the modes described above
+ *
+ * @type {Object}
+ */
+
+/**
+ * Multiplies two number inside Galois Field
+ *
+ * @param  {Number} x
+ * @param  {Number} y
+ * @return {Number}
+ */
+
+/**
+ * Multiplies two polynomials inside Galois Field
+ *
+ * @param  {Buffer} p1 Polynomial
+ * @param  {Buffer} p2 Polynomial
+ * @return {Buffer}    Product of p1 and p2
+ */
+
+/**
+ * Numeric mode encodes data from the decimal digit set (0 - 9)
+ * (byte values 30HEX to 39HEX).
+ * Normally, 3 data characters are represented by 10 bits.
+ *
+ * @type {Object}
+ */
+
+/**
+ * Precompute the log and anti-log tables for faster computation later
+ *
+ * For each possible value in the galois field 2^8, we will pre-compute
+ * the logarithm and anti-logarithm (exponential) of this value
+ *
+ * ref {@link https://en.wikiversity.org/wiki/Reed%E2%80%93Solomon_codes_for_coders#Introduction_to_mathematical_fields}
+ */
+
+/**
+ * QR Code
+ *
+ * @param {String | Array} data                 Input data
+ * @param {Object} options                      Optional configurations
+ * @param {Number} options.version              QR Code version
+ * @param {String} options.errorCorrectionLevel Error correction level
+ * @param {Function} options.toSJISFunc         Helper func to convert utf8 to sjis
+ */
+
+/**
+ * QRCode for JavaScript
+ *
+ * modified by Ryan Day for nodejs support
+ * Copyright (c) 2011 Ryan Day
+ *
+ * Licensed under the MIT license:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *
+//---------------------------------------------------------------------
+// QRCode for JavaScript
+//
+// Copyright (c) 2009 Kazuhiko Arase
+//
+// URL: http://www.d-project.com/
+//
+// Licensed under the MIT license:
+//   http://www.opensource.org/licenses/mit-license.php
+//
+// The word "QR Code" is registered trademark of
+// DENSO WAVE INCORPORATED
+//   http://www.denso-wave.com/qrcode/faqpatent-e.html
+//
+//---------------------------------------------------------------------
+*/
+
+/**
+ * Return mask value at given position
+ *
+ * @param  {Number} maskPattern Pattern reference value
+ * @param  {Number} i           Row
+ * @param  {Number} j           Column
+ * @return {Boolean}            Mask value
+ */
+
+/**
+ * Return mode name as string
+ *
+ * @param {Mode} mode Mode object
+ * @returns {String}  Mode name
+ */
+
+/**
+ * Returns UTF8 byte length
+ *
+ * @param  {String} str Input string
+ * @return {Number}     Number of byte
+ */
+
+/**
+ * Returns an array containing the positions of each alignment pattern.
+ * Each array's element represent the center point of the pattern as (x, y) coordinates
+ *
+ * Coordinates are calculated expanding the row/column coordinates returned by {@link getRowColCoords}
+ * and filtering out the items that overlaps with finder pattern
+ *
+ * @example
+ * For a Version 7 symbol {@link getRowColCoords} returns values 6, 22 and 38.
+ * The alignment patterns, therefore, are to be centered on (row, column)
+ * positions (6,22), (22,6), (22,22), (22,38), (38,22), (38,38).
+ * Note that the coordinates (6,6), (6,38), (38,6) are occupied by finder patterns
+ * and are not therefore used for alignment patterns.
+ *
+ * var pos = getPositions(7)
+ * // [[6,22], [22,6], [22,22], [22,38], [38,22], [38,38]]
+ *
+ * @param  {Number} version QR Code version
+ * @return {Array}          Array of coordinates
+ */
+
+/**
+ * Returns an array containing the positions of each finder pattern.
+ * Each array's element represent the top-left point of the pattern as (x, y) coordinates
+ *
+ * @param  {Number} version QR Code version
+ * @return {Array}          Array of coordinates
+ */
+
+/**
+ * Returns anti-log value of n inside Galois Field
+ *
+ * @param  {Number} n
+ * @return {Number}
+ */
+
+/**
+ * Returns bit value at specified location
+ *
+ * @param  {Number}  row
+ * @param  {Number}  col
+ * @return {Boolean}
+ */
+
+/**
+ * Returns format information with relative error correction bits
+ *
+ * The format information is a 15-bit sequence containing 5 data bits,
+ * with 10 error correction bits calculated using the (15, 5) BCH code.
+ *
+ * @param  {Number} errorCorrectionLevel Error correction level
+ * @param  {Number} mask                 Mask pattern
+ * @return {Number}                      Encoded format information bits
+ */
+
+/**
+ * Returns how many bits are needed to encode a string of
+ * specified length with the specified mode
+ *
+ * @param  {Number} length String length
+ * @param  {Mode} mode     Segment mode
+ * @return {Number}        Bit length
+ */
+
+/**
+ * Returns how much data can be stored with the specified QR code version
+ * and error correction level
+ *
+ * @param  {Number} version              QR Code version (1-40)
+ * @param  {Number} errorCorrectionLevel Error correction level
+ * @param  {Mode}   mode                 Data mode
+ * @return {Number}                      Quantity of storable data
+ */
+
+/**
+ * Returns log value of n inside Galois Field
+ *
+ * @param  {Number} n
+ * @return {Number}
+ */
+
+/**
+ * Returns mask pattern from a value.
+ * If value is not valid, returns undefined
+ *
+ * @param  {Number|String} value        Mask pattern value
+ * @return {Number}                     Valid mask pattern or undefined
+ */
+
+/**
+ * Returns mode from a value.
+ * If value is not a valid mode, returns defaultValue
+ *
+ * @param  {Mode|String} value        Encoding mode
+ * @param  {Mode}        defaultValue Fallback value
+ * @return {Mode}                     Encoding mode
+ */
+
+/**
+ * Returns the QR Code size for the specified version
+ *
+ * @param  {Number} version QR Code version
+ * @return {Number}         size of QR code
+ */
+
+/**
+ * Returns the best mask pattern for data
+ *
+ * @param  {BitMatrix} data
+ * @return {Number} Mask pattern reference number
+ */
+
+/**
+ * Returns the minimum version needed to contain the amount of data
+ *
+ * @param  {Segment} data                    Segment of data
+ * @param  {Number} [errorCorrectionLevel=H] Error correction level
+ * @param  {Mode} mode                       Data mode
+ * @return {Number}                          QR Code version
+ */
+
+/**
+ * Returns the most efficient mode to store the specified data
+ *
+ * @param  {String} dataStr Input data string
+ * @return {Mode}           Best mode
+ */
+
+/**
+ * Returns the number of bits needed to store the data length
+ * according to QR Code specifications.
+ *
+ * @param  {Mode}   mode    Data mode
+ * @param  {Number} version QR Code version
+ * @return {Number}         Number of bits
+ */
+
+/**
+ * Returns the number of error correction block that the QR Code should contain
+ * for the specified version and error correction level.
+ *
+ * @param  {Number} version              QR Code version
+ * @param  {Number} errorCorrectionLevel Error correction level
+ * @return {Number}                      Number of error correction blocks
+ */
+
+/**
+ * Returns the number of error correction codewords to use for the specified
+ * version and error correction level.
+ *
+ * @param  {Number} version              QR Code version
+ * @param  {Number} errorCorrectionLevel Error correction level
+ * @return {Number}                      Number of error correction codewords
+ */
+
+/**
+ * Returns the total number of codewords used to store data and EC information.
+ *
+ * @param  {Number} version QR Code version
+ * @return {Number}         Data length in bits
+ */
+
+/**
+ * Returns version information with relative error correction bits
+ *
+ * The version information is included in QR Code symbols of version 7 or larger.
+ * It consists of an 18-bit sequence containing 6 data bits,
+ * with 12 error correction bits calculated using the (18, 6) Golay code.
+ *
+ * @param  {Number} version QR Code version
+ * @return {Number}         Encoded version info bits
+ */
+
+/**
+ * Returns version number from a value.
+ * If value is not a valid version, returns defaultValue
+ *
+ * @param  {Number|String} value        QR Code version
+ * @param  {Number}        defaultValue Fallback value
+ * @return {Number}                     QR Code version number
+ */
+
+/**
+ * Set bit value at specified location
+ * If reserved flag is set, this bit will be ignored during masking process
+ *
+ * @param {Number}  row
+ * @param {Number}  col
+ * @param {Boolean} value
+ * @param {Boolean} reserved
+ */
+
+/**
+ * Splits a string in various segments with the modes which
+ * best represent their content.
+ * The produced segments are far from being optimized.
+ * The output of this function is only used to estimate a QR Code version
+ * which may contain the data.
+ *
+ * @param  {string} data Input string
+ * @return {Array}       Array of segments
+ */
+
+/**
+ * The Buffer constructor returns instances of `Uint8Array` that have their
+ * prototype changed to `Buffer.prototype`. Furthermore, `Buffer` is a subclass of
+ * `Uint8Array`, so the returned instances will have all the node `Buffer` methods
+ * and the `Uint8Array` methods. Square bracket notation works as expected -- it
+ * returns a single octet.
+ *
+ * The `Uint8Array` prototype remains unmodified.
+ */
+
+/**
+ * The Kanji mode efficiently encodes Kanji characters in accordance with
+ * the Shift JIS system based on JIS X 0208.
+ * The Shift JIS values are shifted from the JIS X 0208 values.
+ * JIS X 0208 gives details of the shift coded representation.
+ * Each two-byte character value is compacted to a 13-bit binary codeword.
+ *
+ * @type {Object}
+ */
+
+/**
+ * Weighted penalty scores for the undesirable features
+ * @type {Object}
+ */
+
+/**
+ * [js-sha3]{@link https://github.com/emn178/js-sha3}
+ *
+ * @version 0.5.7
+ * @author Chen, Yi-Cyuan [emn178@gmail.com]
+ * @copyright Chen, Yi-Cyuan 2015-2016
+ * @license MIT
+ */
+
+/**
+ * [js-sha3]{@link https://github.com/emn178/js-sha3}
+ *
+ * @version 0.8.0
+ * @author Chen, Yi-Cyuan [emn178@gmail.com]
+ * @copyright Chen, Yi-Cyuan 2015-2018
+ * @license MIT
+ */
+
+/**
+ * var basex = require("base-x");
+ *
+ * This implementation is heavily based on base-x. The main reason to
+ * deviate was to prevent the dependency of Buffer.
+ *
+ * Contributors:
+ *
+ * base-x encoding
+ * Forked from https://github.com/cryptocoinjs/bs58
+ * Originally written by Mike Hearn for BitcoinJ
+ * Copyright (c) 2011 Google Inc
+ * Ported to JavaScript by Stefan Thomas
+ * Merged Buffer refactorings from base58-native by Stephen Pair
+ * Copyright (c) 2013 BitPay Inc
+ *
+ * The MIT License (MIT)
+ *
+ * Copyright base-x contributors (c) 2016
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+ * IN THE SOFTWARE.
+ *
+ */
+
+/**
+* Find adjacent modules in row/column with the same color
+* and assign a penalty value.
+*
+* Points: N1 + i
+* i is the amount by which the number of adjacent modules of the same color exceeds 5
+*/
+
+/** @license React v0.20.2
+ * scheduler.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.13.1
+ * react-is.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v17.0.2
+ * react-dom.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v17.0.2
+ * react.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/******************************************************************************
+ * Created 2008-08-19.
+ *
+ * Dijkstra path-finding functions. Adapted from the Dijkstar Python project.
+ *
+ * Copyright (C) 2008
+ *   Wyatt Baldwin <self@wyattbaldwin.com>
+ *   All rights reserved
+ *
+ * Licensed under the MIT license.
+ *
+ *   http://www.opensource.org/licenses/mit-license.php
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *****************************************************************************/
+
+/************************************************************************/
+
+/******/
+
+/***/
+
+/*RicMoo:ethers:require(./edwards)*/
+
+/*RicMoo:ethers:require(./elliptic/eddsa)*/
+
+/*RicMoo:ethers:require(./mont)*/
+
+/*RicMoo:ethers:require(./precomputed/secp256k1)*/
+
+/*RicMoo:ethers:require(brorand)*/
+
+/*jslint bitwise: true */
+
+//
+
+//               Q = r^-1 (sR + -eG)
+
+//       2) `positive` is true if unsigned mod is requested
+
+//       request both div & mod
+
+//       to `div` to request div only, or be absent to
+
+//     #doubling-dbl-2009-l
+
+//     #doubling-mdbl-2007-bl
+
+//    buffer.fill(buffer[, offset[, end]])
+
+//    buffer.fill(number[, offset[, end]])
+
+//    buffer.fill(string[, offset[, end]][, encoding])
+
+//    return (isSecretStorageWallet(json) || isCrowdsaleWallet(json));
+
+//   - 32 bytes   AES key to encrypt mnemonic with (required here to be Ethers Wallet)
+
+//   - 32 bytes   As normal for the Web3 secret storage (derivedKey, macPrefix)
+
+//   - Mainnet: public=0x0488B21E, private=0x0488ADE4
+
+//   - Testnet: public=0x043587CF, private=0x04358394
+
+//   - argument: The argument name that was invalid
+
+//   - call
+
+//   - count: The number of arguments received
+
+//   - estimateGas
+
+//   - event ("noNetwork" is not re-thrown in provider.ready; otherwise thrown)
+
+//   - expectedCount: The number of arguments expected
+
+//   - fault: the reason this faulted
+
+//   - kiyoku
+
+//   - kyoku
+
+//   - operation
+
+//   - operation: the operation being executed
+
+//   - populateTransaction (and therefor sendTransaction)
+
+//   - sendTransaction
+
+//   - transaction: the transaction attempted
+
+//   - transaction: the transaction passed to estimateGas
+
+//   - value: The value of the argument
+
+//  - address?: the contract address
+
+//  - args?: The arguments passed into the function
+
+//  - errorArgs?: The EIP848 error parameters
+
+//  - errorSignature?: The EIP848 error signature
+
+//  - method?: The Solidity method signature
+
+//  - name: The name of the class
+
+//  - reason: The reason (only for EIP848 "Error(string)")
+
+//  - transaction: the transaction
+
+//  const SEARCH_TEXT = 'opensea.io/assets';
+
+//  div.setAttribute("id", "walletconnect");
+
+//  import { join } from 'path';
+
+// "next" with an undefined arg.
+
+// 'a'
+
+// 'a' - 'f'
+
+// 'abxxcd' will be treated as 'ab')
+
+// (0x7ffffff)
+
+// (but the first byte was read already read and therefore skipped)
+
+// - adds "from" is not present
+
+// - badCodepoint = the computed codepoint; already bounds checked
+
+// - badCodepoint = the computed codepoint; inside the UTF-16 surrogate range
+
+// - badCodepoint = the computed codepoint; outside the UTF-8 range
+
+// - buffer - a Buffer to search
+
+// - byteOffset - an index into `buffer`; will be clamped to an int32
+
+// - clock_seq_hi_and_reserved[6] = 0b0
+
+// - clock_seq_hi_and_reserved[7] = 0b1
+
+// - dir - true for indexOf, false for lastIndexOf
+
+// - does NOT require a provider
+
+// - encoding - an optional encoding, relevant is val is a string
+
+// - offset       = start of this codepoint
+
+// - offset = the index the codepoint began in
+
+// - offset = the index the continuation byte was expected at
+
+// - returns a COPY (safe to mutate the result)
+
+// - time_hi_and_version[12:16] = 0b0100
+
+// - val - a string, Buffer, or number
+
+// -0 = 0
+
+// -1 - if `this` < `num`
+
+// -121665 * (121666^(-1)) (mod P)
+
+// -this - num = -(this + num)
+
+// ...and explore the edges that connect u to those nodes, updating
+
+// .constructor.prototype properties for functions that return Generator
+
+// .throw, and .return (see defineIteratorMethods).
+
+// .throw, and .return methods.
+
+// 0 - if `this` == `num`
+
+// 0x36 ^ 0x5c = 0x6a
+
+// 0xxx xxxx
+
+// 1 - if `this` > `num`
+
+// 1.1. Let x = r + jn.
+
+// 1.6.1 Compute Q = r^-1 (sR -  eG)
+
+// 10
+
+// 10-kana words
+
+// 110x xxxx 10xx xxxx
+
+// 12M + 4S + 7A
+
+// 15
+
+// 1M + 2S + 1A + N * (4S + 5M + 8A)
+
+// 1M + 5S + 14A
+
+// 1M + 5S + 15A
+
+// 2 ^ 255 - 19
+
+// 2 ^ 53 (unsafe)
+
+// 2 leads in a row
+
+// 20
+
+// 25
+
+// 256 = 9 * 26 + 22
+
+// 2M + 5S + 13A
+
+// 2P = O
+
+// 3.74
+
+// 30
+
+// 32 x 32bit words
+
+// 35
+
+// 3M + 5S
+
+// 4-kana words
+
+// 4/5
+
+// 4M + 6S + 10A
+
+// 5
+
+// 5-kana words
+
+// 5M + 10S + ...
+
+// 6-kana words
+
+// 7-kana words
+
+// 8-kana words
+
+// 8M + 3S + 7A
+
+// 9-kana words
+
+// ================
+
+// @TODO: Any??
+
+// @TODO: Put more checks to make sure it has kdf, iv and all that good stuff
+
+// @TODO: hexValue?
+
+// @see {@link Mode.getCharCountIndicator}.
+
+// @see {@link initTables}
+
+// @see {@link mul}
+
+// A * x + B * y = x
+
+// A = X1^2
+
+// A chainId was provided; if non-zero we'll use EIP-155
+
+// A continuation byte was present where there was nothing to continue
+
+// A lot of common tools do not prefix private keys with a 0x (see: #1166)
+
+// A missing continuation byte was expected but not found
+
+// A reduce context, could be using montgomery or something better, depending
+
+// A return or throw (when the delegate iterator has no throw
+
+// A type of promise-like that resolves synchronously and supports only one observer
+
+// Acute accent
+
+// Add `%C2` at the end of the map to make sure it does not replace the combinator before everything else
+
+// Add `num` to `this`
+
+// Add `num` to `this` in-place
+
+// Add a "0x" prefix if missing
+
+// Add a terminator.
+
+// Add bit and propagate, if needed
+
+// Add data codewords
+
+// Add default alpha value
+
+// Add function modules
+
+// Add linkage
+
+// Add pad bytes if the string is still shorter than the total number of required bits.
+
+// Add padding to key
+
+// Add plain number `num` to `this`
+
+// Add temporary dummy bits for format info just to set them as reserved.
+
+// After adding the terminator, if the number of bits in the string is not a multiple of 8,
+
+// Alias for "off"
+
+// Alias for "on"
+
+// Allocate matrix buffer
+
+// Allow a recid to be used as the v
+
+// Among the various tricks for obtaining a reference to the global
+
+// An invalid (non-continuation) byte to start a UTF-8 codepoint was found
+
+// And `num` with `this`
+
+// And `num` with `this` in-place
+
+// And first word and num
+
+// And remove leading zeroes
+
+// Apache License 2.0
+
+// Apped EC codewords
+
+// Append length
+
+// Apply mask pattern
+
+// Are we oob?
+
+// Argument Errors
+
+// Arguments:
+
+// Array
+
+// ArrayBuffer or Uint8Array objects from other contexts (i.e. iframes) do not pass
+
+// ArrayBuffer view
+
+// Arrays are mutable, so we need to create a copy
+
+// Assume big-endian
+
+// Assumes that `num` is less than `P^2`
+
+// AsyncIterator objects; they just return a Promise for the value of
+
+// Asynchronously await a promise and pass the result to a finally continuation
+
+// Asynchronously iterate on a value using it's async iterator if present, or its synchronous iterator if missing
+
+// Asynchronously iterate through an object's values
+
+// At this point both numbers are positive
+
+// At this point both numbers have the same sign
+
+// Avoid failures from read-only properties
+
+// Avoid propagating failures to Promises returned by later
+
+// B = Y1^2
+
+// BN
+
+// Base path
+
+// Base reduction engine
+
+// Based on http://stackoverflow.com/a/22747272/680742, the browser with
+
+// Basic encoder type (address, bool, uint256, etc)
+
+// Be forgiving, per 25.3.3.3.3 of the spec:
+
+// Blockchain Errors
+
+// Bootstrap the async incremental smix
+
+// Both numbers are positive at this point
+
+// Buffer Overrun
+
+// Buffer#write(string)
+
+// Build optimized segments
+
+// By default called from: (overriding these prevents it)
+
+// CONCATENATED MODULE: ./node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js
+
+// CONCATENATED MODULE: ./node_modules/@emotion/memoize/dist/memoize.browser.esm.js
+
+// CONCATENATED MODULE: ./node_modules/@emotion/stylis/dist/stylis.browser.esm.js
+
+// CONCATENATED MODULE: ./node_modules/@ethersproject/abstract-provider/lib.esm/_version.js
+
+// CONCATENATED MODULE: ./node_modules/@ethersproject/abstract-signer/lib.esm/index.js
+
+// CONCATENATED MODULE: ./node_modules/@ethersproject/address/lib.esm/_version.js
+
+// CONCATENATED MODULE: ./node_modules/@ethersproject/basex/lib.esm/index.js
+
+// CONCATENATED MODULE: ./node_modules/@ethersproject/bignumber/lib.esm/bignumber.js
+
+// CONCATENATED MODULE: ./node_modules/@ethersproject/bytes/lib.esm/_version.js
+
+// CONCATENATED MODULE: ./node_modules/@ethersproject/hash/lib.esm/id.js
+
+// CONCATENATED MODULE: ./node_modules/@ethersproject/hash/lib.esm/typed-data.js
+
+// CONCATENATED MODULE: ./node_modules/@ethersproject/json-wallets/lib.esm/_version.js
+
+// CONCATENATED MODULE: ./node_modules/@ethersproject/json-wallets/lib.esm/crowdsale.js
+
+// CONCATENATED MODULE: ./node_modules/@ethersproject/json-wallets/lib.esm/index.js
+
+// CONCATENATED MODULE: ./node_modules/@ethersproject/json-wallets/lib.esm/inspect.js
+
+// CONCATENATED MODULE: ./node_modules/@ethersproject/json-wallets/lib.esm/utils.js
+
+// CONCATENATED MODULE: ./node_modules/@ethersproject/keccak256/lib.esm/index.js
+
+// CONCATENATED MODULE: ./node_modules/@ethersproject/logger/lib.esm/index.js
+
+// CONCATENATED MODULE: ./node_modules/@ethersproject/pbkdf2/lib.esm/pbkdf2.js
+
+// CONCATENATED MODULE: ./node_modules/@ethersproject/properties/lib.esm/index.js
+
+// CONCATENATED MODULE: ./node_modules/@ethersproject/random/lib.esm/_version.js
+
+// CONCATENATED MODULE: ./node_modules/@ethersproject/rlp/lib.esm/_version.js
+
+// CONCATENATED MODULE: ./node_modules/@ethersproject/sha2/lib.esm/_version.js
+
+// CONCATENATED MODULE: ./node_modules/@ethersproject/signing-key/lib.esm/_version.js
+
+// CONCATENATED MODULE: ./node_modules/@ethersproject/strings/lib.esm/_version.js
+
+// CONCATENATED MODULE: ./node_modules/@ethersproject/transactions/lib.esm/_version.js
+
+// CONCATENATED MODULE: ./node_modules/@ethersproject/wallet/lib.esm/index.js
+
+// CONCATENATED MODULE: ./node_modules/@ethersproject/wordlists/lib.esm/_version.js
+
+// CONCATENATED MODULE: ./node_modules/@ethersproject/wordlists/lib.esm/lang-es.js
+
+// CONCATENATED MODULE: ./node_modules/@ethersproject/wordlists/lib.esm/lang-ja.js
+
+// CONCATENATED MODULE: ./node_modules/@ethersproject/wordlists/lib.esm/lang-ko.js
+
+// CONCATENATED MODULE: ./node_modules/@ethersproject/wordlists/lib.esm/lang-zh.js
+
+// CONCATENATED MODULE: ./node_modules/@ethersproject/wordlists/lib.esm/wordlists.js
+
+// CONCATENATED MODULE: ./node_modules/clipboard-polyfill/dist/text/clipboard-polyfill.text.esm.js
+
+// CONCATENATED MODULE: ./node_modules/preact/compat/dist/compat.module.js
+
+// CONCATENATED MODULE: ./node_modules/preact/dist/preact.module.js
+
+// CONCATENATED MODULE: ./node_modules/preact/hooks/dist/hooks.module.js
+
+// CONCATENATED MODULE: ./node_modules/styled-components/dist/styled-components.browser.esm.js
+
+// CONCATENATED MODULE: ./src/App.tsx
+
+// CONCATENATED MODULE: ./src/components/Buttons.tsx
+
+// CONCATENATED MODULE: ./src/components/GlobalStyle.tsx
+
+// CONCATENATED MODULE: ./src/components/Wallet.tsx
+
+// Cached version of prime
+
+// Calculate EC codewords for this data block
+
+// Calculate EC for this data block
+
+// Calculate penalty
+
+// Calculate required number of bits
+
+// Call exception
+
+// Call the callback with the progress (optionally stopping us)
+
+// Call toHex on the positive component
+
+// Can typed array instances be augmented?
+
+// Can typed array instances can be augmented?
+
+// Cannot have mulitple negative signs (e.g. "--0x04")
+
+// Carry
+
+// Character count indicator + mode indicator bits
+
+// Check bit and return
+
+// Check each field has a unique name
+
+// Check for all required parameters
+
+// Check for circular type references
+
+// Check for overlong sequences (more bytes than needed)
+
+// Check if module is in cache
+
+// Check if the specified version can contain the data
+
+// Check the address matches the private key
+
+// Check the mnemonic (if any) matches the private key
+
+// Check/generate the salt
+
+// Checks a transaction does not contain invalid keys and if
+
+// Choose the lambda that is matching selected beta
+
+// Choose the smallest beta
+
+// Clean-up references to points and coefficients
+
+// Coerce to Number.
+
+// Comb small window NAFs
+
+// Common case.
+
+// Common error handing strategies
+
+// Compare two numbers and return:
+
+// Compute _vs from recoveryParam and s
+
+// Compute beta and lambda, that lambda * P = (beta * Px; Py)
+
+// Compute each fully describe type
+
+// Compute recoveryParam from v
+
+// Compute the checksum bits
+
+// Consume the whole byte (with still more to go)
+
+// Continue with the outer return, now that the delegate
+
+// Convert from short to long form (fff -> ffffff)
+
+// Convert message to array, pad it, and join into 32bit blocks
+
+// Convert result to a 13-bit binary string
+
+// Cooley-Tukey algorithm for FFT
+
+// Copy 0 bytes; we're done
+
+// Copy properties from require('buffer')
+
+// Copy rest of the words
+
+// Copy static methods from Buffer
+
+// Cost of s to u plus the cost of u to v across e--this is *a*
+
+// Costs of shortest paths from s to all nodes encountered.
+
+// Costs of shortest paths from s to all nodes encountered; differs from
+
+// Could use `inherits` module, but don't want to move from single file
+
+// Count zeroes
+
+// Crawl up the constructor chain to find a static method
+
+// Create a new module (and put it into the cache)
+
+// Create an object with no prototype
+
+// Create final data
+
+// Create lookup table
+
+// Create lookup table for `toString('hex')`
+
+// Create possibly bigger array to ensure that it fits the number
+
+// Curve configuration, optional
+
+// DCE check should happen before ReactDOM bundle executes so that
+
+// Data += ser_32(i)
+
+// Data = 0x00 || ser_256(k_par)
+
+// Data = ser_p(point(k_par))
+
+// Decode as big chunks as possible
+
+// Decode in chunks to avoid "call stack size exceeded".
+
+// Decryption is symetric
+
+// Deduce the primary type
+
+// Define Generator.prototype.{next,throw,return} in terms of the
+
+// Define the runtime globally (as expected by generated code) as either
+
+// Define the unified helper method that is used to implement .next,
+
+// Delegate generator ran and handled its own exceptions so
+
+// Delete the diacritic marks
+
+// Deliberately forget the last sent value so that we don't
+
+// Denormalize
+
+// Derive the EIP712Domain Struct reference type
+
+// Detect buggy property enumeration order in older V8 versions.
+
+// DevTools can report bad minification during injection.
+
+// DevTools shouldn't crash React, no matter what.
+
+// Didn't find one. :'(
+
+// Dispatch the exception by looping back around to the
+
+// Divide the buffer into the required number of blocks
+
+// Do not allow "-0x00"
+
+// Do nothing
+
+// Do we have enough bytes in our data?
+
+// Do we need to look up the domain's verifyingContract?
+
+// Done; don't break (which would reschedule)
+
+// Dummy constructor functions that we use as the .constructor and
+
+// E = 3 * A
+
+// ECDH
+
+// ECDSA
+
+// ESM COMPAT FLAG
+
+// EXPORTS
+
+// EXTERNAL MODULE: ./node_modules/@ethersproject/keccak256/node_modules/js-sha3/src/sha3.js
+
+// EXTERNAL MODULE: ./node_modules/@ethersproject/sha2/node_modules/hash.js/lib/hash.js
+
+// EXTERNAL MODULE: ./node_modules/aes-js/index.js
+
+// EXTERNAL MODULE: ./node_modules/bn.js/lib/bn.js
+
+// EXTERNAL MODULE: ./node_modules/hash.js/lib/hash.js
+
+// EXTERNAL MODULE: ./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js
+
+// EXTERNAL MODULE: ./node_modules/qr-image/lib/qr.js
+
+// EXTERNAL MODULE: ./node_modules/react-dom/index.js
+
+// EXTERNAL MODULE: ./node_modules/react-is/index.js
+
+// EXTERNAL MODULE: ./node_modules/react/index.js
+
+// EXTERNAL MODULE: ./node_modules/scrypt-js/scrypt.js
+
+// EXTERNAL MODULE: ./node_modules/shallowequal/index.js
+
+// Empty buffer means no match
+
+// Encrypted Seed
+
+// Enough data, try updating
+
+// Ensure that the priv won't be bigger than n, otherwise we may fail
+
+// Errors are being censored
+
+// Estimate best version that can contain raw splitted segments
+
+// Ethereum Address
+
+// Exception thrown outside of any try block that could handle
+
+// Execute the module function
+
+// Exported Abstracts
+
+// Exported Types
+
+// Exported mostly for testing purposes, use plain name instead
+
+// Exporting
+
+// Extend the buffer to fill the data capacity of the symbol corresponding to
+
+// Extend the buffer with leading zeroes
+
+// Extended mode, copy masked part
+
+// F = E^2
+
+// Fall through
+
+// Fallback to a more advanced decoder
+
+// Fallback: Return an object instance of the Buffer class
+
+// Fast case
+
+// Fast case - exact division
+
+// Fast case: bit is much higher than all existing words
+
+// Fast length reduction
+
+// Fast path: If `val` fits into a single byte, use that numeric value.
+
+// Fatal error conditions
+
+// Finally, search either indexOf (if dir is true) or lastIndexOf
+
+// Find Q and S, that Q * 2 ^ S = (P - 1)
+
+// Find Round(`this` / `num`)
+
+// Find `this` % `num`
+
+// Find `this` / `num`
+
+// Find best mask pattern
+
+// Find length of limb in base
+
+// Find roots of for x^2 + x + 1 in F
+
+// Find the first non-zero entry
+
+// Finds either the first index of `val` in `buffer` at offset >= `byteOffset`,
+
+// First coord is always 6
+
+// First phase
+
+// Fix subarray() in ES2016. See: https://github.com/feross/buffer/pull/97
+
+// Fixed-width field
+
+// Flag the module as loaded
+
+// For BN, call on the hex string
+
+// For IE11 support
+
+// For characters with Shift JIS values from 0x8140 to 0x9FFC:
+
+// For characters with Shift JIS values from 0xE040 to 0xEBBF
+
+// For now, handle legacy JSON-ified values (goes away in v6)
+
+// For some reason kyoku and kiyoku are flipped in node (!!).
+
+// For the native GeneratorFunction constructor, the best we can
+
+// Force coercion to uint32. This will also coerce falsey/NaN values to 0.
+
+// Force redgomery representation when loading from JSON
+
+// From a fully qualified source
+
+// From a source that does not preserve the mnemonic (e.g. neutered)
+
+// From a source that does not preserve the path (e.g. extended keys)
+
+// GenStateExecuting and loop back for another invocation.
+
+// Generalized Greg Maxwell's trick
+
+// Generator Polynomial
+
+// Generic Errors
+
+// Get NAF form
+
+// Get a list of all the addresses
+
+// Get basis vectors, used for balanced length-two representation
+
+// Get nodes adjacent to u...
+
+// Get the base type (drop any array specifiers)
+
+// Get the cost of the edge running from u to v.
+
+// Get the min version that can contain data
+
+// Get the r, s and v
+
+// HELPER FUNCTIONS
+
+// Handle complete words
+
+// Handle string cases:
+
+// Handle the residue
+
+// Hardened path
+
+// Hash for function for DRBG
+
+// Helper for defining the .next, .throw, and .return methods of the
+
+// Hexable interface (takes piority)
+
+// How many blockmix_salsa8 can we do per step?
+
+// How many decimal digits can we process? (for 64-bit float, this is 15)
+
+// If a locale name was passed in, find the associated wordlist
+
+// If an EIP-155 v (directly or indirectly; maybe _vs) was provided, check it!
+
+// If an exception is thrown from innerFn, we leave state ===
+
+// If bytes.length is odd, the last 8 bits must be ignored (same as node.js)
+
+// If enqueue has been called before, then we want to wait until
+
+// If estimated version is undefined, try with the highest version
+
+// If negative, prepend the negative sign to the normalized positive value
+
+// If no version is found, data cannot be stored
+
+// If not specified, use min version as default
+
+// If outerFn provided, then outerFn.prototype instanceof Generator.
+
+// If regeneratorRuntime is defined globally and we're in a module,
+
+// If the _vs is available, use it to populate missing s, v and recoveryParam
+
+// If the bit string is fewer than four bits shorter, add only the number of 0s that
+
+// If the bit string is more than four bits shorter than the required number of bits,
+
+// If the bit string is shorter than the total number of required bits,
+
+// If the curve is endomorphic, precalculate beta and lambda
+
+// If the delegate iterator has a return method, give it a
+
+// If the dispatched exception was caught by a catch block,
+
+// If the number of input data characters is not a multiple of two,
+
+// If the number of input digits is not an exact multiple of three,
+
+// If the return method threw an exception, let that
+
+// If there is an invalid prefix (including stray continuation), skip any additional continuation bytes
+
+// If we don't have the locale wordlist installed to
+
+// If we have a mnemonic, encrypt it into the JSON wallet
+
+// If we haven't visited v yet OR if the current known cost from s to
+
+// If we started with zeros, strip them
+
+// Ignore the finally entry if control is not jumping to a
+
+// In the Shift JIS system, Kanji characters are represented by a two byte combination.
+
+// In the nodes remaining in graph that have a known cost from s,
+
+// In-place Multiplication
+
+// In-place division by number
+
+// Increment at the bit position in-line
+
+// Indefinite length or overflow
+
+// Initialize as zero
+
+// Initialize quotient
+
+// Input data characters are divided into groups of two characters
+
+// Inspired by stringToUtf8ByteArray() in closure-library by Google
+
+// Instantiate Hmac_DRBG
+
+// Insufficien funds (< value + gasLimit * gasPrice)
+
+// Interleave the data and error correction codewords from each block
+
+// Invalid argument (e.g. value is incompatible with type) to a function:
+
+// Invalid bytes are ignored
+
+// Invalid continuation byte
+
+// Invalid ranges are not set to a default, so can range check early.
+
+// Invert number in the field F(num)
+
+// Is this a base encoding type?
+
+// It is a checksummed address with a bad checksum
+
+// It is an ICAP address with a bad checksum
+
+// It's an array; check it is a valid representation of a byte
+
+// Iterator interface in terms of a single ._invoke method.
+
+// J +- J
+
+// J +- P
+
+// JIS X 0208 gives details of the shift coded representation.
+
+// Javascript can handle integers safely up to 15 (decimal) digits
+
+// Just truncate output
+
+// K = 0x1000003d1 = [ 0x40, 0x3d1 ]
+
+// K = 0x13
+
+// Keep track of all the replacements and prefill the map with the `BOM`
+
+// KeyPair(ec, { priv: ..., pub: ... })
+
+// L  M  Q  H
+
+// Last coord is always (size - 7)
+
+// Leading zeroes
+
+// Legacy Transaction Fields
+
+// Legacy Transactions and EIP-155
+
+// Legacy and EIP-155 Transactions
+
+// Like returning generator.throw(uncaught), but without the
+
+// Link struct types to their direct child structs
+
+// Link structs to structs which contain them as a child
+
+// Load all the words
+
+// Load entry module and return exports
+
+// Look up all ENS names
+
+// Lookup each name
+
+// Lots of people expect this, which we do not support, so check (See: #889)
+
+// M = 3 * XX + a
+
+// M = 3 * XX + a; a = 0
+
+// Make a copy to isolate it from the object passed in
+
+// Make sure N is a power of 2
+
+// Make sure all forms of normalization are supported
+
+// Make sure any provided address matches this signer
+
+// Make sure data can be encoded
+
+// Make the string even length
+
+// Maps each character into its kana value (the index)
+
+// Mark all ancestors as having this decendant
+
+// Math.pow(`this`, `num`)
+
+// Maximum code point
+
+// Missing `=` should be `null`:
+
+// Missing argument to a function:
+
+// Missing new operator to an object
+
+// Missing the 0x prefix
+
+// Montgomery method engine
+
+// Montgomery points only have an `x` coordinate.
+
+// Move to ROMix 2
+
+// Move to ROMix 6
+
+// Multibyte; how many bytes left for this character?
+
+// Multiply `this` by `num`
+
+// Multiply employing FFT
+
+// Multiply most significant byte of result by 0xC0
+
+// N = 1 => 6M + 6S + 9A
+
+// N = Cpu cost, r = Memory cost, p = parallelization cost
+
+// NOTE: (qj / bhi) is (0x3ffffff * 0x4000000 + 0x3ffffff) / 0x2000000 max
+
+// NOTE: 1) `mode` can be set to `mod` to request mod only,
+
+// NOTE: Greg Maxwell's trick, inspired by:
+
+// NOTE: `0x3fffff` is intentional here, 26bits max shift + 24bit hex limb
+
+// NOTE: `hint` is a lowest bit before trailing zeroes
+
+// NOTE: at this stage it is known that the top bit is set
+
+// NOTE: deprecated test name instead
+
+// NOTE: if `extended` is present - it will be filled with destroyed bits
+
+// NOTE: lo is 27bit maximum
+
+// Negate the value
+
+// Network Error (i.e. Ethereum Network, such as an invalid chain ID)
+
+// New properties may be added only to objects.
+
+// New-form JSON
+
+// No chainId provided, but the signature is signing with EIP-155; derive chainId
+
+// No efficient endomorphism
+
+// No need to verify that "this.length <= MAX_UINT32" since it's a read-only
+
+// Node allows for non-padded base64 strings (missing trailing ===), base64-js does not
+
+// Node converts strings with length < 2 to ''
+
+// Node strips out invalid characters like \n and \t from the string, base64-js does not
+
+// Node supports requesting up to this number of bytes
+
+// Node takes equal signs as end of the Base64 encoding
+
+// Node's code seems to be doing this and not & 0x7F..
+
+// Nonce has already been used
+
+// Normalize byteOffset
+
+// Normalize byteOffset: negative offsets start from the end of the buffer
+
+// Normalize signs
+
+// Normalize the case and spacing in the mnemonic (throws if the mnemonic is invalid)
+
+// Normalize the hex string
+
+// Normalize val
+
+// Normalize words using the transform
+
+// Normalize zero
+
+// Not Implemented
+
+// Not ``this`` with ``width`` bitwidth
+
+// Not sure about the optimal order of these conditions:
+
+// Not used
+
+// Note that simple async functions are implemented on top of
+
+// Note: Change prototype *after* Buffer.from is defined to workaround Chrome bug:
+
+// Note: cannot use `length < K_MAX_LENGTH` here because that fails when
+
+// Nothing to skip
+
+// Now check this child...
+
+// Number of trailing zero bits
+
+// Numeric Fault
+
+// O + P = P
+
+// OR the last index of `val` in `buffer` at offset <= `byteOffset`.
+
+// Only warn about passing 10 into radix once
+
+// Opaque objects are not mutable, so safe to copy by assignment
+
+// Operational  Errors
+
+// Optimization - zeroify
+
+// Optimization: double the size of the anti-log table so that we don't need to mod 255 to
+
+// Optional additional data
+
+// Optional encoding
+
+// Optional entropy enc
+
+// Or `num` with `this`
+
+// Or `num` with `this` in-place
+
+// Overlong representations are otherwise "valid" code points; just non-deistingtished
+
+// Override initialization vector
+
+// Override the scrypt password-based key derivation function parameters
+
+// Override the uuid
+
+// P + (-P) = O
+
+// P + O = P
+
+// P + P = 2P
+
+// P + Q = O
+
+// P = 2 ^ N - K
+
+// Pad values
+
+// Pad with zeroes
+
+// Padding
+
+// Pass through all other types to `Buffer.from`
+
+// Peel one iteration (compiler can't do it, because of code complexity)
+
+// Perform primitive values validation
+
+// Performs "tweedling" phase, therefore 'emulating'
+
+// Perhaps a Uint8Array
+
+// Point on curve
+
+// Polyfill comb
+
+// Populate any ENS names
+
+// Populates "from" if unspecified, and calls with the transation
+
+// Populates "from" if unspecified, and estimates the gas for the transation
+
+// Populates ALL keys for a transaction and checks that "from" matches
+
+// Populates all fields in a transaction, signs it and sends it to the network
+
+// Possible sign change
+
+// Precompute window
+
+// Precomputed endomorphism
+
+// Predecessor map for each node that has been encountered.
+
+// Prefix data with character count indicator.
+
+// Prepare data buffer
+
+// Prime numbers with efficient reduction
+
+// Private Key
+
+// Process pending data in blocks
+
+// Protocols
+
+// Proxy hash functions to the main object
+
+// Pseudo-Mersenne prime
+
+// Public Key
+
+// Push carried bits as a mask
+
+// Put the replacement character into the output
+
+// ROMix - 1
+
+// ROMix - 10
+
+// ROMix - 2
+
+// ROMix - 3
+
+// ROMix - 6
+
+// ROMix - 7
+
+// ROMix - 8 (inner)
+
+// Rather than returning an object with a next method, we keep
+
+// React v16.11 and below
+
+// React v16.12 and above
+
+// Recursively check children
+
+// Reduction context
+
+// Remove common factor of two
+
+// Remove leading `0` from `this`
+
+// Remove the length prefix from the char
+
+// Replace all ENS names with their address
+
+// Replace all decoded components
+
+// Replace format info bits with correct values
+
+// Replace the domain verifyingContract if needed
+
+// Replaces all address types with ENS names with their looked up address
+
+// Represent k1, k2 in a Joint Sparse Form
+
+// Represent num in a w-NAF form
+
+// Requesting an unsigned transation
+
+// RequireJS/AMD
+
+// Reserved for UTF-16 surrogate halves
+
+// Respect the "view", i.e. byteOffset and byteLength, without doing a copy
+
+// Return an augmented `Uint8Array` instance
+
+// Return an augmented `Uint8Array` instance, for best performance
+
+// Return an iterator with no values.
+
+// Return early if start > this.length. Done here to prevent potential uint32
+
+// Return max number of storable codewords
+
+// Return negative clone of `this`
+
+// Return negative clone of `this` % `red modulo`
+
+// Return number of used bits in a BN
+
+// Return only lowers bits of number
+
+// Return only lowers bits of number (in-place)
+
+// Return the exports of the module
+
+// Returns a byte with the LSB bits set
+
+// Returns a byte with the MSB bits set
+
+// Returns a new copy of object, such that no properties may be replaced.
+
+// Returns binary-reversed representation of `x`
+
+// Reverse the bytes
+
+// Root = (-1 +- Sqrt(-3)) / 2
+
+// Round down
+
+// Round up
+
+// Rule 1
+
+// Rule 2
+
+// Rule 3
+
+// Rule 4
+
+// Run EGCD, until r(L + 1) < aprxSqrt
+
+// Run the smix state machine until completion
+
+// Run up to 1000 steps of the first inner smix loop
+
+// Run up to 1000 steps of the second inner smix loop
+
+// SVG-related properties
+
+// Scan 24-bit chunks and add them to the number
+
+// Schedule the next steps
+
+// Search for a byte value [0-255]
+
+// Search for a child object with a case-insensitive matching key
+
+// Second phase
+
+// Section 13.3.3.7 Runtime Semantics: KeyedBindingInitialization.
+
+// Section 4.4
+
+// Section: 4.1.3:
+
+// See above loop for invalid contimuation byte
+
+// See: https://en.wikipedia.org/wiki/Base64#URL_applications
+
+// See: https://en.wikipedia.org/wiki/International_Bank_Account_Number
+
+// See: https://github.com/beatgammit/base64-js/issues/42
+
+// See: https://github.com/dchest/scrypt-async-js
+
+// See: https://github.com/ethereum/pyethsaletool
+
+// See: https://github.com/feross/buffer/issues/154
+
+// See: https://github.com/feross/buffer/issues/166
+
+// See: https://github.com/feross/buffer/issues/219
+
+// See: https://www.ietf.org/rfc/rfc4122.txt (Section 4.4)
+
+// See: https://www.npmjs.com/package/scryptsy
+
+// See:https://tools.ietf.org/html/rfc2315
+
+// Send the result to the callback
+
+// Set `bit` of `this`
+
+// Set or check the _vs
+
+// Set or check the recid
+
+// Set or check the s
+
+// Shift by 9 limbs
+
+// Shift the checksum into the word indices
+
+// Shift the register
+
+// Shift-left
+
+// Shift-left in-place
+
+// Shift-right
+
+// Shift-right in-place
+
+// Shims for environments that are missing some required constants and functions
+
+// Short-cut
+
+// Shortcut `elliptic.ec(curve-name)`
+
+// Shortcut for `elliptic.ec(elliptic.curves.curveName)`
+
+// Shorten key, if needed
+
+// Skip if position is occupied by finder patterns
+
+// Skip leading zeroes
+
+// Some simple transforms that sort out most of the order
+
+// Some sort of bad response from the server
+
+// Something else, but behaves like an array (maybe a Buffer? Arguments?)
+
+// Sort how the Japanese list is sorted
+
+// Sort object keys, not values
+
+// Special case: looking for empty string/buffer always fails
+
+// Split the array in 2 parts
+
+// Square root over p
+
+// Start the next word
+
+// Strip both numbers to approximate shift value
+
+// Strip off the negative sign
+
+// Struct
+
+// Sub-classes MAY override these
+
+// Sub-classes MUST call super
+
+// Sub-classes SHOULD leave these alone
+
+// Subclasses may override this
+
+// Subtract 0x8140 from Shift JIS value
+
+// Subtract 0xC140 from Shift JIS value
+
+// Subtract `num` from `this`
+
+// Subtract `num` from `this` in-place
+
+// Subtract plain number `num` from `this`
+
+// Subtraction overflow
+
+// Sum all words with the same `i + j = k` and accumulate `ncarry`,
+
+// Support decoding URL-safe base64 strings, as Node.js does.
+
+// Surrogate Pair
+
+// Swap `a` and `b` to make `a` always bigger than `b`
+
+// T = M ^ 2 - 2*S
+
+// T = M^2 - 2 * S
+
+// TODO deflate
+
+// TODO(indutny): implement me
+
+// TODO(indutny): it may be reasonable to omit it for users who don't need
+
+// Temporary arrays
+
+// Test for A's keys different from B.
+
+// Test if n bit is set
+
+// The ._invoke method unifies the implementations of the .next,
+
+// The QR code specification says to use byte-wise modulo 100011101 arithmetic.
+
+// The SHA256 and PBKDF2 implementation are from scrypt-async-js:
+
+// The block cipher
+
+// The character count indicator is a string of bits that represents the
+
+// The character count indicator must be placed after the mode indicator
+
+// The character value of the first character is multiplied by 45
+
+// The character value of the second digit is added to the product
+
+// The computed code point is outside the range for UTF-8
+
+// The context.catch method must only be called with a location
+
+// The following is an adaptation of scryptsy
+
+// The gas limit could not be estimated
+
+// The input data string is divided into groups of three digits,
+
+// The module cache
+
+// The options are optional, so adjust the call as needed
+
+// The order SHOULD be:
+
+// The private key
+
+// The public key
+
+// The replacement fee for the transaction is too low
+
+// The require function
+
+// The root entry object (effectively a try statement without a catch
+
+// The splitSignature will ensure the transaction has a recoveryParam in the
+
+// The string is an overlong reperesentation
+
+// The string is too short to process the expected codepoint
+
+// The sum is then stored as 11-bit binary number
+
+// These blocks will be replaced with correct values later in code.
+
+// These byte values are shifted from the JIS X 0208 values.
+
+// This behaves neither like String nor Uint8Array in that we set start/end
+
+// This byte runs us past the end of the string, so just jump to the end
+
+// This entry module is referenced by other modules so it can't be inlined
+
+// This invoke function is written in a style that assumes some
+
+// This is needed to prevent these bits from being masked by {@link MaskPattern.applyMask}
+
+// This is reduced incarnation of the binary EEA
+
+// This means that when a number is 256 or larger, it should be XORed with 0x11D.
+
+// This property is used by `Buffer.isBuffer` (and the `is-buffer` npm package)
+
+// This should ignore "if", but that doesn't work here??
+
+// This wallet format is weird... Convert the binary encoded hex to a string.
+
+// This will be used to encrypt the wallet (as per Web3 secret storage)
+
+// Timeout
+
+// To avoid a copy, use the typed array's underlying ArrayBuffer to back new Buffer
+
+// To avoid creating an additional object, we just hang the .value
+
+// Tonelli-Shanks algorithm (Totally unoptimized and slow)
+
+// Too many arguments
+
+// Total codewords for this QR code version (Data + Error correction)
+
+// Total number of error correction codewords
+
+// Transforms for normalizing (sort is a not quite UTF-8)
+
+// Translate into more windowed form
+
+// Trick from scrypt-async; if there is a setImmediate shim in place, use it
+
+// Trim off extra bytes after placeholder bytes are found
+
+// Trim to smallest even-length string
+
+// Try the built in decoder first
+
+// Try to avoid Projective points, if possible
+
+// Try to decode the entire string first
+
+// Try/catch helper to minimize deoptimizations. Returns a completion
+
+// Typed Transactions (EIP-2718)
+
+// U = (M + E)^2 - MM - EE - T
+
+// UTF-8 strings may not contain UTF-16 surrogate pairs
+
+// Undo previously applied mask
+
+// Unknown Error
+
+// Unsigned comparison
+
+// Unsupported Operation
+
+// Usage:
+
+// Use Byte mode as default
+
+// Use Mode.BYTE if Kanji support is disabled
+
+// Use Montgomery, when there is no fast reduction for the prime
+
+// Use a for loop to avoid recursion
+
+// Use built-in when available, missing from IE11
+
+// Use complement of `s`, if it is > `n / 2`
+
+// Use higher error correction level as default
+
+// Use recid and v to populate each other
+
+// Useful for many curves
+
+// Utils
+
+// Validate signature
+
+// Validate the data structures and types
+
+// Validate the domain fields
+
+// Variable-width (with a maximum)
+
+// Verify that the code above has been dead code eliminated (DCE'd).
+
+// Verify the computed list matches the official list
+
+// Version 0.1 x-ethers metadata must contain an encrypted mnemonic phrase
+
+// Very short reduction
+
+// Warning: maxLength not taken into account in base64Write
+
+// We allow 0, but anything false-ish uses the default 1
+
+// We are going to use the encoder to visit all the base values
+
+// We cannot safely handle numbers beyond the safe range for integers
+
+// We don't expect any of the above to throw, but better to be safe.
+
+// We go 1 magnitude less, for safety
+
+// We have an EIP-155 transaction (chainId was specified and non-zero)
+
+// We only support the mainnet values for now, but if anyone needs
+
+// We pushed a chainId and null r, s on for hashing only; remove those
+
+// We should still report in case we break this code.
+
+// We take 64 bytes:
+
+// Weierstrass/Edwards points on the other hand have both `x` and
+
+// When a yielded Promise is resolved, its final value becomes
+
+// Within the body of any async function, `await x` is transformed to
+
+// Writing a hex string, for example, that contains invalid characters will
+
+// X3 = 4 * (X1 * EE - 4 * YY * U)
+
+// X3 = F - 2 * D
+
+// X3 = T
+
+// X3 = alpha^2 - 8 * beta
+
+// XX = X1^2
+
+// XXX Is there any way to tell if the number is odd without converting it
+
+// XXX This code assumes that zero is always zero in red
+
+// XXX: Do we actually need both `costs` and `open`?
+
+// Xor `num` with `this`
+
+// Xor `num` with `this` in-place
+
+// Y3 = 8 * Y1 * (U * (T - U) - E * EE)
+
+// Y3 = E * (D - X3) - 8 * C
+
+// Y3 = M * (S - T) - 8 * YYYY
+
+// Y3 = alpha * (4 * beta - X3) - 8 * gamma^2
+
+// YY = Y1^2
+
+// Z = 1
+
+// Z3 = (Y1 + Z1)^2 - gamma - delta
+
+// Z3 = (Z1 + E)^2 - ZZ - EE
+
+// Z3 = 2 * Y1
+
+// Z3 = 2 * Y1 * Z1
+
+// Z3 = 2*Y1
+
+// Zero-extend key to provide enough entropy
+
+// Zeroify references
+
+// _prime_ fields F(p) at a maximal speed
+
+// `costs` in that it provides easy access to the node that currently has
+
+// `msg` could be array or buffer
+
+// `this` * `this`
+
+// `this` * `this` in-place
+
+// `value instanceof AwaitArgument` to determine if the yielded value is
+
+// `y` coordinates.
+
+// `yield regeneratorRuntime.awrap(x)`, so that the runtime can test
+
+// a > b
+
+// a terminator of up to four 0s must be added to the right side of the string.
+
+// a.length > b.length
+
+// a^0 x^0
+
+// a^0 x^1 + a^0 x^0
+
+// above, designated to invert members of the
+
+// accidentally pass it on to the delegate.
+
+// add binary data sequence to buffer
+
+// add four 0s to the end.
+
+// all previous Promises have been resolved before calling invoke,
+
+// allows the consumer to decide what to do with the yielded
+
+// already have an existing method we want to call, so there's no need
+
+// also ensures that the minifier will not anonymize the function.
+
+// alternative to using Object.keys for old browsers
+
+// and .done properties off the next function object itself. This
+
+// and 00010001 (0x11) alternately.
+
+// and add least significant byte to product
+
+// and data mode
+
+// and each group is converted to its 10-bit binary equivalent.
+
+// and encoded as 11-bit binary codes.
+
+// and must be a certain number of bits long, depending on the QR version
+
+// and verify non-missing s, v and recoveryParam
+
+// any necessary setup in a predictable way. This predictability
+
+// apply round transforms
+
+// aprxSqrt >= sqrt(this.n)
+
+// architecture yet.
+
+// are needed to reach the required number of bits.
+
+// argument that corresponds to a known catch block.
+
+// ascending copy from start
+
+// assume utf8
+
+// async functions in terms of async generators, it is especially
+
+// avoid extra slice()
+
+// await, by contrast, there is no opportunity to examine the
+
+// b = min-length(num, this)
+
+// base64 is 4/3 + up to two characters of the original data
+
+// behavior between yield and await is important, because it
+
+// behaviour of the recursive algorithm
+
+// bottom-left
+
+// bounded at: 0x40 * 0x3ffffff + 0x3d0 = 0x100000390
+
+// bridge url
+
+// buffer.slice automatically checks if the end is past the end of
+
+// byteOffset: it it's undefined, null, NaN, "foo", etc, search whole buffer
+
+// bytes
+
+// bytesXX
+
+// call invoke immediately, without waiting on a callback to fire,
+
+// callback(error, progress, key)
+
+// calling function (or Promise) will handle exceptions.
+
+// can do at once see https://developer.mozilla.org/en-US/docs/Web/API/window.crypto.getRandomValues
+
+// can-promise has a crash in some versions of react native that dont have
+
+// case that the signTransaction function only adds a v.
+
+// cause everything after the first invalid character to be ignored. (e.g.
+
+// chance to clean up.
+
+// coercion fail below.
+
+// compact is optional argument
+
+// compress password if it's longer than hash block length
+
+// context.dispatchException(arg) call above.
+
+// convert `msg` to array
+
+// convert digits to a string
+
+// copies of the 'buffer' package in use. This method works even for Buffer
+
+// copy values into round key arrays
+
+// copy(targetBuffer, targetStart=0, sourceStart=0, sourceEnd=buffer.length)
+
+// cost from s to v that may or may not be less than the current
+
+// cost of u to v across e), update v's cost in the cost list and
+
+// create an irreducible generator polynomial
+
+// create new connector
+
+// current iteration. If the Promise is rejected, however, the
+
+// cutesy, but they are curmudgeons.
+
+// deal with leading zeros
+
+// decryption round keys
+
+// define __esModule on exports
+
+// define getter functions for harmony exports
+
+// delta = Z1^2
+
+// deprecated, use svg_object method
+
+// descending copy from end
+
+// do is to check its .name property.
+
+// don't hoist over string (html) components
+
+// encode to utf16 (surrogate pair dance)
+
+// encode utf8
+
+// encryption round keys
+
+// enqueue has not been called before, then it is important to
+
+// eslint-disable-line eqeqeq
+
+// eslint-disable-line no-new-wrappers
+
+// eslint-disable-line no-self-compare
+
+// exception prevail over the original return or throw.
+
+// execute code before the first await. Since we implement simple
+
+// execution once rather than once for the test and for the exec again below
+
+// executor callback, and why async functions synchronously
+
+// extends data size to data+genPoly size
+
+// extract a block of data from buffer
+
+// find the node, u, that currently has the shortest path from s.
+
+// fixed module
+
+// for (var i = 0; i < N; i++)
+
+// for (var i = 0; i < N; i++)...
+
+// for (var i = 0; i < p; i++)...
+
+// gamma = Y1^2
+
+// getDefaultExport function for compatibility with non-harmony modules
+
+// getRandomValues fails on IE if size == 0
+
+// go through the array every three bytes, we'll deal with trailing stuff later
+
+// has a stable shape and so hopefully should be cheap to allocate.
+
+// have been (and was previously) designed to take a closure to be
+
+// horizontal
+
+// http://ixti.net/development/javascript/2011/11/11/base64-encodedecode-of-utf8-in-browser-with-js.html
+
+// http://stackoverflow.com/questions/13356493/decode-utf-8-with-javascript#13691499
+
+// http://stackoverflow.com/questions/18729405/how-to-convert-utf8-string-to-byte-array
+
+// http://w3.org/TR/2012/WD-url-20120524/#collect-url-parameters
+
+// http://www.requirejs.org/docs/api.html
+
+// https://bugs.chromium.org/p/v8/issues/detail?id=3056
+
+// https://bugs.chromium.org/p/v8/issues/detail?id=4118
+
+// https://developer.mozilla.org/en-US/docs/Web/API/Crypto/getRandomValues
+
+// https://esbench.com/bench/5bfee68a4cd7e6009ef61d23
+
+// https://git.io/vad3K
+
+// https://github.com/amdjs/amdjs-api/wiki/AMD
+
+// https://github.com/feross/buffer/pull/148
+
+// https://github.com/google/closure-library/blob/8598d87242af59aac233270742c8984e2b2bdbe0/closure/goog/crypt/crypt.js#L117-L143
+
+// https://github.com/google/closure-library/blob/master/LICENSE
+
+// https://github.com/nodejs/node/blob/master/lib/internal/crypto/random.js#L48
+
+// https://github.com/soldair/node-qrcode/issues/157
+
+// https://people.mozilla.org/~jorendorff/es6-draft.html#sec-generatorresume
+
+// hyperelliptic.org/EFD/g1p/auto-shortw-jacobian-0.html
+
+// hyperelliptic.org/EFD/g1p/auto-shortw-jacobian-0.html#tripling-tpl-2007-bl
+
+// hyperelliptic.org/EFD/g1p/auto-shortw-jacobian-3.html
+
+// hyperelliptic.org/EFD/g1p/auto-shortw-jacobian-3.html#doubling-dbl-2001-b
+
+// i - 2
+
+// if it is a % sign, encode the following 2 bytes as a hex value
+
+// implementation from standard node.js 'util' module
+
+// important to get this right, even though it requires care.
+
+// in every case, so we don't have to touch the arguments object. The
+
+// in fixed multiplication method
+
+// increments counter inside inner
+
+// inner = (password ^ ipad) || salt || counter
+
+// instances that were created from another copy of the `buffer` package.
+
+// intXX and uintXX
+
+// into the generator, abandon iteration, whatever). With
+
+// inverse-cipher-ify the decryption round key (fips-197 section 5.3)
+
+// invocations of the iterator.
+
+// invoked without arguments, but in all the cases we care about we
+
+// is surrogate component
+
+// is why the Promise constructor synchronously invokes its
+
+// it, so set the completion value of the entire function to
+
+// iterator has been terminated.
+
+// key expansion (fips-197 section 5.2)
+
+// key expansion (for non-256 bit)
+
+// key expansion for 256-bit keys is "slightly different" (fips-197)
+
+// known cost to v.
+
+// last char was a lead
+
+// length is NaN (which is otherwise coerced to zero.)
+
+// let the generator function handle the exception.
+
+// limit of Crypto.getRandomValues()
+
+// location outside the try/catch block.
+
+// locations where there is no enclosing try statement.
+
+// make the exports object identical to regeneratorRuntime.
+
+// meant to be awaited. Some may consider the name of this method too
+
+// method) always terminates the yield* loop.
+
+// minifier not to mangle the names of these two functions.
+
+// mnemonic
+
+// module.exports (if we're in a module) or a new, empty object.
+
+// multiplication (like elliptic secp256k1).
+
+// multiply by 2
+
+// must be multiple of 3
+
+// naive approach... going back to loop unrolling may yield additional performance
+
+// necessary. v is the node across the current edge from u.
+
+// negative + positive
+
+// no "from" is provided, populates it.
+
+// no combination of Error Correction Level and data mask pattern
+
+// no lead yet
+
+// node ID => cost
+
+// node ID => predecessor node ID
+
+// node.js
+
+// node.js module exports
+
+// not used by this implementation
+
+// note that ncarry could be >= 0x3ffffff
+
+// num = HI * (2 ^ N - K) + HI * K + LO = HI * K + LO (mod P)
+
+// number of characters that are being encoded.
+
+// object, this seems to be the most reliable technique that does not
+
+// objects. For full spec compliance, you may wish to configure your
+
+// old school shim for old browsers
+
+// on the `m` itself.
+
+// only additional allocation required is the completion record, which
+
+// only option is to throw it from the await expression, and
+
+// only svg for now.
+
+// opted for using reduce here rather than Array#first with a regex.test call
+
+// or a finally block) gives us a place to store values thrown from
+
+// outerKey = password ^ opad
+
+// output blocks = SHA256(outerKey || SHA256(inner)) ...
+
+// overhead of an extra function call.
+
+// pad the end with zeros, but make sure to not forget the extra bytes
+
+// pad the string on the right with 0s to make the string's length a multiple of 8.
+
+// phantomjs needs to throw
+
+// positive + negative
+
+// pre-compute lookup table
+
+// prefix data with mode indicator (4 bits)
+
+// probably something that needs to be benchmarked though
+
+// property of a typed array.
+
+// read this mnemonic, just bail and don't set the
+
+// reason. Note that rejections of yielded Promises are not
+
+// record like context.tryEntries[i].completion. This interface could
+
+// regardless of what the method was, we continue as if it is
+
+// rejection (swallow it and continue, manually .throw it back
+
+// rejection reason outside the generator function, so the
+
+// reliably in a browserify context because there could be multiple different
+
+// remove all zeros from buffer head
+
+// replacement char (U+FFFD) and advance only 1 byte
+
+// result for this iteration will be rejected with the same
+
+// should be EXP_TABLE[(LOG_TABLE[x] + LOG_TABLE[y]) % 255] if EXP_TABLE wasn't oversized
+
+// similar to x >= 256, but a lot faster (because 0x100 == 256)
+
+// since the masking operation must be performed only on the encoding region.
+
+// slightly revisited to rely on looping instead of recursion
+
+// so Buffer.isBuffer(Buffer.prototype) will be false
+
+// so that results are always delivered in the correct order. If
+
+// so that the async generator function has the opportunity to do
+
+// standard global objects
+
+// startup
+
+// stay inside the bounds (because we will mainly use this table for the multiplication of
+
+// testnet values, let me know. I believe current senitment is that
+
+// the .value of the Promise<{value,done}> result for the
+
+// the Version and Error Correction Level by adding the Pad Codewords 11101100 (0xEC)
+
+// the `instanceof` check but they should be treated as of that type.
+
+// the buffer so we don't have to here
+
+// the character value of the final character is encoded as a 6-bit binary number.
+
+// the cost of the shortest paths to any or all of those nodes as
+
+// the final one or two digits are converted to 4 or 7 bits respectively.
+
+// the final result produced by the iterator.
+
+// the known shortest path from s.
+
+// the last round is special
+
+// the lowest limit is Chrome, with 0x10000 args.
+
+// the method takes exactly one argument, since that happens to be true
+
+// then let that catch block handle the exception normally.
+
+// there is no version 0
+
+// things simple and return the next function itself.
+
+// this - (-num) = this + num
+
+// this Signer. Should be used by sendTransaction but NOT by signTransaction.
+
+// this is primarily because using the reduce we only perform the regex
+
+// this is the max bytes crypto.getRandomValues
+
+// throw the exception.
+
+// thrown back into the generator function, as is the case
+
+// to create a new function object. We can even get away with assuming
+
+// to detect a Buffer instance. It's not possible to use `instanceof Buffer`
+
+// to non-red form?
+
+// to their upper/lower bounds if the value passed is out of range.
+
+// to work with 256-bit numbers, otherwise it gives 20% improvement for 256-bit
+
+// top-left
+
+// top-right
+
+// total number of codewords, (number of ec codewords, number of blocks) * ( L, M, Q, H )
+
+// two GF numbers, no more).
+
+// uint or int
+
+// uncompressed, hybrid-odd, hybrid-even
+
+// undefined is handled specially as per ECMA-262 6th Edition,
+
+// unexpected trail
+
+// unified ._invoke helper method.
+
+// unpaired lead
+
+// update v's predecessor in the predecessor list (it's now u).
+
+// use indirect eval (which violates Content Security Policy).
+
+// v is greater than the new cost we just found (cost of s to u plus
+
+// valid lead
+
+// valid surrogate pair
+
+// value should have no prefix
+
+// var groupBase = Math.pow(base, groupSize);
+
+// var groupSize = Math.floor(BN.wordSize * Math.LN2 / Math.log(base));
+
+// vertical
+
+// we did not generate a valid codePoint so insert a
+
+// we should always use mainnet, and use BIP-44 to derive the network
+
+// webpackBootstrap
+
+// when an awaited Promise is rejected. This difference in
+
+// will result in an all-zero data string
+
+// x1 * z2^2 == x2 * z1^2
+
+// xor final data with mask pattern in order to ensure that
+
+// y1 * z2^3 == y2 * z1^3
+
+// {{{1 8bit encode
+
+// {{{1 All-in-one
+
+// {{{1 All-in-one function
+
+// {{{1 Calculate penalty
+
+// {{{1 Choose encode mode and generates struct with data for different version
+
+// {{{1 Fill data
+
+// {{{1 Fill reserved areas
+
+// {{{1 Fill reserved areas with zeroes
+
+// {{{1 Fill template
+
+// {{{1 Galois Field Math
+
+// {{{1 Generator Polynomials
+
+// {{{1 Get version template
+
+// {{{1 Initialize matrix with zeros
+
+// {{{1 Put align and timinig
+
+// {{{1 Put finders into matrix
+
+// {{{1 Versions
+
+// {{{1 alphanumeric encode
+
+// {{{1 export functions
+
+// {{{1 numeric encode
+
+// {{{1 url encode
+
+//# sourceMappingURL=_version.js.map
+
+//# sourceMappingURL=bignumber.js.map
+
+//# sourceMappingURL=blockchain.js.map
+
+//# sourceMappingURL=browser.js.map
+
+//# sourceMappingURL=clipboard-polyfill.text.esm.js.map
+
+//# sourceMappingURL=compat.module.js.map
+
+//# sourceMappingURL=constants.js.map
+
+//# sourceMappingURL=crowdsale.js.map
+
+//# sourceMappingURL=encoding.js.map
+
+//# sourceMappingURL=error.js.map
+
+//# sourceMappingURL=errors.js.map
+
+//# sourceMappingURL=ethereum.js.map
+
+//# sourceMappingURL=events.js.map
+
+//# sourceMappingURL=format.js.map
+
+//# sourceMappingURL=id.js.map
+
+//# sourceMappingURL=index.js.map
+
+//# sourceMappingURL=inspect.js.map
+
+//# sourceMappingURL=json.js.map
+
+//# sourceMappingURL=jsonrpc.js.map
+
+//# sourceMappingURL=keystore.js.map
+
+//# sourceMappingURL=local.js.map
+
+//# sourceMappingURL=message.js.map
+
+//# sourceMappingURL=misc.js.map
+
+//# sourceMappingURL=mobile.js.map
+
+//# sourceMappingURL=multi.js.map
+
+//# sourceMappingURL=network.js.map
+
+//# sourceMappingURL=payload.js.map
+
+//# sourceMappingURL=pbkdf2.js.map
+
+//# sourceMappingURL=pkcs7.js.map
+
+//# sourceMappingURL=provider.js.map
+
+//# sourceMappingURL=random.js.map
+
+//# sourceMappingURL=registry.js.map
+
+//# sourceMappingURL=router.js.map
+
+//# sourceMappingURL=routing.js.map
+
+//# sourceMappingURL=schema.js.map
+
+//# sourceMappingURL=session.js.map
+
+//# sourceMappingURL=sha2.js.map
+
+//# sourceMappingURL=storage.js.map
+
+//# sourceMappingURL=styled-components.browser.esm.js.map
+
+//# sourceMappingURL=sync.js.map
+
+//# sourceMappingURL=typed-data.js.map
+
+//# sourceMappingURL=types.js.map
+
+//# sourceMappingURL=url.js.map
+
+//# sourceMappingURL=utils.js.map
+
+//# sourceMappingURL=validator.js.map
+
+//# sourceMappingURL=validators.js.map
+
+//# sourceMappingURL=wordlist.js.map
+
+//# sourceMappingURL=wordlists.js.map
+
+///////////////////
+
+///////////////////////
+
+///////////////////////////////
+
+//T.copy(DK, destPos, 0, len)
+
+//U = createHmac(password).update(U).digest();
+
+//U.copy(T, 0, 0, hLen)
+
+//block1.writeUInt32BE(i, salt.length)
+
+//console.log(Base58.decode("Qmd2V777o5XvJbYMeMb8k2nU5f8d3ciUQ5YpYuWhzv8iDj"))
+
+//console.log(Base58.encode(Base58.decode("Qmd2V777o5XvJbYMeMb8k2nU5f8d3ciUQ5YpYuWhzv8iDj")))
+
+//export function isJsonWallet(json: string): boolean {
+
+//let U = createHmac(password).update(block1).digest();
+
+//salt.copy(block1, 0, 0, salt.length)
+
+//}
