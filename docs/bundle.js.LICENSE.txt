@@ -89,21 +89,15 @@ object-assign
 
 /* binding */
 
-/* default */
-
 /* eslint-disable no-proto */
 
 /* eslint-disable no-unused-vars */
 
-/* eslint-disable node/no-deprecated-api */
-
-/* global Reflect, Promise */
+/* getWindowMetadata */
 
 /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */
 
 /* harmony default export */
-
-/* harmony export */
 
 /* istanbul ignore if */
 
@@ -1263,6 +1257,8 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // .throw, and .return methods.
 
+// .toUpperCase handles XHTML
+
 // 0 - if `this` == `num`
 
 // 0x36 ^ 0x5c = 0x6a
@@ -1559,6 +1555,56 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // CONCATENATED MODULE: ./node_modules/@ethersproject/wordlists/lib.esm/wordlists.js
 
+// CONCATENATED MODULE: ./node_modules/@walletconnect/browser-utils/dist/esm/browser.js
+
+// CONCATENATED MODULE: ./node_modules/@walletconnect/browser-utils/dist/esm/index.js
+
+// CONCATENATED MODULE: ./node_modules/@walletconnect/browser-utils/dist/esm/json.js
+
+// CONCATENATED MODULE: ./node_modules/@walletconnect/browser-utils/dist/esm/local.js
+
+// CONCATENATED MODULE: ./node_modules/@walletconnect/browser-utils/dist/esm/mobile.js
+
+// CONCATENATED MODULE: ./node_modules/@walletconnect/browser-utils/dist/esm/registry.js
+
+// CONCATENATED MODULE: ./node_modules/@walletconnect/client/dist/esm/index.js
+
+// CONCATENATED MODULE: ./node_modules/@walletconnect/core/dist/esm/events.js
+
+// CONCATENATED MODULE: ./node_modules/@walletconnect/core/dist/esm/index.js
+
+// CONCATENATED MODULE: ./node_modules/@walletconnect/core/dist/esm/storage.js
+
+// CONCATENATED MODULE: ./node_modules/@walletconnect/crypto/dist/esm/browser/aes.js
+
+// CONCATENATED MODULE: ./node_modules/@walletconnect/crypto/dist/esm/browser/hmac.js
+
+// CONCATENATED MODULE: ./node_modules/@walletconnect/crypto/dist/esm/constants/length.js
+
+// CONCATENATED MODULE: ./node_modules/@walletconnect/crypto/dist/esm/lib/browser.js
+
+// CONCATENATED MODULE: ./node_modules/@walletconnect/iso-crypto/dist/esm/index.js
+
+// CONCATENATED MODULE: ./node_modules/@walletconnect/jsonrpc-utils/dist/esm/format.js
+
+// CONCATENATED MODULE: ./node_modules/@walletconnect/randombytes/dist/esm/browser/index.js
+
+// CONCATENATED MODULE: ./node_modules/@walletconnect/safe-json/dist/esm/index.js
+
+// CONCATENATED MODULE: ./node_modules/@walletconnect/socket-transport/dist/esm/network.js
+
+// CONCATENATED MODULE: ./node_modules/@walletconnect/utils/dist/esm/constants.js
+
+// CONCATENATED MODULE: ./node_modules/@walletconnect/utils/dist/esm/encoding.js
+
+// CONCATENATED MODULE: ./node_modules/@walletconnect/utils/dist/esm/ethereum.js
+
+// CONCATENATED MODULE: ./node_modules/@walletconnect/utils/dist/esm/misc.js
+
+// CONCATENATED MODULE: ./node_modules/@walletconnect/utils/dist/esm/url.js
+
+// CONCATENATED MODULE: ./node_modules/@walletconnect/utils/dist/esm/validators.js
+
 // CONCATENATED MODULE: ./node_modules/clipboard-polyfill/dist/text/clipboard-polyfill.text.esm.js
 
 // CONCATENATED MODULE: ./node_modules/preact/compat/dist/compat.module.js
@@ -1665,11 +1711,7 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Copy 0 bytes; we're done
 
-// Copy properties from require('buffer')
-
 // Copy rest of the words
-
-// Copy static methods from Buffer
 
 // Cost of s to u plus the cost of u to v across e--this is *a*
 
@@ -1767,6 +1809,14 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // EXTERNAL MODULE: ./node_modules/@ethersproject/sha2/node_modules/hash.js/lib/hash.js
 
+// EXTERNAL MODULE: ./node_modules/@walletconnect/environment/dist/cjs/index.js
+
+// EXTERNAL MODULE: ./node_modules/@walletconnect/qrcode-modal/dist/cjs/index.js
+
+// EXTERNAL MODULE: ./node_modules/@walletconnect/window-getters/dist/cjs/index.js
+
+// EXTERNAL MODULE: ./node_modules/@walletconnect/window-metadata/dist/cjs/index.js
+
 // EXTERNAL MODULE: ./node_modules/aes-js/index.js
 
 // EXTERNAL MODULE: ./node_modules/bn.js/lib/bn.js
@@ -1775,7 +1825,11 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // EXTERNAL MODULE: ./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js
 
+// EXTERNAL MODULE: ./node_modules/js-sha3/src/sha3.js
+
 // EXTERNAL MODULE: ./node_modules/qr-image/lib/qr.js
+
+// EXTERNAL MODULE: ./node_modules/query-string/index.js
 
 // EXTERNAL MODULE: ./node_modules/react-dom/index.js
 
@@ -1936,6 +1990,8 @@ PERFORMANCE OF THIS SOFTWARE.
 // How many blockmix_salsa8 can we do per step?
 
 // How many decimal digits can we process? (for 64-bit float, this is 15)
+
+// IE 11
 
 // If a locale name was passed in, find the associated wordlist
 
@@ -2135,6 +2191,8 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // N = Cpu cost, r = Memory cost, p = parallelization cost
 
+// NAMESPACE OBJECT: ./node_modules/@walletconnect/iso-crypto/dist/esm/index.js
+
 // NOTE: (qj / bhi) is (0x3ffffff * 0x4000000 + 0x3ffffff) / 0x2000000 max
 
 // NOTE: 1) `mode` can be set to `mod` to request mod only,
@@ -2172,8 +2230,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // Node converts strings with length < 2 to ''
 
 // Node strips out invalid characters like \n and \t from the string, base64-js does not
-
-// Node supports requesting up to this number of bytes
 
 // Node takes equal signs as end of the Base64 encoding
 
@@ -2845,6 +2901,8 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // add four 0s to the end.
 
+// all other browsers
+
 // all previous Promises have been resolved before calling invoke,
 
 // allows the consumer to decide what to do with the yielded
@@ -2852,8 +2910,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // already have an existing method we want to call, so there's no need
 
 // also ensures that the minifier will not anonymize the function.
-
-// alternative to using Object.keys for old browsers
 
 // and .done properties off the next function object itself. This
 
@@ -2907,8 +2963,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // bridge url
 
-// buffer.slice automatically checks if the end is past the end of
-
 // byteOffset: it it's undefined, null, NaN, "foo", etc, search whole buffer
 
 // bytes
@@ -2920,8 +2974,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // callback(error, progress, key)
 
 // calling function (or Promise) will handle exceptions.
-
-// can do at once see https://developer.mozilla.org/en-US/docs/Web/API/window.crypto.getRandomValues
 
 // can-promise has a crash in some versions of react native that dont have
 
@@ -2977,6 +3029,8 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // do is to check its .name property.
 
+// do not inherit user-select (it may be `none`)
+
 // don't hoist over string (html) components
 
 // encode to utf16 (surrogate pair dance)
@@ -3019,8 +3073,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // getDefaultExport function for compatibility with non-harmony modules
 
-// getRandomValues fails on IE if size == 0
-
 // go through the array every three bytes, we'll deal with trailing stuff later
 
 // has a stable shape and so hopefully should be cheap to allocate.
@@ -3043,8 +3095,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // https://bugs.chromium.org/p/v8/issues/detail?id=4118
 
-// https://developer.mozilla.org/en-US/docs/Web/API/Crypto/getRandomValues
-
 // https://esbench.com/bench/5bfee68a4cd7e6009ef61d23
 
 // https://git.io/vad3K
@@ -3056,8 +3106,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // https://github.com/google/closure-library/blob/8598d87242af59aac233270742c8984e2b2bdbe0/closure/goog/crypt/crypt.js#L117-L143
 
 // https://github.com/google/closure-library/blob/master/LICENSE
-
-// https://github.com/nodejs/node/blob/master/lib/internal/crypto/random.js#L48
 
 // https://github.com/soldair/node-qrcode/issues/157
 
@@ -3120,8 +3168,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // length is NaN (which is otherwise coerced to zero.)
 
 // let the generator function handle the exception.
-
-// limit of Crypto.getRandomValues()
 
 // location outside the try/catch block.
 
@@ -3201,13 +3247,13 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // pad the string on the right with 0s to make the string's length a multiple of 8.
 
-// phantomjs needs to throw
-
 // positive + negative
 
 // pre-compute lookup table
 
 // prefix data with mode indicator (4 bits)
+
+// prevents scrolling to the end of the page
 
 // probably something that needs to be benchmarked though
 
@@ -3230,6 +3276,8 @@ PERFORMANCE OF THIS SOFTWARE.
 // remove all zeros from buffer head
 
 // replacement char (U+FFFD) and advance only 1 byte
+
+// reset user styles for span element
 
 // result for this iteration will be rejected with the same
 
@@ -3261,8 +3309,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // the `instanceof` check but they should be treated as of that type.
 
-// the buffer so we don't have to here
-
 // the character value of the final character is encoded as a 6-bit binary number.
 
 // the cost of the shortest paths to any or all of those nodes as
@@ -3290,8 +3336,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // this Signer. Should be used by sendTransaction but NOT by signTransaction.
 
 // this is primarily because using the reduce we only perform the regex
-
-// this is the max bytes crypto.getRandomValues
 
 // throw the exception.
 
@@ -3330,6 +3374,8 @@ PERFORMANCE OF THIS SOFTWARE.
 // update v's predecessor in the predecessor list (it's now u).
 
 // use indirect eval (which violates Content Security Policy).
+
+// used to preserve spaces and line breaks
 
 // v is greater than the new cost we just found (cost of s to u plus
 
@@ -3403,9 +3449,9 @@ PERFORMANCE OF THIS SOFTWARE.
 
 //# sourceMappingURL=_version.js.map
 
-//# sourceMappingURL=bignumber.js.map
+//# sourceMappingURL=aes.js.map
 
-//# sourceMappingURL=blockchain.js.map
+//# sourceMappingURL=bignumber.js.map
 
 //# sourceMappingURL=browser.js.map
 
@@ -3417,17 +3463,17 @@ PERFORMANCE OF THIS SOFTWARE.
 
 //# sourceMappingURL=crowdsale.js.map
 
+//# sourceMappingURL=crypto.js.map
+
 //# sourceMappingURL=encoding.js.map
 
-//# sourceMappingURL=error.js.map
+//# sourceMappingURL=env.js.map
 
-//# sourceMappingURL=errors.js.map
+//# sourceMappingURL=error.js.map
 
 //# sourceMappingURL=ethereum.js.map
 
 //# sourceMappingURL=events.js.map
-
-//# sourceMappingURL=format.js.map
 
 //# sourceMappingURL=id.js.map
 
@@ -3435,21 +3481,13 @@ PERFORMANCE OF THIS SOFTWARE.
 
 //# sourceMappingURL=inspect.js.map
 
-//# sourceMappingURL=json.js.map
-
-//# sourceMappingURL=jsonrpc.js.map
-
 //# sourceMappingURL=keystore.js.map
 
 //# sourceMappingURL=local.js.map
 
 //# sourceMappingURL=message.js.map
 
-//# sourceMappingURL=misc.js.map
-
 //# sourceMappingURL=mobile.js.map
-
-//# sourceMappingURL=multi.js.map
 
 //# sourceMappingURL=network.js.map
 
@@ -3457,19 +3495,9 @@ PERFORMANCE OF THIS SOFTWARE.
 
 //# sourceMappingURL=pbkdf2.js.map
 
-//# sourceMappingURL=pkcs7.js.map
-
-//# sourceMappingURL=provider.js.map
-
 //# sourceMappingURL=random.js.map
 
 //# sourceMappingURL=registry.js.map
-
-//# sourceMappingURL=router.js.map
-
-//# sourceMappingURL=routing.js.map
-
-//# sourceMappingURL=schema.js.map
 
 //# sourceMappingURL=session.js.map
 
@@ -3479,17 +3507,11 @@ PERFORMANCE OF THIS SOFTWARE.
 
 //# sourceMappingURL=styled-components.browser.esm.js.map
 
-//# sourceMappingURL=sync.js.map
-
 //# sourceMappingURL=typed-data.js.map
-
-//# sourceMappingURL=types.js.map
 
 //# sourceMappingURL=url.js.map
 
 //# sourceMappingURL=utils.js.map
-
-//# sourceMappingURL=validator.js.map
 
 //# sourceMappingURL=validators.js.map
 
