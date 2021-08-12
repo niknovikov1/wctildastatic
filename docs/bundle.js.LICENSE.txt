@@ -376,8 +376,6 @@ object-assign
 
 /* .codes.ERR_STREAM_PREMATURE_CLOSE */
 
-/* .default */
-
 /* 0 -1 */
 
 /* 0 0 */
@@ -967,23 +965,11 @@ exports.inflateUndermine = inflateUndermine;
 
 /* Process the input block. */
 
-/* Pseudo-class applied to the `component`'s `focusVisibleClassName` prop if `button={true}`. */
-
-/* Pseudo-class applied to the inner `component` element if `disabled={true}`. */
-
-/* Pseudo-class applied to the root element if `disabled={true}`. */
-
-/* Pseudo-class applied to the root element if `selected={true}`. */
-
-/* Pseudo-class applied to the root element if keyboard focused. */
-
 /* Public constants ==========================================================*/
 
 /* Return codes for the compression/decompression functions. Negative values
   * are errors, positive values are used for special but normal events.
   */
-
-/* RuleList */
 
 /* Save the adler32 of the preset dictionary: */
 
@@ -1053,208 +1039,6 @@ exports.inflateUndermine = inflateUndermine;
 /* Stored blocks are limited to 0xffff bytes, pending_buf is limited
    * to pending_buf_size, and each stored block has a 5 byte header:
    */
-
-/* Styles applied to the (normally root) `component` element. May be wrapped by a `container`. */
-
-/* Styles applied to the `Modal` component. */
-
-/* Styles applied to the `Paper` component if `anchor="bottom"` and `variant` is not "temporary". */
-
-/* Styles applied to the `Paper` component if `anchor="bottom"`. */
-
-/* Styles applied to the `Paper` component if `anchor="left"` and `variant` is not "temporary". */
-
-/* Styles applied to the `Paper` component if `anchor="left"`. */
-
-/* Styles applied to the `Paper` component if `anchor="right"` and `variant` is not "temporary". */
-
-/* Styles applied to the `Paper` component if `anchor="right"`. */
-
-/* Styles applied to the `Paper` component if `anchor="top"` and `variant` is not "temporary". */
-
-/* Styles applied to the `Paper` component if `anchor="top"`. */
-
-/* Styles applied to the `Paper` component. */
-
-/* Styles applied to the `Typography` components if dense. */
-
-/* Styles applied to the `Typography` components if primary and secondary are set. */
-
-/* Styles applied to the `component` element if `alignItems="flex-start"`. */
-
-/* Styles applied to the `component` element if `children` includes `ListItemSecondaryAction`. */
-
-/* Styles applied to the `component` element if dense. */
-
-/* Styles applied to the `container` element if `children` includes `ListItemSecondaryAction`. */
-
-/* Styles applied to the children container element. */
-
-/* Styles applied to the inner `component` element if `button={true}`. */
-
-/* Styles applied to the inner `component` element if `disableGutters={false}`. */
-
-/* Styles applied to the inner `component` element if `divider={true}`. */
-
-/* Styles applied to the internal `Ripple` components `childLeaving` class. */
-
-/* Styles applied to the internal `Ripple` components `childPulsate` class. */
-
-/* Styles applied to the internal `Ripple` components `child` class. */
-
-/* Styles applied to the internal `Ripple` components `ripplePulsate` class. */
-
-/* Styles applied to the internal `Ripple` components `rippleVisible` class. */
-
-/* Styles applied to the internal `Ripple` components `ripple` class. */
-
-/* Styles applied to the primary `Typography` component. */
-
-/* Styles applied to the root element if `absolute={true}`. */
-
-/* Styles applied to the root element if `align="center"`. */
-
-/* Styles applied to the root element if `align="justify"`. */
-
-/* Styles applied to the root element if `align="left"`. */
-
-/* Styles applied to the root element if `align="right"`. */
-
-/* Styles applied to the root element if `color="action"`. */
-
-/* Styles applied to the root element if `color="default"`. */
-
-/* Styles applied to the root element if `color="disabled"`. */
-
-/* Styles applied to the root element if `color="error"`. */
-
-/* Styles applied to the root element if `color="inherit"`. */
-
-/* Styles applied to the root element if `color="primary"`. */
-
-/* Styles applied to the root element if `color="secondary"`. */
-
-/* Styles applied to the root element if `color="textPrimary"`. */
-
-/* Styles applied to the root element if `color="textSecondary"`. */
-
-/* Styles applied to the root element if `color="transparent"`. */
-
-/* Styles applied to the root element if `disableGutters={false}`. */
-
-/* Styles applied to the root element if `disableGutters={true}`. */
-
-/* Styles applied to the root element if `disablePadding={false}`. */
-
-/* Styles applied to the root element if `display="block"`. */
-
-/* Styles applied to the root element if `display="inline"`. */
-
-/* Styles applied to the root element if `edge="end"`. */
-
-/* Styles applied to the root element if `edge="start"`. */
-
-/* Styles applied to the root element if `fixed={true}`. */
-
-/* Styles applied to the root element if `flexItem={true}`. */
-
-/* Styles applied to the root element if `fontSize="inherit"`. */
-
-/* Styles applied to the root element if `fontSize="large"`. */
-
-/* Styles applied to the root element if `fontSize="small"`. */
-
-/* Styles applied to the root element if `gutterBottom={true}`. */
-
-/* Styles applied to the root element if `inset={true}`. */
-
-/* Styles applied to the root element if `invisible={true}`. */
-
-/* Styles applied to the root element if `light={true}`. */
-
-/* Styles applied to the root element if `maxWidth="lg"`. */
-
-/* Styles applied to the root element if `maxWidth="md"`. */
-
-/* Styles applied to the root element if `maxWidth="sm"`. */
-
-/* Styles applied to the root element if `maxWidth="xl"`. */
-
-/* Styles applied to the root element if `maxWidth="xs"`. */
-
-/* Styles applied to the root element if `nowrap={true}`. */
-
-/* Styles applied to the root element if `orientation="vertical"`. */
-
-/* Styles applied to the root element if `paragraph={true}`. */
-
-/* Styles applied to the root element if `position="absolute"`. */
-
-/* Styles applied to the root element if `position="fixed"`. */
-
-/* Styles applied to the root element if `position="relative"`. */
-
-/* Styles applied to the root element if `position="static"`. */
-
-/* Styles applied to the root element if `position="sticky"`. */
-
-/* Styles applied to the root element if `size="small"`. */
-
-/* Styles applied to the root element if `square={false}`. */
-
-/* Styles applied to the root element if `variant="body1"`. */
-
-/* Styles applied to the root element if `variant="body2"`. */
-
-/* Styles applied to the root element if `variant="button"`. */
-
-/* Styles applied to the root element if `variant="caption"`. */
-
-/* Styles applied to the root element if `variant="dense"`. */
-
-/* Styles applied to the root element if `variant="h1"`. */
-
-/* Styles applied to the root element if `variant="h2"`. */
-
-/* Styles applied to the root element if `variant="h3"`. */
-
-/* Styles applied to the root element if `variant="h4"`. */
-
-/* Styles applied to the root element if `variant="h5"`. */
-
-/* Styles applied to the root element if `variant="h6"`. */
-
-/* Styles applied to the root element if `variant="inset"`. */
-
-/* Styles applied to the root element if `variant="middle"`. */
-
-/* Styles applied to the root element if `variant="outlined"`. */
-
-/* Styles applied to the root element if `variant="overline"`. */
-
-/* Styles applied to the root element if `variant="permanent or persistent"`. */
-
-/* Styles applied to the root element if `variant="regular"`. */
-
-/* Styles applied to the root element if `variant="srOnly"`. Only accessible to screen readers. */
-
-/* Styles applied to the root element if `variant="subtitle1"`. */
-
-/* Styles applied to the root element if `variant="subtitle2"`. */
-
-/* Styles applied to the root element if a `subheader` is provided. */
-
-/* Styles applied to the root element if dense. */
-
-/* Styles applied to the root element if the `Modal` has exited. */
-
-/* Styles applied to the root element when the parent `ListItem` uses `alignItems="flex-start"`. */
-
-/* Styles applied to the root element. */
-
-/* Styles applied to the secondary `Typography` component. */
-
-/* StylesContext */
 
 /* Tempering */
 
@@ -1340,8 +1124,6 @@ exports.inflateUndermine = inflateUndermine;
    * speed.
    */
 
-/* TouchRipple is only needed client-side, x2 boost on the server. */
-
 /* UPDATE_HASH(s, s->ins_h, s->window[str + 1]); */
 
 /* UPDATE_HASH(s, s->ins_h, s->window[str + MIN_MATCH-1]); */
@@ -1410,8 +1192,6 @@ exports.inflateUndermine = inflateUndermine;
 /* align on byte boundary */
 
 /* allocated sliding window, if needed */
-
-/* alpha */
 
 /* already empty otherwise */
 
@@ -1499,15 +1279,9 @@ exports.inflateUndermine = inflateUndermine;
 
 /* copy state->wsize or less output bytes into the circular window */
 
-/* create */
-
 /* create new sub-table if needed */
 
 /* create table entry */
-
-/* createRule */
-
-/* createUnarySpacing */
 
 /* current bits to drop from code for index */
 
@@ -1517,16 +1291,10 @@ exports.inflateUndermine = inflateUndermine;
 
 /* current table to fill in */
 
-/* darken */
-
 /* decode codes */
 
 /* decode literals and length/distances until end-of-block or not enough
      input data or output space */
-
-/* default */
-
-/* default.Provider */
 
 /* desc. for bit length tree */
 
@@ -1558,10 +1326,6 @@ exports.inflateUndermine = inflateUndermine;
 
 /* dummy value--not used */
 
-/* duration.enteringScreen */
-
-/* duration.leavingScreen */
-
 /* dynamic block */
 
 /* dynamic table building */
@@ -1586,27 +1350,13 @@ exports.inflateUndermine = inflateUndermine;
 
 /* eslint node-core/prefer-util-format-errors: "error" */
 
-/* eslint-disable consistent-return, jsx-a11y/no-noninteractive-tabindex, camelcase */
-
 /* eslint-disable no-proto */
 
 /* eslint-disable no-restricted-properties */
 
-/* eslint-disable no-restricted-syntax */
-
 /* eslint-disable no-unused-vars */
 
-/* eslint-disable no-use-before-define */
-
-/* eslint-disable no-var, prefer-template */
-
 /* eslint-disable node/no-deprecated-api */
-
-/* eslint-disable prefer-template */
-
-/* eslint-disable react-hooks/rules-of-hooks, react-hooks/exhaustive-deps */
-
-/* eslint-disable react/forbid-foreign-prop-types */
 
 /* eslint-disable space-unary-ops */
 
@@ -1614,15 +1364,7 @@ exports.inflateUndermine = inflateUndermine;
 
 /* eslint-enable */
 
-/* eslint-enable no-unused-vars */
-
-/* eslint-enable prefer-template */
-
-/* eslint-enable react/forbid-foreign-prop-types */
-
 /* expect zlib header */
-
-/* export default binding */
 
 /* extra bits for each bit length code */
 
@@ -1676,10 +1418,6 @@ exports.inflateUndermine = inflateUndermine;
 
 /* get the state */
 
-/* getContrastRatio */
-
-/* getDynamicStyles */
-
 /* getWindowMetadata */
 
 /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */
@@ -1700,15 +1438,7 @@ exports.inflateUndermine = inflateUndermine;
 
 /* handle error breaks in while */
 
-/* handleBreakpoints */
-
 /* harmony default export */
-
-/* harmony export */
-
-/* harmony import */
-
-/* hasCSSTOMSupport */
 
 /* hash index of string to be inserted */
 
@@ -1829,8 +1559,6 @@ exports.inflateUndermine = inflateUndermine;
 /* length code for each normalized match length (0 == MIN_MATCH) */
 
 /* length of best match */
-
-/* lighten */
 
 /* literal */
 
@@ -2056,8 +1784,6 @@ exports.inflateUndermine = inflateUndermine;
 
 /* to support ill-conceived Java test suite */
 
-/* toCssValue */
-
 /* total number of bytes output so far */
 
 /* total number of input bytes read so far */
@@ -2071,18 +1797,6 @@ exports.inflateUndermine = inflateUndermine;
 /* true if processing last block */
 
 /* until 256-byte window bug fixed */
-
-/* unused harmony export easing */
-
-/* unused harmony export isBrowser */
-
-/* unused harmony export isPlainObject */
-
-/* unused harmony export teardown */
-
-/* unused harmony exports SheetsManager, SheetsRegistry, createGenerateId, sheets */
-
-/* unused harmony exports hexToRgb, rgbToHex, hslToRgb, decomposeColor, recomposeColor, getLuminance, emphasize, fade */
 
 /* update state and reset the rest of it */
 
@@ -2210,14 +1924,6 @@ PERFORMANCE OF THIS SOFTWARE.
 /**
      * Add a new item to the queue and ensure the highest priority element
      * is at the front of the queue.
-     */
-
-/**
-     * Current highest index number.
-     */
-
-/**
-     * Get selector string.
      */
 
 /**
@@ -2415,80 +2121,6 @@ PERFORMANCE OF THIS SOFTWARE.
    */
 
 /**
-   * Add a rule to the current stylesheet.
-   * Will insert a rule also after the stylesheet has been rendered first time.
-   */
-
-/**
-   * Apply rule to an element inline.
-   */
-
-/**
-   * Attach renderable to the render tree.
-   */
-
-/**
-   * Call `onChangeValue` hooks.
-   */
-
-/**
-   * Call `onCreateRule` hooks and return an object if returned by a hook.
-   */
-
-/**
-   * Call `onProcessRule` hooks.
-   */
-
-/**
-   * Call `onProcessSheet` hooks.
-   */
-
-/**
-   * Call `onProcessStyle` hooks.
-   */
-
-/**
-   * Call `onUpdate` hooks.
-   */
-
-/**
-   * Contains rules objects and allows adding/removing etc.
-   * Is used for e.g. by `StyleSheet` or `ConditionalRule`.
-   */
-
-/**
-   * Convert all attached sheets to a CSS string.
-   */
-
-/**
-   * Convert rules to a CSS string.
-   */
-
-/**
-   * Create a Style Sheet.
-   */
-
-/**
-   * Create a rule without a Style Sheet.
-   * [Deprecated] will be removed in the next major version.
-   */
-
-/**
-   * Create and add rules.
-   * Will render also after Style Sheet was rendered the first time.
-   */
-
-/**
-   * Create and register rule, run plugins.
-   */
-
-/**
-   * Create and register rule.
-   *
-   * Will not render after Style Sheet was rendered the first time.
-   */
-
-/**
    * Credit card CVV
    * @method faker.finance.creditCardCVV
   */
@@ -2498,37 +2130,6 @@ PERFORMANCE OF THIS SOFTWARE.
    * @method faker.finance.creditCardNumber
    * @param {string} provider | scheme
   */
-
-/**
-   * Delete a rule by name.
-   * Returns `true`: if rule has been deleted from the DOM.
-   */
-
-/**
-   * Delete a rule.
-   */
-
-/**
-   * Deploy pure CSS string to a renderable.
-   */
-
-/**
-   * Detach the Style Sheet and remove it from the registry.
-   */
-
-/**
-   * Execute plugins, update rule props.
-   */
-
-/**
-   * Generate a new CSS rule and replace the existing one.
-   *
-   * Only used for some old browsers because they can't set a selector.
-   */
-
-/**
-   * Generates a CSS string.
-   */
 
 /**
    * Generates a random localized city name. The format string can contain any
@@ -2585,88 +2186,6 @@ PERFORMANCE OF THIS SOFTWARE.
    */
 
 /**
-   * Get a rule by name.
-   */
-
-/**
-   * Get a rule.
-   */
-
-/**
-   * Get all rules elements.
-   */
-
-/**
-   * Get index of a CSS Rule.
-   */
-
-/**
-   * Get index of a rule.
-   */
-
-/**
-   * Get or set a style property.
-   */
-
-/**
-   * Inject CSS string into element.
-   */
-
-/**
-   * Insert RuleList into an element.
-   */
-
-/**
-   * Insert a rule into element.
-   */
-
-/**
-   * Insert rule into the StyleSheet
-   */
-
-/**
-   * Insert style element into render tree.
-   */
-
-/**
-   * Prepares various options, applies plugins.
-   * Should not be used twice on the same instance, because there is no plugins
-   * deduplication logic.
-   */
-
-/**
-   * Register a Style Sheet.
-   */
-
-/**
-   * Register a plugin.
-   */
-
-/**
-   * Register a rule in `.map`, `.classes` and `.keyframes` maps.
-   */
-
-/**
-   * Register plugin. Passed function will be invoked with a rule instance.
-   */
-
-/**
-   * Remove a Style Sheet.
-   */
-
-/**
-   * Remove renderable from render tree.
-   */
-
-/**
-   * Remove style element from render tree.
-   */
-
-/**
-   * Reset the registry.
-   */
-
-/**
    * Return a random localized city prefix
    * @method faker.address.cityPrefix
    */
@@ -2675,12 +2194,6 @@ PERFORMANCE OF THIS SOFTWARE.
    * Return a random localized city suffix
    *
    * @method faker.address.citySuffix
-   */
-
-/**
-   * Returns JSON representation of the rule.
-   * Fallbacks are not supported.
-   * Useful for inline styles.
    */
 
 /**
@@ -2700,34 +2213,6 @@ PERFORMANCE OF THIS SOFTWARE.
    * Returns a random localized street name
    *
    * @method faker.address.streetName
-   */
-
-/**
-   * Run `onProcessRule()` plugins on every rule.
-   */
-
-/**
-   * Set selector string.
-   * Attention: use this with caution. Most browsers didn't implement
-   * selectorText setter, so this may result in rerendering of entire Style Sheet.
-   */
-
-/**
-   * This will create a new function if the ref props change and are defined.
-   * This means react will call the old forkRef with `null` and the new forkRef
-   * with the ref. Cleanup naturally emerges from this behavior
-   */
-
-/**
-   * Unregister a rule.
-   */
-
-/**
-   * Update the function values with a new data.
-   */
-
-/**
-   * Updates a single rule.
    */
 
 /**
@@ -4212,12 +3697,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 /**
  *
- * @deprecated
- * The css style function is deprecated. Use the `styleFunctionSx` instead.
- */
-
-/**
- *
  * @namespace faker
  */
 
@@ -4265,53 +3744,11 @@ PERFORMANCE OF THIS SOFTWARE.
  */
 
 /**
- * @ignore - do not document.
- *
- * Proper state management for containers and the modals in those containers.
- * Simplified, but inspired by react-overlay's ModalManager class.
- * Used by the Modal to ensure proper styling of containers.
- */
-
-/**
- * @ignore - do not document.
- */
-
-/**
- * @ignore - internal component.
- */
-
-/**
- * @param {string|Array} props
- * @param {object} param
- * @param {string} param.prop
- * @param {number} param.duration
- * @param {string} param.easing
- * @param {number} param.delay
- */
-
-/**
- * @see @link{https://material.io/design/typography/the-type-system.html}
- * @see @link{https://material.io/design/typography/understanding-typography.html}
- */
-
-/**
  * A <Link> wrapper that knows if it's "active" or not.
  */
 
 /**
- * A better abstraction over CSS.
- *
- * @copyright Oleg Isonen (Slobodskoi) / Isonen 2014-present
- * @website https://github.com/cssinjs/jss
- * @license MIT
- */
-
-/**
  * A public higher-order component to access the imperative API
- */
-
-/**
- * A simple wrapper to apply `List` styles to an `Icon` or `SvgIcon`.
  */
 
 /**
@@ -4354,16 +3791,6 @@ PERFORMANCE OF THIS SOFTWARE.
  */
 
 /**
- * Add unit to numeric values.
- */
-
-/**
- * Add vendor prefix to a property name when needed.
- *
- * @api public
- */
-
-/**
  * Add version info bits to matrix
  *
  * @param  {BitMatrix} matrix  Modules matrix
@@ -4378,12 +3805,6 @@ PERFORMANCE OF THIS SOFTWARE.
  *
  * Alignment patterns are present only in QR Code symbols of version 2 or larger
  * and their number depends on the symbol version.
- */
-
-/**
- * Allow camel cased property names by converting them back to dasherized.
- *
- * @param {Rule} rule
  */
 
 /**
@@ -4520,16 +3941,6 @@ PERFORMANCE OF THIS SOFTWARE.
  */
 
 /**
- * Calculates the contrast ratio between two colors.
- *
- * Formula: https://www.w3.org/TR/WCAG20-TECHS/G17.html#G17-tests
- *
- * @param {string} foreground - CSS color, i.e. one of: #nnn, #nnnnnn, rgb(), rgba(), hsl(), hsla()
- * @param {string} background - CSS color, i.e. one of: #nnn, #nnnnnn, rgb(), rgba(), hsl(), hsla()
- * @returns {number} A contrast ratio value in the range 0 - 21.
- */
-
-/**
  * Check if QR Code version is valid
  *
  * @param  {Number}  version QR Code version
@@ -4567,10 +3978,6 @@ PERFORMANCE OF THIS SOFTWARE.
  */
 
 /**
- * Clones the object and adds a camel cased property version.
- */
-
-/**
  * Code refactored from Mozilla Developer Network:
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
  */
@@ -4590,72 +3997,6 @@ PERFORMANCE OF THIS SOFTWARE.
  * License:  MIT
  *
  * `npm install typedarray-to-buffer`
- */
-
-/**
- * Convert camel cased property names to dash separated.
- *
- * @param {Object} style
- * @return {Object}
- */
-
-/**
- * Convert dash separated strings to camel-cased.
- *
- * @param {String} str
- * @return {String}
- * @api private
- */
-
-/**
- * Convert dash separated strings to pascal cased.
- *
- * @param {String} str
- * @return {String}
- * @api private
- */
-
-/**
- * Convert nested rules to separate, remove them from original styles.
- *
- * @param {Rule} rule
- * @api public
- */
-
-/**
- * Converts a Rule to CSS string.
- */
-
-/**
- * Converts a color from CSS hex format to CSS rgb format.
- *
- * @param {string} color - Hex color, i.e. #nnn or #nnnnnn
- * @returns {string} A CSS rgb color string
- */
-
-/**
- * Converts a color from hsl format to rgb format.
- *
- * @param {string} color - HSL color values
- * @returns {string} rgb color values
- */
-
-/**
- * Converts a color object with type and values to a string.
- *
- * @param {object} color - Decomposed color
- * @param {string} color.type - One of: 'rgb', 'rgba', 'hsl', 'hsla'
- * @param {array} color.values - [n,n,n] or [n,n,n,n]
- * @returns {string} A CSS color string
- */
-
-/**
- * Converts array values to string.
- *
- * `margin: [['5px', '10px']]` > `margin: 5px 10px;`
- * `border: ['1px', '2px']` > `border: 1px, 2px;`
- * `margin: [['5px', '10px'], '!important']` > `margin: 5px 10px !important;`
- * `color: ['red', !important]` > `color: red !important;`
  */
 
 /**
@@ -4687,10 +4028,6 @@ PERFORMANCE OF THIS SOFTWARE.
  */
 
 /**
- * Create a rule instance.
- */
-
-/**
  * Create encoded codewords from data input
  *
  * @param  {Number}   version              QR Code version
@@ -4712,23 +4049,6 @@ PERFORMANCE OF THIS SOFTWARE.
  * Creates a new filled Buffer instance.
  * alloc(size[, fill[, encoding]])
  **/
-
-/**
- * Darken or lighten a color, depending on its luminance.
- * Light colors are darkened, dark colors are lightened.
- *
- * @param {string} color - CSS color, i.e. one of: #nnn, #nnnnnn, rgb(), rgba(), hsl(), hsla()
- * @param {number} coefficient=0.15 - multiplier in the range 0 - 1
- * @returns {string} A CSS color string. Hex input values are returned as rgb
- */
-
-/**
- * Darkens a color.
- *
- * @param {string} color - CSS color, i.e. one of: #nnn, #nnnnnn, rgb(), rgba(), hsl(), hsla()
- * @param {number} coefficient - multiplier in the range 0 - 1
- * @returns {string} A CSS color string. Hex input values are returned as rgb
- */
 
 /**
  * Data mask pattern reference
@@ -4801,11 +4121,6 @@ PERFORMANCE OF THIS SOFTWARE.
  */
 
 /**
- * Export a constant indicating if this browser has CSSTOM support.
- * https://developers.google.com/web/updates/2018/03/cssom
- */
-
-/**
  * Expose `pathToRegexp`.
  */
 
@@ -4831,10 +4146,6 @@ PERFORMANCE OF THIS SOFTWARE.
  */
 
 /**
- * Extracts a styles object with only props that contain function values.
- */
-
-/**
  * Find 1:1:3:1:1 ratio (dark:light:dark:light:dark) pattern in row/column,
  * preceded or followed by light area 4 modules wide
  *
@@ -4845,22 +4156,6 @@ PERFORMANCE OF THIS SOFTWARE.
  * Find 2x2 blocks with the same color and assign a penalty value
  *
  * Points: N2 * (m - 1) * (n - 1)
- */
-
-/**
- * Find a comment with "jss" inside.
- */
-
-/**
- * Find a node before which we can insert the sheet.
- */
-
-/**
- * Find attached sheet with an index higher than the passed one.
- */
-
-/**
- * Find attached sheet with the highest index.
  */
 
 /**
@@ -4921,13 +4216,6 @@ PERFORMANCE OF THIS SOFTWARE.
  */
 
 /**
- * Given `this.props.children`, return an object mapping key to child.
- *
- * @param {*} children `this.props.children`
- * @return {object} Mapping of key to child
- */
-
-/**
  * Helper class to handle QR Code symbol modules
  *
  * @param {Number} size Symbol size
@@ -4949,14 +4237,6 @@ PERFORMANCE OF THIS SOFTWARE.
  */
 
 /**
- * If at any point a user clicks with a pointing device, ensure that we change
- * the modality away from keyboard.
- * This avoids the situation where a user presses a key on an already focused
- * element, and then clicks on a different element, focusing it with a
- * pointing device, while we still think we're in keyboard modality.
- */
-
-/**
  * Implementation of a subset of node.js Buffer methods for the browser.
  * Based on https://github.com/feross/buffer
  */
@@ -4965,11 +4245,6 @@ PERFORMANCE OF THIS SOFTWARE.
  * In byte mode, data is encoded at 8 bits per character.
  *
  * @type {Object}
- */
-
-/**
- * Indent a string.
- * http://jsperf.com/array-join-vs-for
  */
 
 /**
@@ -4991,30 +4266,6 @@ PERFORMANCE OF THIS SOFTWARE.
  * The input param should correspond to the number of error correction codewords.
  *
  * @param  {Number} degree
- */
-
-/**
- * Insert style element into the DOM.
- */
-
-/**
- * Keep track of our keyboard modality state with `hadKeyboardEvent`.
- * If the most recent user interaction was via the keyboard;
- * and the key press did not include a meta, alt/option, or control key;
- * then the modality is keyboard. Otherwise, the modality is not keyboard.
- * @param {KeyboardEvent} event
- */
-
-/**
- * Kickstart an elegant, consistent, and simple baseline to build upon.
- */
-
-/**
- * Lightens a color.
- *
- * @param {string} color - CSS color, i.e. one of: #nnn, #nnnnnn, rgb(), rgba(), hsl(), hsla()
- * @param {number} coefficient - multiplier in the range 0 - 1
- * @returns {string} A CSS color string. Hex input values are returned as rgb
  */
 
 /**
@@ -5106,11 +4357,6 @@ PERFORMANCE OF THIS SOFTWARE.
  */
 
 /**
- * Portals provide a first-class way to render children into a DOM node
- * that exists outside the DOM hierarchy of the parent component.
- */
-
-/**
  * Precompute the log and anti-log tables for faster computation later
  *
  * For each possible value in the galois field 2^8, we will pre-compute
@@ -5124,10 +4370,6 @@ PERFORMANCE OF THIS SOFTWARE.
  *
  * @param  {string}
  * @return {string}
- */
-
-/**
- * Private module reserved for @material-ui/x packages.
  */
 
 /**
@@ -5183,28 +4425,6 @@ PERFORMANCE OF THIS SOFTWARE.
 */
 
 /**
- * Read jss nonce setting from the page if the user has set it.
- */
-
-/**
- * Recursive deep style passing function
- */
-
-/**
- * Refer to the [Icons](/components/icons/) section of the documentation
- * regarding the available icon options.
- */
-
-/**
- * Replaces the letter with the capital letter
- *
- * @param {String} match
- * @param {String} c
- * @return {String}
- * @api private
- */
-
-/**
  * Return mask value at given position
  *
  * @param  {Number} maskPattern Pattern reference value
@@ -5225,15 +4445,6 @@ PERFORMANCE OF THIS SOFTWARE.
  *
  * @param  {String} str Input string
  * @return {Number}     Number of byte
- */
-
-/**
- * Returns a number whose value is limited to the given range.
- *
- * @param {number} value The value to be clamped
- * @param {number} min The lower boundary of the output range
- * @param {number} max The upper boundary of the output range
- * @returns {number} A number in the range [min, max]
  */
 
 /**
@@ -5263,15 +4474,6 @@ PERFORMANCE OF THIS SOFTWARE.
  *
  * @param  {Number} version QR Code version
  * @return {Array}          Array of coordinates
- */
-
-/**
- * Returns an object with the type and values of a color.
- *
- * Note: Does not support rgb % values.
- *
- * @param {string} color - CSS color, i.e. one of: #nnn, #nnnnnn, rgb(), rgba(), hsl(), hsla()
- * @returns {object} - A MUI color object: {type: string, values: number[]}
  */
 
 /**
@@ -5341,25 +4543,6 @@ PERFORMANCE OF THIS SOFTWARE.
  * @param  {Mode|String} value        Encoding mode
  * @param  {Mode}        defaultValue Fallback value
  * @return {Mode}                     Encoding mode
- */
-
-/**
- * Returns prefixed value if needed. Returns `false` if value is not supported.
- *
- * @param {String} property
- * @param {String} value
- * @return {String|Boolean}
- * @api public
- */
-
-/**
- * Returns prefixed value transition/transform if needed.
- *
- * @param {String} match
- * @param {String} p1
- * @param {String} p2
- * @return {String}
- * @api private
  */
 
 /**
@@ -5461,16 +4644,6 @@ PERFORMANCE OF THIS SOFTWARE.
  */
 
 /**
- * Safe chained function
- *
- * Will only create a new function if needed,
- * otherwise will pass back existing functions or null.
- *
- * @param {function} functions to chain
- * @returns {function|null}
- */
-
-/**
  * Set bit value at specified location
  * If reserved flag is set, this bit will be ignored during masking process
  *
@@ -5478,28 +4651,6 @@ PERFORMANCE OF THIS SOFTWARE.
  * @param {Number}  col
  * @param {Boolean} value
  * @param {Boolean} reserved
- */
-
-/**
- * Set the absolute transparency of a color.
- * Any existing alpha value is overwritten.
- *
- * @param {string} color - CSS color, i.e. one of: #nnn, #nnnnnn, rgb(), rgba(), hsl(), hsla()
- * @param {number} value - value to set the alpha channel to in the range 0-1
- * @returns {string} A CSS color string. Hex input values are returned as rgb
- */
-
-/**
- * SheetsManager is like a WeakMap which is designed to count StyleSheet
- * instances and attach/detach automatically.
- */
-
-/**
- * Should be called if a blur event is fired on a focus-visible element
- */
-
-/**
- * Sort props by length.
  */
 
 /**
@@ -5511,24 +4662,6 @@ PERFORMANCE OF THIS SOFTWARE.
  *
  * @param  {string} data Input string
  * @return {Array}       Array of segments
- */
-
-/**
- * Test if a keyframe at-rule should be prefixed or not
- *
- * @param {String} vendor prefix string for the current browser.
- * @return {String}
- * @api public
- */
-
-/**
- * Test if a property is supported, returns supported property with vendor
- * prefix if required. Returns `false` if not supported.
- *
- * @param {String} prop dash separated
- * @param {Object} [options]
- * @return {String|Boolean}
- * @api public
  */
 
 /**
@@ -5552,19 +4685,9 @@ PERFORMANCE OF THIS SOFTWARE.
  */
 
 /**
- * The Slide transition is used by the [Drawer](/components/drawers/) component.
- * It uses [react-transition-group](https://github.com/reactjs/react-transition-group) internally.
- */
-
-/**
  * The main path matching regexp utility.
  *
  * @type {RegExp}
- */
-
-/**
- * The props of the [Modal](/api/modal/) component are available
- * when `variant="temporary"` is set.
  */
 
 /**
@@ -5607,22 +4730,6 @@ PERFORMANCE OF THIS SOFTWARE.
  */
 
 /**
- * The relative brightness of any point in a color space,
- * normalized to 0 for darkest black and 1 for lightest white.
- *
- * Formula: https://www.w3.org/TR/WCAG20-TECHS/G17.html#G17-tests
- *
- * @param {string} color - CSS color, i.e. one of: #nnn, #nnnnnn, rgb(), rgba(), hsl(), hsla()
- * @returns {number} The relative brightness of the color in the range 0 - 1
- */
-
-/**
- * This component takes a `theme` prop.
- * It makes the `theme` available down the React tree thanks to React context.
- * This component should preferably be used at **the root of your component tree**.
- */
-
-/**
  * Transform an array into a regexp.
  *
  * @param  {!Array}  path
@@ -5632,43 +4739,8 @@ PERFORMANCE OF THIS SOFTWARE.
  */
 
 /**
- * Utility component that locks focus inside the component.
- */
-
-/**
- * Vendor prefix string for the current browser.
- *
- * @type {{js: String, css: String, vendor: String, browser: String}}
- * @api public
- */
-
-/**
- * WARNING: Don't import this directly.
- * Use `MuiError` from `@material-ui/utils/macros/MuiError.macro` instead.
- * @param {number} code
- */
-
-/**
  * Weighted penalty scores for the undesirable features
  * @type {Object}
- */
-
-/**
- * When you're adding or removing children some may be added or removed in the
- * same render pass. We want to show *both* since we want to simultaneously
- * animate elements in and out. This function takes a previous set of keys
- * and a new set of keys and merges them with its best guess of the correct
- * ordering. In the future we may expose some of the utilities in
- * ReactMultiChild to make this easy, but for now React itself does not
- * directly have this concept of the union of prevChildren and nextChildren
- * so we implement it here.
- *
- * @param {object} prev prev children as returned from
- * `ReactTransitionChildMapping.getChildMapping()`.
- * @param {object} next next children as returned from
- * `ReactTransitionChildMapping.getChildMapping()`.
- * @return {object} a key set that contains all keys in `prev` and all keys
- * in `next` in a reasonable order.
  */
 
 /**
@@ -5687,18 +4759,6 @@ PERFORMANCE OF THIS SOFTWARE.
  * @author Chen, Yi-Cyuan [emn178@gmail.com]
  * @copyright Chen, Yi-Cyuan 2015-2018
  * @license MIT
- */
-
-/**
- * `ButtonBase` contains as few styles as possible.
- * It aims to be a simple building block for creating a button.
- * It contains a load of style reset and some focus/ripple logic.
- */
-
-/**
- * https://github.com/facebook/react/issues/14099#issuecomment-440013892
- *
- * @param {function} fn
  */
 
 /**
@@ -6010,10 +5070,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 //         */
 
-//         nextStatus = ENTERING
-
-//         nextStatus = EXITING
-
 //        "inconsistent bit counts");
 
 //        "inflate:         literal '%c'\n" :
@@ -6064,17 +5120,9 @@ PERFORMANCE OF THIS SOFTWARE.
 
 //       2) `positive` is true if unsigned mod is requested
 
-//       if (status !== ENTERING && status !== ENTERED) {
-
-//       if (status === ENTERING || status === ENTERED) {
-
 //       request both div & mod
 
-//       return merge(acc, handlers[prop](props));
-
 //       to `div` to request div only, or be absent to
-
-//       }
 
 //      /* High water mark at or above current data, but below current data
 
@@ -6109,20 +5157,6 @@ PERFORMANCE OF THIS SOFTWARE.
 //     #doubling-mdbl-2007-bl
 
 //     1         // No comma at the end!
-
-//     acc[prop] = style;
-
-//     const { status } = this.state
-
-//     if (handlers[prop]) {
-
-//     if (this.props.in) {
-
-//     return acc;
-
-//     }
-
-//     } else {
 
 //    "not enough room for search");
 
@@ -6244,11 +5278,7 @@ PERFORMANCE OF THIS SOFTWARE.
 
 //   claim that you wrote the original software. If you use this software
 
-//   container,
-
 //   continuing the flow if the stream consumer has just subscribed to the
-
-//   if (prevProps !== this.props) {
 
 //   in a product, an acknowledgment in the product documentation would be
 
@@ -6256,25 +5286,11 @@ PERFORMANCE OF THIS SOFTWARE.
 
 //   is responsible for filling the buffer with enough data if such data
 
-//   let nextStatus = null
-
 //   method, but they are processing the call asynchronously and have _not_
 
 //   misrepresented as being the original software.
 
-//   modals: [],
-
 //   read()s. The execution ends in this method again after the _read() ends
-
-//   restore: null,
-
-//   return Object.keys(props).reduce((acc, prop) => {
-
-//   return acc;
-
-//   return { nextStatus }
-
-//   style.filterProps.forEach(prop => {
 
 //   the loop below is responsible for ensuring read() is called. Failing to
 
@@ -6283,12 +5299,6 @@ PERFORMANCE OF THIS SOFTWARE.
 //   we should _not_ attempt to buffer any extra data. We'll get more data
 
 //   when the stream consumer calls read() instead.
-
-//   }
-
-//   });
-
-//   }, {});
 
 //  - We allow gasPrice for EIP-1559 as long as it matches maxFeePerGas
 
@@ -6320,8 +5330,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 //  if (s.high_water < s.window_size) {
 
-//  import "@fontsource/roboto";
-
 //  put_byte(s, (Byte)(b & 0xff));
 
 //  put_byte(s, (Byte)(b >> 8));
@@ -6350,21 +5358,7 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // "return", allow the original .return call to continue in the
 
-// "the first render", or "memo dropped the value"
-
 // "the promise rejected with null" or "the promise fulfilled with undefined".
-
-// #StrictMode ready
-
-// $FlowFixMe[incompatible-call]
-
-// $FlowFixMe[incompatible-type]
-
-// $FlowFixMe[invalid-tuple-index]
-
-// $FlowFixMe[prop-missing]
-
-// $FlowFixMe[prop-missing] We can safely assume that rule has the style property
 
 // 'A' - 'F'
 
@@ -6465,8 +5459,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // .constructor.prototype properties for functions that return Generator
 
 // .end() fully uncorks
-
-// .mui-fixed is a global helper.
 
 // .throw, and .return (see defineIteratorMethods).
 
@@ -6574,13 +5566,9 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // 8M + 3S + 7A
 
-// 9 = Tab
-
 // 9-kana words
 
 // 9/2018 - Added faker random to ensure mersenne and seed
-
-// :focus-ring CSS pseudo-class will help.
 
 // === Z_NULL
 
@@ -6620,13 +5608,7 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // A chainId was provided; if non-zero we'll use EIP-155
 
-// A change of the browser zoom change the scrollbar size.
-
-// A collection of common colors.
-
 // A continuation byte was present where there was nothing to continue
-
-// A few bytes payload overhead when lodash/debounce is ~3 kB and debounce ~300 B.
 
 // A hashchange doesn't always == location change.
 
@@ -6636,11 +5618,7 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // A missing continuation byte was expected but not found
 
-// A modal manager used to track and manage the state of open Modals.
-
 // A reduce context, could be using montgomery or something better, depending
-
-// A strict capitalization should uppercase the first letter of each word a the sentence.
 
 // A type of promise-like that resolves synchronously and supports only one observer
 
@@ -6659,8 +5637,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // Access the stack to generate the error message including the error code
 
 // Acute accent
-
-// Add !important, because it was ignored.
 
 // Add `%C2` at the end of the map to make sure it does not replace the combinator before everything else
 
@@ -6682,8 +5658,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Add function modules
 
-// Add iOS momentum scrolling.
-
 // Add linkage
 
 // Add pad bytes if the string is still shorter than the total number of required bits.
@@ -6693,10 +5667,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // Add plain number `num` to `this`
 
 // Add position indicator for the first mismatch in case it is a
-
-// Add some space to avoid collision as `ListItemSecondaryAction`
-
-// Add support for document.body.requestFullScreen().
 
 // Add temporary dummy bits for format info just to set them as reserved.
 
@@ -6708,8 +5678,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Add the expected line to the cache.
 
-// Add the unit if available, except for the special case of 0px.
-
 // Adding the second element, need to change to array.
 
 // After adding the terminator, if the number of bits in the string is not a multiple of 8,
@@ -6717,8 +5685,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // Alias for "off"
 
 // Alias for "on"
-
-// Alignment properties
 
 // All identical values are equivalent, as determined by ===.
 
@@ -6730,21 +5696,15 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Allow a recid to be used as the v
 
-// Allow empty style in this case, because properties will be added dynamically.
-
 // Allow for deprecating things in the process of starting up.
 
 // Allow for unix-like usage: A.pipe(B).pipe(C)
 
 // Allow the keys array to be GC'ed.
 
-// Already transformed.
-
 // Also, if we have no data yet, we can stand some more bytes.
 
 // Also, update the availInBefore to the availInAfter value,
-
-// Alternative approach that doesn't yield any performance gain.
 
 // An invalid (non-continuation) byte to start a UTF-8 codepoint was found
 
@@ -6758,21 +5718,11 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // And try to decode again
 
-// Animation name ref replacer.
-
-// Animation properties
-
-// Antialiasing.
-
 // Apache License 2.0
 
 // Apped EC codewords
 
 // Append length
-
-// Apply babel-plugin-transform-template-literals in loose mode
-
-// Apply fallbacks first.
 
 // Apply mask pattern
 
@@ -6785,8 +5735,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // Array
 
 // Array is sparse.
-
-// Array syntax {fallbacks: [{prop: value}]}
 
 // ArrayBuffer or Uint8Array objects from other contexts (i.e. iframes) do not pass
 
@@ -6828,8 +5776,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // At least give some kind of context to the user
 
-// At some point, it would be better to keep it for keyboard users.
-
 // At this point both numbers are positive
 
 // At this point both numbers have the same sign
@@ -6844,13 +5790,7 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Avoid failures from read-only properties
 
-// Avoid nesting of li > li.
-
 // Avoid propagating failures to Promises returned by later
-
-// Avoid prototype pollution
-
-// Avoids applying same plugin twice, at least based on ref.
 
 // Azerbaijan
 
@@ -6859,10 +5799,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // BBAN 2c,16n
 
 // BN
-
-// Background properties
-
-// Backward compatibility, to remove in v5.
 
 // Backwards-compat with node 0.10.x
 
@@ -6880,15 +5816,9 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Because `null` is a special error value in callbacks which means "no error
 
-// Block the scroll even if no scrollbar is visible to account for mobile keyboard
-
 // Blockchain Errors
 
 // Bootstrap the async incremental smix
-
-// Bootstrap: https://github.com/twbs/bootstrap/blob/1d6e3710dd447de1a200f29e8fa521f8a0908f70/scss/_functions.scss#L59
-
-// Border Properties
 
 // Both close and finish should trigger unpipe, but only once.
 
@@ -6903,8 +5833,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // Buffer.compare returns true, so val1.length === val2.length. If they both
 
 // Build optimized segments
-
-// Bundle may contain multiple JSS versions at the same time. In order to identify
 
 // But allow more writes to happen in this tick.
 
@@ -6922,33 +5850,47 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // CHECK FUNCTIONS
 
+// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js
+
 // CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js
 
-// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js
+// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js
 
 // CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js
 
 // CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js
 
+// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/createClass.js
+
+// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/defineProperty.js
+
+// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/extends.js
+
 // CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js
 
 // CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/inherits.js
 
-// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/iterableToArray.js
+// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js
 
 // CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js
 
 // CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/nonIterableRest.js
 
-// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/nonIterableSpread.js
+// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js
+
+// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js
 
 // CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js
+
+// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js
 
 // CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js
 
 // CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/taggedTemplateLiteral.js
 
-// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js
+// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/typeof.js
+
+// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js
 
 // CONCATENATED MODULE: ./node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js
 
@@ -7018,96 +5960,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // CONCATENATED MODULE: ./node_modules/@ethersproject/wordlists/lib.esm/wordlists.js
 
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/AppBar/AppBar.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/Backdrop/Backdrop.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/Box/Box.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/ButtonBase/ButtonBase.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/ButtonBase/Ripple.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/ButtonBase/TouchRipple.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/Container/Container.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/Drawer/Drawer.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/Fade/Fade.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/IconButton/IconButton.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/List/List.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/ListItemIcon/ListItemIcon.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/ListItemText/ListItemText.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/Modal/Modal.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/Modal/ModalManager.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/Modal/SimpleBackdrop.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/Portal/Portal.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/Slide/Slide.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/Typography/Typography.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/Unstable_TrapFocus/Unstable_TrapFocus.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/styles/createTheme.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/styles/createTypography.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/styles/makeStyles.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/styles/useTheme.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/styles/withStyles.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/utils/createSvgIcon.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/utils/deprecatedPropType.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/utils/getScrollbarSize.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/utils/index.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/utils/requirePropFactory.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/utils/unstable_useId.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/utils/unsupportedProp.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/utils/useControlled.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/styles/esm/ThemeProvider/ThemeProvider.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/styles/esm/getStylesCreator/getStylesCreator.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/styles/esm/jssPreset/jssPreset.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/styles/esm/makeStyles/makeStyles.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/styles/esm/mergeClasses/mergeClasses.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/styles/esm/styled/styled.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/system/esm/borders.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/system/esm/compose.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/system/esm/sizing.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/system/esm/spacing.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/system/esm/style.js
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/system/esm/styleFunctionSx.js
-
 // CONCATENATED MODULE: ./node_modules/@walletconnect/browser-utils/dist/esm/browser.js
 
 // CONCATENATED MODULE: ./node_modules/@walletconnect/browser-utils/dist/esm/index.js
@@ -7158,19 +6010,9 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // CONCATENATED MODULE: ./node_modules/@walletconnect/utils/dist/esm/validators.js
 
+// CONCATENATED MODULE: ./node_modules/clipboard-polyfill/dist/text/clipboard-polyfill.text.esm.js
+
 // CONCATENATED MODULE: ./node_modules/history/esm/history.js
-
-// CONCATENATED MODULE: ./node_modules/hyphenate-style-name/index.js
-
-// CONCATENATED MODULE: ./node_modules/jss-plugin-camel-case/dist/jss-plugin-camel-case.esm.js
-
-// CONCATENATED MODULE: ./node_modules/jss-plugin-default-unit/dist/jss-plugin-default-unit.esm.js
-
-// CONCATENATED MODULE: ./node_modules/jss-plugin-nested/dist/jss-plugin-nested.esm.js
-
-// CONCATENATED MODULE: ./node_modules/jss-plugin-props-sort/dist/jss-plugin-props-sort.esm.js
-
-// CONCATENATED MODULE: ./node_modules/jss-plugin-vendor-prefixer/dist/jss-plugin-vendor-prefixer.esm.js
 
 // CONCATENATED MODULE: ./node_modules/mini-create-react-context/dist/esm/index.js
 
@@ -7181,12 +6023,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // CONCATENATED MODULE: ./node_modules/preact/hooks/dist/hooks.module.js
 
 // CONCATENATED MODULE: ./node_modules/react-router-dom/esm/react-router-dom.js
-
-// CONCATENATED MODULE: ./node_modules/react-transition-group/esm/Transition.js
-
-// CONCATENATED MODULE: ./node_modules/react-transition-group/esm/TransitionGroup.js
-
-// CONCATENATED MODULE: ./node_modules/react-transition-group/esm/utils/ChildMapping.js
 
 // CONCATENATED MODULE: ./node_modules/resolve-pathname/esm/resolve-pathname.js
 
@@ -7200,19 +6036,15 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // CONCATENATED MODULE: ./src/services/frontend/components/App.jsx
 
-// CONCATENATED MODULE: ./src/services/frontend/components/Drawer.jsx
-
-// CONCATENATED MODULE: ./src/services/frontend/components/Footer/index.jsx
-
 // CONCATENATED MODULE: ./src/services/frontend/components/GlobalStyle.jsx
-
-// CONCATENATED MODULE: ./src/services/frontend/components/Header/index.jsx
 
 // CONCATENATED MODULE: ./src/services/frontend/components/Integration.tsx
 
 // CONCATENATED MODULE: ./src/services/frontend/components/Modal.tsx
 
-// CONCATENATED MODULE: ./src/services/frontend/components/wc/Button.tsx
+// CONCATENATED MODULE: ./src/services/frontend/components/Status.jsx
+
+// CONCATENATED MODULE: ./src/services/frontend/components/theme.jsx
 
 // CONCATENATED MODULE: ./src/services/frontend/components/wc/Buttons.tsx
 
@@ -7223,12 +6055,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // CSP to forbid Function, and you're not willing to fix either of those
 
 // CUSTOM ERRORS
-
-// Cache for the finalized classes value.
-
-// Cache for the last used classes prop pointer.
-
-// Cache for the last used rendered classes pointer.
 
 // Cached version of prime
 
@@ -7262,8 +6088,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Carry
 
-// Change from `box-sizing: content-box` so that `width`
-
 // Character count indicator + mode indicator bits
 
 // Cheap key test
@@ -7281,10 +6105,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // Check for overlong sequences (more bytes than needed)
 
 // Check for sparse arrays and general fast path
-
-// Check if 'transition' or 'transform' natively supported in browser.
-
-// Check if key is already down to avoid repeats being counted as multiple activations
 
 // Check if module is in cache
 
@@ -7322,11 +6142,7 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Clean-up references to points and coefficients
 
-// Cleanup functions are executed lazily in React 17.
-
 // Coerce to Number.
-
-// Column properties
 
 // Comb small window NAFs
 
@@ -7350,10 +6166,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Compute the checksum bits
 
-// Compute the size before applying overflow hidden to avoid any scroll jumps.
-
-// Consistency between these values is important.
-
 // Consume the whole byte (with still more to go)
 
 // Consumes a specified amount of bytes from the buffered data.
@@ -7361,8 +6173,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // Consumes a specified amount of bytes or characters from the buffered data.
 
 // Consumes a specified amount of characters from the buffered data.
-
-// Contain can be called between the component being unmounted and its cleanup function being run.
 
 // Convenience methods.
 
@@ -7386,12 +6196,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Copyright Joyent, Inc. and other Node contributors.
 
-// Correctly detect the Edge browser.
-
-// Correctly detect the Safari browser.
-
-// Corresponds to 10 frames at 60 Hz.
-
 // Cost of s to u plus the cost of u to v across e--this is *a*
 
 // Costs of shortest paths from s to all nodes encountered.
@@ -7410,8 +6214,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Create an object with no prototype
 
-// Create cache key for current value.
-
 // Create error message including the error code in the name.
 
 // Create final data
@@ -7428,8 +6230,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Credit cards are in a object structure
 
-// Credit https://github.com/twbs/bootstrap/blob/3ffe3a5d82f6f561b82ff78d82b32a7d14aed558/js/src/modal.js#L512-L519
-
 // Crypto is kind of old and crusty.  Historically, its default string
 
 // Currently in sync with Node.js lib/assert.js
@@ -7441,8 +6241,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // Currently in sync with Node.js lib/internal/util/comparisons.js
 
 // Currently in sync with Node.js lib/internal/util/types.js
-
-// Currently works in chrome only.
 
 // Curve configuration, optional
 
@@ -7478,8 +6276,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Define the unified helper method that is used to implement .next,
 
-// Delay the execution of the ripple effect.
-
 // Delete the diacritic marks
 
 // Deliberately forget the last sent value so that we don't
@@ -7493,12 +6289,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // DevTools can report bad minification during injection.
 
 // Didn't find one. :'(
-
-// Disable link interactions
-
-// Disable the vendor prefixer server-side, it does nothing.
-
-// Disabled text have even lower visual prominence.
 
 // Dispatch the exception by looping back around to the
 
@@ -7522,13 +6312,9 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Don't do anything if add isn't an object
 
-// Don't do anything if the value has not changed.
-
 // Don't emit readable right away in sync mode, because this can trigger
 
 // Don't have enough
-
-// Don't insert rule directly if there is no stringified version yet.
 
 // Don't need mem init magic for JS.
 
@@ -7546,11 +6332,7 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // E = 3 * A
 
-// E.g. rules inside of @media container
-
 // E.g., assert.deepStrictEqual({ a: Symbol() }, { a: Symbol() })
-
-// E.g., shift from Red 500 to Red 300 or Red 700.
 
 // ECDH
 
@@ -7564,87 +6346,9 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // EXPORTS
 
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/createClass.js
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/defineProperty.js
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/extends.js
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js + 3 modules
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js + 3 modules
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/typeof.js
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js
-
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/regenerator/index.js
 
 // EXTERNAL MODULE: ./node_modules/@ethersproject/keccak256/node_modules/js-sha3/src/sha3.js
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/styles/colorManipulator.js
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/styles/defaultTheme.js
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/styles/transitions.js
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/styles/withStyles.js + 1 modules
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/styles/zIndex.js
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/utils/capitalize.js
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/utils/createChainedFunction.js
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/utils/debounce.js
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/utils/isMuiElement.js
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/utils/ownerDocument.js
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/utils/ownerWindow.js
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/utils/setRef.js
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/utils/useEventCallback.js
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/utils/useForkRef.js
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/utils/useIsFocusVisible.js
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/icons/Menu.js
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/icons/MoveToInbox.js
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/styles/esm/StylesProvider/StylesProvider.js + 1 modules
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/styles/esm/getThemeProps/getThemeProps.js
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/styles/esm/jssPreset/jssPreset.js + 9 modules
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/styles/esm/makeStyles/makeStyles.js + 5 modules
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/styles/esm/useTheme/ThemeContext.js
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/styles/esm/useTheme/useTheme.js
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/system/esm/breakpoints.js
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/system/esm/merge.js
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/system/esm/spacing.js + 1 modules
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/utils/esm/deepmerge.js
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/utils/esm/formatMuiErrorMessage.js
 
 // EXTERNAL MODULE: ./node_modules/@walletconnect/environment/dist/cjs/index.js
 
@@ -7660,25 +6364,27 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // EXTERNAL MODULE: ./node_modules/bn.js/lib/bn.js
 
-// EXTERNAL MODULE: ./node_modules/clsx/dist/clsx.m.js
-
 // EXTERNAL MODULE: ./node_modules/faker/index.js
 
 // EXTERNAL MODULE: ./node_modules/hash.js/lib/hash.js
 
-// EXTERNAL MODULE: ./node_modules/is-in-browser/dist/module.js
+// EXTERNAL MODULE: ./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js
 
 // EXTERNAL MODULE: ./node_modules/js-sha3/src/sha3.js
 
-// EXTERNAL MODULE: ./node_modules/jss/dist/jss.esm.js
-
 // EXTERNAL MODULE: ./node_modules/path-browserify/index.js
+
+// EXTERNAL MODULE: ./node_modules/prop-types/index.js
 
 // EXTERNAL MODULE: ./node_modules/qr-image/lib/qr.js
 
 // EXTERNAL MODULE: ./node_modules/query-string/index.js
 
+// EXTERNAL MODULE: ./node_modules/react-dom/index.js
+
 // EXTERNAL MODULE: ./node_modules/react-router/node_modules/path-to-regexp/index.js
+
+// EXTERNAL MODULE: ./node_modules/react/index.js
 
 // EXTERNAL MODULE: ./node_modules/scrypt-js/scrypt.js
 
@@ -7687,10 +6393,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // Emits a 'removeListener' event if and only if the listener was removed.
 
 // Empty buffer means no match
-
-// Empty object will remove all currently defined props
-
-// Enable rule without name for inline styles.
 
 // Enable/Disable typed arrays use, for testing
 
@@ -7728,8 +6430,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Explicit Legacy or EIP-2930 transaction
 
-// Explicitly set the default value to solve a bug on IE 11.
-
 // Explicitly set untyped transaction to legacy
 
 // Explicitly using EIP-1559
@@ -7766,8 +6466,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Fallback to ordinary array
 
-// Fallback to this default id when possible.
-
 // Fallback: Return an object instance of the Buffer class
 
 // Fast case
@@ -7794,8 +6492,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Filter out the util module, it's inspect function is special
 
-// Finally, add the keys which didn't appear before any key in `next`
-
 // Finally, search either indexOf (if dir is true) or lastIndexOf
 
 // Find Q and S, that Q * 2 ^ S = (P - 1)
@@ -7805,10 +6501,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // Find `this` % `num`
 
 // Find `this` / `num`
-
-// Find a plugin for current prefix property.
-
-// Find a position.
 
 // Find best mask pattern
 
@@ -7822,27 +6514,17 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Finds either the first index of `val` in `buffer` at offset >= `byteOffset`,
 
-// Firefox can even throw an error for invalid properties, e.g., "0".
-
 // First chunk is a perfect match.
 
 // First coord is always 6
 
 // First phase
 
-// Fix a bug on Chrome where the scroll isn't initially 0.
-
-// Fix for https://github.com/facebook/react/issues/7769
-
 // Fix subarray() in ES2016. See: https://github.com/feross/buffer/pull/97
 
 // Fixed-width field
 
 // Flag the module as loaded
-
-// Follow https://material.google.com/motion/duration-easing.html#duration-easing-natural-easing-curves
-
-// Font and text properties
 
 // For BN, call on the hex string
 
@@ -7860,8 +6542,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // For characters with Shift JIS values from 0xE040 to 0xEBBF
 
-// For each key of `next`, the list of keys to insert before that key in
-
 // For example: from='/'; to='/foo'
 
 // For example: from='/foo'; to='/'
@@ -7874,11 +6554,7 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // For now, handle legacy JSON-ified values (goes away in v6)
 
-// For server-side rendering.
-
 // For some reason kyoku and kiyoku are flipped in node (!!).
-
-// For some reason the animation is broken on Mobile Chrome if the size if even.
 
 // For some reason typeof null is "object", so special case here.
 
@@ -7910,8 +6586,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Generalized Greg Maxwell's trick
 
-// Generate a rich color object.
-
 // Generate the relative path based on the path difference between `to`
 
 // Generator Polynomial
@@ -7919,8 +6593,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // Generic Errors
 
 // Get NAF form
-
-// Get a function to be used for $ref replacement.
 
 // Get a list of all the addresses
 
@@ -7944,25 +6616,17 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Goto emulation
 
-// Grid properties
-
 // Guard instanceof against arrow functions as they don't have a prototype.
 
 // HELPER FUNCTIONS
-
-// HTMLStyleElement needs fixing https://github.com/facebook/flow/issues/2696
 
 // Handle complete words
 
 // Handle primitives properly.
 
-// Handle rules like @font-face, which can have multiple styles in an array
-
 // Handle string cases:
 
 // Handle the residue
-
-// Hardcode test to convert "flex" to "-ms-flexbox" for IE10.
 
 // Hardened path
 
@@ -8000,21 +6664,13 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // IE 8 throws on Object.getOwnPropertyDescriptor(arguments, '')
 
-// IE can even throw an error in some cases, for e.g. style.content = 'bar'.
-
 // IE does not have builtin `{ once: true }` support so we
 
 // IE doesn't make error fields non-enumerable
 
-// IE may throw if property is unknown.
-
 // IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 
-// Idempotent
-
 // If "actual" and "expected" fit on a single line and they are not strictly
-
-// If 'transition' or 'transition-property' property.
 
 // If --no-deprecation is set, then it is a no-op.
 
@@ -8054,11 +6710,7 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // If parameters are populated here, they are always going to be of string type
 
-// If selector setter is not implemented, rerender the rule.
-
 // If setEncoding(null), decoder.encoding equals utf8
-
-// If that was the last modal in a container, clean up the container.
 
 // If the 'end' option is not supplied, dest.end() will be called when
 
@@ -8086,8 +6738,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // If the last diverging line is more than one line above and the
 
-// If the modal we are adding is already in the DOM.
-
 // If the number of input data characters is not a multiple of two,
 
 // If the number of input digits is not an exact multiple of three,
@@ -8112,19 +6762,11 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // If this is our first dot, mark it as the start of our extension
 
-// If user specifies an insertion point and it can't be found in the document -
-
 // If we don't have the locale wordlist installed to
 
 // If we don't know, then assume that we are waiting for one.
 
-// If we don't see a visibility change within 100ms, it's probably a
-
-// If we have a fn values map, it is a rule with function values.
-
 // If we have a mnemonic, encrypt it into the JSON wallet
-
-// If we have a style function, the entire rule is dynamic and style object
 
 // If we have nothing in the buffer, then we want to know
 
@@ -8154,12 +6796,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Important!
 
-// Improve Gatsby support
-
-// Improve scrollable dialog support.
-
-// In IE 11 it is possible for document.activeElement to be null resulting
-
 // In a transform stream, the written data is placed in a buffer.  When
 
 // In addition to the above conditions to keep reading data, the following
@@ -8170,25 +6806,11 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // In case of duplex streams we need a way to detect
 
-// In case previous insertion fails, passed index might be wrong
-
-// In case the modal wasn't in the DOM yet.
-
 // In case the objects are equal but the operator requires unequal, show
 
 // In non-strict mode we allow a slash at the end of match. If the path to
 
-// In order to preserve the right order, we need to queue all `.addRule` calls,
-
 // In the Shift JIS system, Kanji characters are represented by a two byte combination.
-
-// In the case the element node is external and it is already in the DOM.
-
-// In the context of a TransitionGroup all enters are really appears
-
-// In the documentation, we are using `autoprefixer` to solve this problem.
-
-// In the most browsers, rules inserted using insertRule() API will be lost when style element is removed.
 
 // In the nodes remaining in graph that have a known cost from s,
 
@@ -8202,13 +6824,9 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Indefinite length or overflow
 
-// Initial children should all be entering, dependent on appear
-
 // Initialize as zero
 
 // Initialize quotient
-
-// Inject custom styles
 
 // Input data characters are divided into groups of two characters
 
@@ -8238,27 +6856,13 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Invert number in the field F(num)
 
-// Is a global static MUI style?
-
-// Is a vertical scrollbar displayed?
-
 // Is this a base encoding type?
 
-// It can't be configured as it's used statically for propTypes.
-
-// It contains the same rule registered by name and by selector.
-
 // It is a checksummed address with a bad checksum
-
-// It is a rules container like for e.g. ConditionalRule.
-
-// It is a string or a number as a string like '1'.
 
 // It is also done this way as a slight performance increase instead of using a
 
 // It is an ICAP address with a bad checksum
-
-// It is an at-rule and it has no instance.
 
 // It is an ugly unfortunate mess of history.
 
@@ -8270,23 +6874,9 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // It seems a linked list but it is not
 
-// It seems to kick-off the source order specificity algorithm.
-
 // It should not recurse.
 
-// It should to be noted that this function isn't equivalent to `text-transform: capitalize`.
-
-// It will be inserted all together when .attach is called.
-
-// It's a Transition like component
-
-// It's a getter.
-
 // It's an array; check it is a valid representation of a byte
-
-// It's inspired by
-
-// It's not a shorthand notation.
 
 // Iterate over current buffer to convert already stored Buffers:
 
@@ -8316,21 +6906,13 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // K = 0x13
 
-// Keep in mind that @media is inclusive by the CSS specification.
-
 // Keep longitude in range [-180, 180]
 
 // Keep this list in sync with production version in `./factoryWithTypeCheckers.js`.
 
 // Keep track of all the replacements and prefill the map with the `BOM`
 
-// Key might contain a unique suffix in case the `name` passed by user was duplicate.
-
 // KeyPair(ec, { priv: ..., pub: ... })
-
-// Keyboard accessibility for non interactive elements
-
-// Keyframes is already prefixed. e.g. key = '@-webkit-keyframes a'
 
 // L  M  Q  H
 
@@ -8339,10 +6921,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // Last coord is always (size - 7)
 
 // Lastly, append the rest of the destination (`to`) path that comes after
-
-// Later, we gonna translate back the node to his original location
-
-// Lazily create the ref replacer function just once for
 
 // Lazy loaded
 
@@ -8408,8 +6986,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Make sure the linked list only shows the minimal necessary information.
 
-// Make sure the next tab starts from the right place.
-
 // Make sure we actually have a stack trace!
 
 // Make the range inclusive of the max value
@@ -8420,23 +6996,17 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Maps each character into its kana value (the index)
 
-// Margin properties
-
 // Mark all ancestors as having this decendant
 
 // Mark that a method should not be used.
 
 // Mark the current line as the last diverging one.
 
-// Mask properties
-
 // Match Express-style parameters and un-named parameters with a prefix
 
 // Match any characters still remaining.
 
 // Match escaped characters that would otherwise appear in future matches.
-
-// Material Design layouts are visually balanced. Most measurements align to an 8dp grid applied, which aligns both spacing and the overall layout.
 
 // Math.pow(`this`, `num`)
 
@@ -8452,15 +7022,11 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Missing the 0x prefix
 
-// Modals don't open on the server so this won't conflict with concurrent requests.
-
 // Modules 10 straight summation.
 
 // Montgomery method engine
 
 // Montgomery points only have an `x` coordinate.
-
-// Motion properties
 
 // Move to ROMix 2
 
@@ -8506,8 +7072,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // NOTE: lo is 27bit maximum
 
-// Name the function so it is clearer in the documentation
-
 // Negate the value
 
 // Network Error (i.e. Ethereum Network, such as an invalid chain ID)
@@ -8523,12 +7087,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // No efficient endomorphism
 
 // No error code for this since it is a Warning
-
-// No need for transitions when the component is hidden
-
-// No need to prefix IE/Edge. Older browsers will ignore unsupported rules.
-
-// No need to render an empty rule.
 
 // No need to verify that "this.length <= MAX_UINT32" since it's a read-only
 
@@ -8569,10 +7127,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // Not ``this`` with ``width`` bitwidth
 
 // Not actually done.  Need to reprocess.
-
-// Not all elements in IE 11 have a focus method.
-
-// Not existing properties.
 
 // Not sure about the optimal order of these conditions:
 
@@ -8628,21 +7182,9 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
 
-// Object syntax {fallbacks: {prop: value}}
-
-// Objects enter the screen at full velocity from off-screen and
-
-// Objects leave the screen at full velocity. They do not decelerate when off-screen.
-
 // Obviously not all Emitters should be limited to 10. This function allows
 
-// Once IE 11 support is dropped the focus() call can be unconditional.
-
-// Once tested, result is cached. It gives us up to 70% perf boost.
-
 // One-arg form: push(location)
-
-// Only convert the first 3 values to int (i.e. not alpha)
 
 // Only extra expected lines exist
 
@@ -8657,8 +7199,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // Only print a single input.
 
 // Only remove lines in case it makes sense to collapse those.
-
-// Only special HTML elements have these default behaviors.
 
 // Only warn about passing 10 into radix once
 
@@ -8678,33 +7218,17 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Optional entropy enc
 
-// Options has been already created, now we only increase index.
-
 // Or `num` with `this`
 
 // Or `num` with `this` in-place
 
-// Order is important, because we can't use insertRule API if style element is not attached.
-
-// Order matters. We need to check Webkit the last one because
-
-// Original styles object.
-
 // Originally from narwhal.js (http://narwhaljs.org)
-
-// Other elements, if background transparent, are not supported.
-
-// Otherwise insert after the last attached.
-
-// Otherwise make sure the next top modal is visible to a screen reader.
 
 // Otherwise people can pipe Writable streams, which is just wrong.
 
 // Otherwise we risk emitting data in the flow()
 
 // Otherwise, if either of them == null they are not equal.
-
-// Outline properties
 
 // Overflow
 
@@ -8732,8 +7256,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Padding
 
-// Padding properties
-
 // Pass bytes on through for single-byte encodings (e.g. ascii, latin1, hex)
 
 // Pass through all other types to `Buffer.from`
@@ -8752,13 +7274,7 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 
-// Perspective properties
-
-// Place conditional right after the parent rule to ensure right ordering.
-
 // Pluck off n bytes from an array of buffers.
-
-// Plugins can create rules.
 
 // Point on curve
 
@@ -8782,8 +7298,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Ported from https://github.com/mafintosh/pump with
 
-// Position properties
-
 // Possible sign change
 
 // Possibly expensive deep test:
@@ -8798,19 +7312,11 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Predecessor map for each node that has been encountered.
 
-// Prefill cache with known css properties to reduce amount of
-
 // Prefix data with character count indicator.
 
 // Prepare data buffer
 
-// Prepare the ripple effect.
-
 // Prepend partial segment prefixes.
-
-// Prevent padding issue with the Modal and fixed positioned AppBar.
-
-// Prevent the app bar to be visible on each printed page.
 
 // Prevent the error stack from being visible by duplicating the error
 
@@ -8824,8 +7330,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Process pending data in blocks
 
-// Properties that cannot be correctly detected using the
-
 // Property "abbr_context" is optional, if not set then "abbr" will be used instead
 
 // Property "wide_context" is optional, if not set then "wide" will be used instead
@@ -8833,10 +7337,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // Protocols
 
 // Provide a hook for user-specified inspect functions.
-
-// Provide default props
-
-// Provide the theme to the wrapped component.
 
 // Proxy hash functions to the main object
 
@@ -8890,29 +7390,13 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Remove all ending lines that match (this optimizes the output for
 
-// Remove cache for benchmark tests or return property from the cache.
-
-// Remove cache for benchmark tests or return value from cache.
-
 // Remove common factor of two
 
 // Remove leading `0` from `this`
 
-// Remove props.
-
 // Remove the length prefix from the char
 
-// Remove the margin in Safari
-
 // Remove the matching element to make sure we do not check that again.
-
-// Remove the padding in Firefox
-
-// Renderable is defined if StyleSheet option `link` is true.
-
-// Replace all $refs.
-
-// Replace all & by the parent or prefix & with the parent.
 
 // Replace all ENS names with their address
 
@@ -8934,25 +7418,13 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Reserved for UTF-16 surrogate halves
 
-// Reset
-
-// Reset browser default style.
-
-// Reset default value
-
 // Reset on each call to make sure we handle dynamically set environment
-
-// Reset on touch devices, it doesn't add specificity
-
-// Reset styles for current property.
 
 // Reset the name to the actual name.
 
 // Reset the name.
 
 // Resetting context._sent for legacy support of Babel's
-
-// Resolve default props, code borrow from React source.
 
 // Resolve incomplete/relative pathname relative to current location.
 
@@ -8966,23 +7438,15 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Return a rejected promise if `promiseFn` throws synchronously.
 
-// Return already prefixed value without prefixing.
-
 // Return an augmented `Uint8Array` instance
 
 // Return an augmented `Uint8Array` instance, for best performance
 
 // Return an iterator with no values.
 
-// Return custom CSS variable without prefixing.
-
 // Return early if start > this.length. Done here to prevent potential uint32
 
 // Return false from a transition hook to cancel the transition.
-
-// Return false if setter was not successful.
-
-// Return false if value not supported.
 
 // Return max number of storable codewords
 
@@ -9004,8 +7468,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Returns a byte with the MSB bits set
 
-// Returns a function which generates unique class names based on counters.
-
 // Returns a modified function which warns once by default.
 
 // Returns a new copy of object, such that no properties may be replaced.
@@ -9017,8 +7479,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // Returns only complete characters in a Buffer
 
 // Reverse the bytes
-
-// Ripple is used for user feedback (e.g. click or press) so we want to apply styles with the highest priority
 
 // Romanian
 
@@ -9036,8 +7496,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Rule 4
 
-// Rules registry for access by .get() method.
-
 // Run EGCD, until r(L + 1) < aprxSqrt
 
 // Run the smix state machine until completion
@@ -9054,10 +7512,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Safari 5.0 bug
 
-// Save printer ink.
-
-// Say we render `open={false}` -> `open={true}` but never commit.
-
 // Scan 24-bit chunks and add them to the number
 
 // Schedule the next steps
@@ -9067,8 +7521,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // Search for a child object with a case-insensitive matching key
 
 // Second phase
-
-// Secondary text.
 
 // Section 13.3.3.7 Runtime Semantics: KeyedBindingInitialization.
 
@@ -9128,8 +7580,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Setting context._sent for legacy support of Babel's
 
-// Shadow properties
-
 // Shift by 9 limbs
 
 // Shift the checksum into the word indices
@@ -9166,8 +7616,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Since tags can be altered, they only serve fast failures
 
-// Skip configuration where the position is screen size invariant.
-
 // Skip empty entries
 
 // Skip if position is occupied by finder patterns
@@ -9178,23 +7626,11 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Small size is preferable.
 
-// Smaller components, such as icons and type, can align to a 4dp grid.
-
-// So copying it here would give us the same result in the wrapper as well.
-
-// So the animation always start from the start.
-
-// So we don't have to use the `withTheme()` Higher-order Component.
-
-// So we take precedent over the style of a native <a /> element.
-
 // So write code to minimize size - no pregenerated tables
 
 // So, if this is awaiting a drain, then we just call it now.
 
 // So, the steps are:
-
-// Some random properties
 
 // Some simple transforms that sort out most of the order
 
@@ -9209,8 +7645,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // Sort how the Japanese list is sorted
 
 // Sort object keys, not values
-
-// Sorted ASC by size. That's important.
 
 // Source: http://unicode.org/cldr/trac/browser/tags/release-27/common/main/en.xml#L1799
 
@@ -9242,8 +7676,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Struct
 
-// Style sheet was created without link: true and attached, in this case we
-
 // Sub-classes MAY override these
 
 // Sub-classes MUST call super
@@ -9251,8 +7683,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // Sub-classes SHOULD leave these alone
 
 // Subclasses may override this
-
-// Subset of jss-preset-default with only the plugins the Material-UI components are using.
 
 // Subtract 0x8140 from Shift JIS value
 
@@ -9268,15 +7698,9 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Sum all words with the same `i + j = k` and accumulate `ncarry`,
 
-// Support CSSTOM.
-
 // Support decoding URL-safe base64 strings, as Node.js does.
 
-// Support space separated values via `[['5px', '10px']]`.
-
 // Surrogate Pair
-
-// Swallow the event, in case someone is listening for the escape key on the body.
 
 // Swap `a` and `b` to make `a` always bigger than `b`
 
@@ -9291,10 +7715,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 
 // TODO deflate
-
-// TODO v5: consider to make it private
-
-// TODO v5: remove
 
 // TODO(BridgeAR): Improve the output by showing `null` and similar.
 
@@ -9326,8 +7746,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // TODO: may be {}
 
-// TODO: remove fallback for next major
-
 // TODO: thenables are checked up until they have the correct methods,
 
 // Take note if the _read call is sync or async (ie, if the read call
@@ -9336,8 +7754,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Taken from https://github.com/feross/buffer/blob/680e9e5e488f22aac27599a57dc844a6315928dd/index.js
 
-// Takes a background color and returns the text color that maximizes the contrast.
-
 // Temporary arrays
 
 // Test for A's keys different from B.
@@ -9345,12 +7761,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // Test for strict equality first.
 
 // Test if n bit is set
-
-// Test prefixed value.
-
-// Test value as it is.
-
-// Text hints.
 
 // That we got here means that the readable side wants more data.
 
@@ -9372,10 +7782,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // The above copyright notice and this permission notice shall be included in
 
-// The background color of a disabled action.
-
-// The background colors used to style the surfaces.
-
 // The block cipher
 
 // The character count indicator is a string of bits that represents the
@@ -9386,32 +7792,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // The character value of the second digit is added to the product
 
-// The color of a disabled action.
-
-// The color of a selected action.
-
-// The color of an active action like an icon button.
-
-// The color of an hovered action.
-
-// The color used to divide different elements.
-
-// The colors used to indicate the successful completion of an action that user triggered.
-
-// The colors used to present information to the user that is neutral and not necessarily important.
-
-// The colors used to represent interface elements that the user should be made aware of.
-
-// The colors used to represent potentially dangerous actions or important messages.
-
-// The colors used to represent primary interface elements for a user.
-
-// The colors used to represent secondary interface elements for a user.
-
-// The colors used to style the action elements.
-
-// The colors used to style the text.
-
 // The computed code point is outside the range for UTF-8
 
 // The conditions for reading more data are (one of):
@@ -9419,8 +7799,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // The context.catch method must only be called with a location
 
 // The delegate iterator is finished, so forget it and continue with
-
-// The element was already mounted.
 
 // The equality assertion tests shallow, coercive equality with ==.
 
@@ -9430,19 +7808,11 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // The gas limit could not be estimated
 
-// The grey colors.
-
-// The handler doesn't take event.defaultPrevented into account:
-
 // The input data string is divided into groups of three digits,
 
 // The maximum size for an array is 2 ** 32 -1.
 
-// The modal might be closed before it had the chance to be mounted in the DOM.
-
 // The module cache
-
-// The most important text.
 
 // The network supports EIP-1559!
 
@@ -9460,8 +7830,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // The pair must have the same number of owned properties.
 
-// The palette type, can be light or dark.
-
 // The private key
 
 // The public key
@@ -9471,8 +7839,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // The require function
 
 // The root entry object (effectively a try statement without a catch
-
-// The sharp curve is used by objects that may return to the screen at any time.
 
 // The splitSignature will ensure the transaction has a recoveryParam in the
 
@@ -9484,31 +7850,19 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // The sum is then stored as 11-bit binary number
 
-// The touch interaction occurs too quickly.
-
 // The transaction was replaced by one with a higher gas price
 
 // The user chose an optional scheme
 
 // The util.inspect default values could be changed. This makes sure the
 
-// The way the read on `nodeToRestore` is setup could make this actually safe.
-
-// The whatwg spec defines how the browser should behave but does not explicitly mention any events:
-
 // The whole point behind this internal module is to allow Node.js to no
-
-// The wrapper receives only user supplied props, which could be a subset of
 
 // There are some unspecified tags in the wild too (e.g. typed array tags).
 
 // There chould be multiple formats
 
 // There is no actual difference between INFLATE and INFLATERAW
-
-// There is no sheet when the renderer is used from a standalone StyleRule.
-
-// There was no camel case in place
 
 // These blocks will be replaced with correct values later in code.
 
@@ -9550,8 +7904,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // This is the _flush function called by the transform class,
 
-// This is the most common easing curve.
-
 // This is the part where you do stuff!
 
 // This is to work around cases where hwm=0, such as the repl.
@@ -9568,8 +7920,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // This should ignore "if", but that doesn't work here??
 
-// This shouldn't be necessary, but there are weird race conditions with
-
 // This software is provided 'as-is', without any express or implied
 
 // This thing manages the queue of requests, and returns
@@ -9580,13 +7930,9 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // This way, back-pressure is actually determined by the reading side,
 
-// This way, we can get a performance boost.
-
 // This will be used to encrypt the wallet (as per Web3 secret storage)
 
 // This will remove any duplicated frames from the error frames taken
-
-// Though IE will keep them and we need a consistent behavior.
 
 // Timeout
 
@@ -9598,10 +7944,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // To be able to handle cases like:
 
-// To detect a tab/window switch, we look for a blur event followed
-
-// To support composition of theme.
-
 // Tonelli-Shanks algorithm (Totally unoptimized and slow)
 
 // Too many arguments
@@ -9609,8 +7951,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // Total codewords for this QR code version (Data + Error correction)
 
 // Total number of error correction codewords
-
-// Touche devices
 
 // Trace((stderr,"\nbit length overflow\n"));
 
@@ -9622,19 +7962,11 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Tracev((stderr, "\nopt %lu(%lu) stat %lu(%lu) stored %lu lit %u ",
 
-// Tracks if either the rendered classes or classes prop has changed,
-
 // Trailing zero bytes are okay, though, since they are frequently
-
-// Transform properties
 
 // Transforms for normalizing (sort is a not quite UTF-8)
 
-// Transition properties
-
 // Translate into more windowed form
-
-// Translate the node so he can't be seen on the screen.
 
 // Trick from scrypt-async; if there is a setImmediate shim in place, use it
 
@@ -9646,8 +7978,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // True if the error was already emitted and should not be thrown again
 
-// Truncate at 3 digits
-
 // Try start flowing on next tick if stream isn't explicitly paused
 
 // Try the built in decoder first
@@ -9656,13 +7986,7 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Try to decode the entire string first
 
-// Try to find a comment placeholder if registry is empty.
-
-// Try to insert before the next higher sheet.
-
 // Try to match the explicit extension
-
-// Try webkit fallback.
 
 // Try/catch helper to minimize deoptimizations. Returns a completion
 
@@ -9676,10 +8000,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // U = (M + E)^2 - MM - EE - T
 
-// UNUSED EXPORTS: createMuiTheme
-
-// UNUSED EXPORTS: sheetsManager
-
 // USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 // UTF-16LE typically needs two bytes per character, but even if we have an even
@@ -9692,8 +8012,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Unhandled stream error in pipe.
 
-// Unitless following https://meyerweb.com/eric/thoughts/2006/02/08/unitless-line-heights/
-
 // Unix :) . Don't detect, use this default.
 
 // Unknown Error
@@ -9703,8 +8021,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // Unsigned comparison
 
 // Unsupported Operation
-
-// Update and add props.
 
 // Upgrade transaction from null to eip-1559
 
@@ -9728,10 +8044,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Use complement of `s`, if it is > `n / 2`
 
-// Use computed style, here to get the real padding to add our scrollbar width.
-
-// Use div by default.
-
 // Use flat array of DOUBLE size, with interleaved fata,
 
 // Use higher error correction level as default
@@ -9742,27 +8054,9 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Use recid and v to populate each other
 
-// Use the random value for client-side rendering only.
-
-// Use the same logic as
-
 // Use untyped array for more convenient processing later
 
-// Used by `getContrastText()` to maximize the contrast between
-
-// Used by the functions below to shift a color's luminance by approximately
-
-// Used to avoid issues with jss-plugin-expand integration.
-
-// Used to ensure correct rules order.
-
-// Used to filter out mouse emulated events on mobile.
-
 // Useful for many curves
-
-// Using a hash computation over an array iteration could be faster, but with only 28 items,
-
-// Using components as a low-level styling construct can be simpler.
 
 // Using legacy gasPrice property on an eip-1559 network,
 
@@ -9776,12 +8070,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Validates as many continuation bytes for a multi-byte UTF-8 character as
 
-// Value is empty and wasn't defined before.
-
-// Value with a vendor prefix.
-
-// Values from https://github.com/material-components/material-components-web/blob/be8747f94574669cb5e7add1a7c54fa41a89cec7/packages/mdc-elevation/_variables.scss
-
 // Variable-width (with a maximum)
 
 // Verify that the code above has been dead code eliminated (DCE'd).
@@ -9792,10 +8080,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // Very short reduction
 
-// WARNING: Potentially unsafe in concurrent mode.
-
-// WARNING: Prevents the instance from being garbage collected. Should only
-
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 // Warning: maxLength not taken into account in base64Write
@@ -9804,17 +8088,9 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // We allow 0, but anything false-ish uses the default 1
 
-// We are going to remove this value.
-
 // We are going to use the encoder to visit all the base values
 
 // We can push more data if we are below the highWaterMark.
-
-// We can use a shorthand class name, we never use the keys to style the components.
-
-// We can't add rules to a detached style node.
-
-// We can't use it server-side.
 
 // We can't use window.location.hash here because it's not
 
@@ -9822,17 +8098,7 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // We cannot tell if a hashchange was caused by a REPLACE, so we'd
 
-// We disable the focus ring for mouse, touch and keyboard users.
-
-// We do this comparison to avoid unneeded `rule.prop()` calls, since we have the old `style` object here.
-
 // We don't expect any of the above to throw, but better to be safe.
-
-// We don't need to extract functions on each style update, since this can happen only once.
-
-// We don't support function values inside of function rules.
-
-// We don't want to display the ripple for touch scroll events.
 
 // We get here if `from` is the exact base path for `to`.
 
@@ -9848,8 +8114,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // We have no pointers in JS, so keep tables separate
 
-// We have now written a state that wasn't committed. But no committed effect
-
 // We have separate tables & no pointers. 2 commented lines below not needed.
 
 // We have tests that rely on errors being emitted
@@ -9862,47 +8126,19 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // We may want to compute this more accurately in the future,
 
-// We might render an empty child.
-
 // We need to auto-detect the intended type of this transaction...
 
 // We need to check if there is someone still listening to
 
-// We need to clone array because if we modify the index somewhere else during a loop
-
 // We need to defer via nextTick because if .destroy(err) is
-
-// We need to do that only once.
-
-// We need to extract function values from the declaration, so that we can keep core unaware of them.
 
 // We need to get fee data to determine things
 
-// We need to ignore the next contain as
-
-// We need to render the container without children first.
-
-// We need to reset the rule counter for SSR for each request.
-
-// We need to run the plugins in case new `style` relies on syntax plugins.
-
-// We need to save the original decl before creating the rule
-
-// We need to update the position of the drawer when the direction change and
-
-// We need to use `force: true` because `rule.style` has been updated during onUpdate hook, so `rule.prop()` will not update the CSSOM rule.
-
-// We only handle the first word.
-
 // We only support the mainnet values for now, but if anyone needs
-
-// We only want to reference the top level rules, deleteRule API doesn't support removing nested rules
 
 // We prevent up to two map.has(x) calls by directly retrieving the value
 
 // We pushed a chainId and null r, s on for hashing only; remove those
-
-// We rely on a new `style` ref in case it was mutated during onUpdate hook.
 
 // We saw a non-dot and non-path separator before our dot, so we should
 
@@ -9914,33 +8150,15 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // We saw the first non-path separator, remember this index in case
 
-// We should not do anything if required serverside.
-
-// We still want to show ripple effect.
-
 // We take 64 bytes:
 
-// We test every property on vendor prefix requirement.
-
 // We use React.Children.forEach instead of React.Children.toArray().find()
-
-// We use a timer in order to only show the ripples for touch "click" like events.
-
-// We want only prefixable values here.
-
-// We will redeploy the sheet once user will attach it.
 
 // Weierstrass/Edwards points on the other hand have both `x` and
 
 // When a yielded Promise is resolved, its final value becomes
 
-// When new generator function is created, rule counter is reset.
-
 // When rendering in a static context,
-
-// When rule is being stringified before selector was defined.
-
-// When rules are inserted using `insertRule` API, after `sheet.detach().attach()`
 
 // When the callback is used in an async write, the callback's
 
@@ -9954,25 +8172,13 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // While the output is causally related to the input, it's not a
 
-// Width and height properties
-
-// Will be empty if link: true option is not set, because
-
-// With Edge, Safari and Firefox, no focus related events are fired when the focused area stops being a focused area
-
 // Within the body of any async function, `await x` is transformed to
 
-// Without it, IE will have a broken source order specificity if we
-
 // Workaround problem in Float point arithmetics for e.g. 6681493 / 0.01
-
-// Works with iframes and any node types.
 
 // Writable ctor is applied to Duplexes, too.
 
 // Writable.
-
-// Write current value to cache.
 
 // Writing a hex string, for example, that contains invalid characters will
 
@@ -10126,15 +8332,11 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // all copies or substantial portions of the Software.
 
-// all nested rules within the sheet.
-
 // all other browsers
 
 // all previous Promises have been resolved before calling invoke,
 
 // allocate the first CorkedRequest, there is always
-
-// allows for nested Transitions
 
 // almost all possible cases.
 
@@ -10182,10 +8384,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // and encoded as 11-bit binary codes.
 
-// and hitting left arrow to move the cursor in a text input etc.
-
-// and material-components-web https://github.com/material-components/material-components-web/blob/ac46b8863c4dab9fc22c4c662dc6bd1b65dd652f/packages/mdc-theme/_functions.scss#L54
-
 // and modified a little at july 20, 2006, but there are not any substantial differences.
 
 // and must be a certain number of bits long, depending on the QR version
@@ -10220,17 +8418,11 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // are needed to reach the required number of bits.
 
-// are running
-
 // argument that corresponds to a known catch block.
-
-// aria-hidden because the dom element doesn't exist either
 
 // arising from the use of this software.
 
 // array.shift()
-
-// as soon as a modal is adding its modalRef is undefined. it can't set
 
 // as soon as we *do* get something into the buffer.
 
@@ -10274,8 +8466,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // backwards compatibility.
 
-// bad specificity issues may appear.
-
 // base64 is 4/3 + up to two characters of the original data
 
 // based on awesome response : http://stackoverflow.com/questions/43044/algorithm-to-randomly-generate-an-aesthetically-pleasing-color-palette
@@ -10285,8 +8475,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // be a valid example of a transform, of course.)
 
 // because JS does not support effective
-
-// because cache plugin needs to use it as a key to return a cached rule.
 
 // because it is fragile and can be easily faked with `Object.create()`.
 
@@ -10310,8 +8498,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // bounded at: 0x40 * 0x3ffffff + 0x3d0 = 0x100000390
 
-// browsers not implementing :focus-visible will throw a SyntaxError
-
 // buffered _write cb's as it consumes chunks.  If consuming a single
 
 // buffered up.  When you call read(), that calls _read(n) until
@@ -10321,8 +8507,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // but according to documentation, the `then` method should receive
 
 // but that's not a great name for it, since that implies a thing where
-
-// but we can use a longhand property instead.
 
 // by !!value.
 
@@ -10337,8 +8521,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // c = Account number
 
 // c) Equivalent values for every corresponding key/index
-
-// cache prefill method.
 
 // cached from whatever global is present so that test runners that stub it
 
@@ -10355,8 +8537,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // callback(error, progress, key)
 
 // called, the error will be emitted via nextTick, and
-
-// calling preventDefault in keyUp on a <button> will not dispatch a click event if Space is pressed
 
 // can match lots of different string values (e.g., 1n == '+00001').
 
@@ -10384,13 +8564,9 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // characters.
 
-// check that this isn't another touchstart due to multitouch
-
 // check_match(s, s.strstart, s.match_start, s.match_length); // for debug only
 
 // cleanup event handlers once the pipe is broken
-
-// clicking a checkbox to check it, hitting a button to submit a form,
 
 // coercion fail below.
 
@@ -10416,17 +8592,7 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // console.log('conflict', result);
 
-// console.log('entering', key)
-
-// console.log('leaving', key)
-
-// console.log('unchanged', key)
-
 // console.log(now - startTime)
-
-// const fn = props => {
-
-// const handlers = styles.reduce((acc, style) => {
 
 // const naming scheme zlib uses.
 
@@ -10449,8 +8615,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // copies of the 'buffer' package in use. This method works even for Buffer
 
 // copy of this software and associated documentation files (the
-
-// copy over the last transition props;
 
 // copy values into round key arrays
 
@@ -10542,8 +8706,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // drain event flag.
 
-// e.g. https://bugzilla.mozilla.org/show_bug.cgi?id=559561.
-
 // e.g. options.readableObjectMode vs. options.writableObjectMode, etc.
 
 // effect.
@@ -10602,33 +8764,15 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // eslint-disable-line no-unused-expressions
 
-// eslint-disable-line react-hooks/exhaustive-deps
-
-// eslint-disable-next-line camelcase
-
-// eslint-disable-next-line consistent-this
-
 // eslint-disable-next-line eqeqeq
 
 // eslint-disable-next-line no-control-regex
 
-// eslint-disable-next-line no-restricted-globals
-
 // eslint-disable-next-line no-restricted-syntax
-
-// eslint-disable-next-line no-unused-vars
 
 // eslint-disable-next-line no-unused-vars, no-restricted-syntax
 
-// eslint-disable-next-line prefer-rest-params
-
-// eslint-disable-next-line prefer-spread
-
-// eslint-disable-next-line react-hooks/rules-of-hooks
-
 // event emitter implementation with them.
-
-// event.preventDefault() is meant to stop default behaviours like
 
 // example IBAN AZ21 NABZ 0000 0000 1370 1000 1944
 
@@ -10676,8 +8820,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // flowing needs to be set to true now, otherwise
 
-// focusable events only
-
 // following conditions:
 
 // for (var i = 0; i < N; i++)
@@ -10723,8 +8865,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // getDefaultExport function for compatibility with non-harmony modules
 
 // getFeeData has failed us.
-
-// getSnapshotBeforeUpdate(prevProps) {
 
 // go back to the normal behavior.
 
@@ -10788,23 +8928,17 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // here.  For example, imagine a stream where every byte of input is
 
-// hold a weak ref.
-
 // horizontal
 
 // however, don't suppress the throwing behavior for this.
 
 // however, if we've ended, then there's no point, and if we're already
 
-// http://davidwalsh.name/vendor-prefix
-
 // http://en.wikipedia.org/wiki/ANSI_escape_code#graphics
 
 // http://fb.me/prop-types-in-prod
 
 // http://ixti.net/development/javascript/2011/11/11/base64-encodedecode-of-utf8-in-browser-with-js.html
-
-// http://jsperf.com/element-style-object-access-vs-plain-object
 
 // http://msdn.microsoft.com/en-us/library/ie/dww52sbt(v=vs.94).aspx
 
@@ -10820,21 +8954,7 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // https://bugs.chromium.org/p/v8/issues/detail?id=4118
 
-// https://caniuse.com/#search=appearance
-
-// https://caniuse.com/#search=color-adjust
-
-// https://caniuse.com/#search=keyframes
-
-// https://caniuse.com/#search=mask
-
-// https://caniuse.com/#search=text-orientation
-
 // https://code.google.com/p/v8/issues/detail?id=3757
-
-// https://codesandbox.io/s/button-keyup-preventdefault-dn7f0
-
-// https://css-tricks.com/snippets/css/force-vertical-scrollbar/
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith
 
@@ -10851,10 +8971,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // https://github.com/alexeyten/qr-image/issues/13
 
 // https://github.com/amdjs/amdjs-api/wiki/AMD
-
-// https://github.com/cssinjs/jss/blob/4e6a05dd3f7b6572fdd3ab216861d9e446c20331/src/utils/createGenerateClassName.js
-
-// https://github.com/facebook/react/blob/15a8f031838a553e41c0b66eb1bcf1da8448104d/packages/react/src/ReactElement.js#L221
 
 // https://github.com/feross/buffer/pull/148
 
@@ -10876,17 +8992,9 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // https://github.com/soldair/node-qrcode/issues/157
 
-// https://html.spec.whatwg.org/multipage/interaction.html#focus-fixup-rule.
-
-// https://material.io/design/layout/understanding-layout.html#usage
-
 // https://people.mozilla.org/~jorendorff/es6-draft.html#sec-generatorresume
 
-// https://stackoverflow.com/questions/41328728/force-casting-in-flow
-
 // https://transferwise.com/fr/iban/azerbaijan
-
-// https://www.wolframalpha.com/input/?i=(4+%2B+15+*+(x+%2F+36+)+**+0.25+%2B+(x+%2F+36)+%2F+5)+*+10
 
 // hunting for something thats deep-(strict-)equal to it. To make this
 
@@ -10948,8 +9056,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // if true, a maybeReadMore has been scheduled
 
-// if we are mounting and running this it means appear _must_ be set
-
 // if we are sync, wait until next tick to emit the data.
 
 // if we currently have less than the highWaterMark, then also read some
@@ -10992,15 +9098,11 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // in all copies or substantial portions of the Software.
 
-// in case function rule returns a falsy value.
-
 // in case runtime.js accidentally runs in strict mode, in modern engines
 
 // in every case, so we don't have to touch the arguments object. The
 
 // in fixed multiplication method
-
-// in nodeToRestore.current being null.
 
 // in non-ending mode, where "/test/" shouldn't match "/test//route".
 
@@ -11042,8 +9144,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // input.
 
-// insert rules after we insert the style tag.
-
 // instances of Error.
 
 // instances that were created from another copy of the `buffer` package.
@@ -11066,11 +9166,7 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // is === this._handle, and that's why it's important to null
 
-// is absolutely positioned.
-
 // is absurdly low.  Usually a MB or more is best.
-
-// is not affected by `padding` or `border`.
 
 // is otherwise identical.
 
@@ -11084,25 +9180,13 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // it is async
 
-// it is only for use together with insertRule API.
-
 // it means that we need to wait until it does.
 
-// it will try to move the focus back to the rootRef element.
-
 // it'll have the correct byte counts.
-
-// it's doesn't worth the bundle size.
 
 // it's in progress.
 
 // it, so set the completion value of the entire function to
-
-// item hasn't changed transition states
-
-// item is new (entering)
-
-// item is old (exiting)
 
 // iterator prototype chain incorrectly implement this, causing the Generator
 
@@ -11142,8 +9226,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // length is NaN (which is otherwise coerced to zero.)
 
-// like rules inside media queries or keyframes
-
 // line so consecutive diverging lines show up as +++--- and not +-+-+-.
 
 // lines commented with /* and */ are original comments.
@@ -11165,8 +9247,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // look weird as in:
 
 // loop.
-
-// loose mode is safe iff we're concatenating primitives
 
 // make all the buffer merging and length checks go away
 
@@ -11206,10 +9286,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // modules monkey-patch it to support additional encodings
 
-// most basic recommended timing
-
-// most browsers create a new CSSStyleSheet, except of all IEs.
-
 // multiplication (like elliptic secp256k1).
 
 // multiply by 2
@@ -11217,8 +9293,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // must be multiple of 3
 
 // naive approach... going back to loop unrolling may yield additional performance
-
-// name and withTheme are invariant in the outer scope
 
 // necessarily symmetric or synchronous transformation.  For example,
 
@@ -11234,27 +9308,17 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // never call cb(), then you'll never get another chunk.
 
-// nextStatus will always be ENTERING or EXITING.
-
 // no "from" is provided, populates it.
 
 // no combination of Error Correction Level and data mask pattern
-
-// no enter animation skip right to ENTERED
-
-// no exit animation skip right to EXITED
 
 // no lead yet
 
 // no more data can be written.
 
-// no need for validFocusTarget check. the user does that by attaching it to
-
 // node ID => cost
 
 // node ID => predecessor node ID
-
-// node is `undefined` when user provided `nodeRef` prop
 
 // node.js
 
@@ -11263,8 +9327,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // node::ParseEncoding() requires lower case.
 
 // normal statuses, not fatal
-
-// normalized
 
 // not `zero`, use the strict equal comparison to visualize the output.
 
@@ -11324,8 +9386,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // onClick prevented default
 
-// onEnterXxx and onExitXxx callbacks have a different arguments.length value.
-
 // once we've flushed the last of the queue, stop flushing and
 
 // one allocated and free to use, and we maintain at most two
@@ -11349,10 +9409,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // original length, plus the receiver, minus any additional arguments (after the receiver)
 
 // original notice:
-
-// other vendors use to add Webkit prefixes to some properties
-
-// otherwise we will only clear a single timer when unmounting while two
 
 // out
 
@@ -11406,8 +9462,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // problems, please detail your unique predicament in a GitHub issue.
 
-// properties we need to feature test at runtime.
-
 // properties.
 
 // property of a typed array.
@@ -11428,15 +9482,9 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // randomly pick from the many faker methods that can generate words
 
-// rapidly by a visibility change.
-
 // rather setState here and ignore the hashchange. The caveat here
 
 // raw - no header
-
-// react-transition-group#onExit
-
-// react-transition-group#onExited
 
 // read it all, truncate the list
 
@@ -11452,17 +9500,11 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // reasonable to interpret their underlying memory in the same way,
 
-// recommended when something is entering screen
-
-// recommended when something is leaving screen
-
 // record like context.tryEntries[i].completion. This interface could
 
 // reduce buffer size, avoiding mem copy
 
 // regeneratorRuntime in the outer scope, which allows this module to be
-
-// regular focus change.
 
 // reject if we are waiting for data in the Promise
 
@@ -11486,21 +9528,13 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // require('getprototypeof');
 
-// requiring the generation of a new finalized classes object.
-
 // reset user styles for span element
-
-// rest params over-transpile for this case
-
-// restoreLastFocus()
 
 // result, either by returning a { value, done } result from the
 
 // resume within the same tick will have no
 
 // resume()
-
-// rethrow might be better if it's not the expected error but do we really
 
 // return the response recursively until we are done finding all tags
 
@@ -11509,8 +9543,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // reuse the free corkReq.
 
 // rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
-
-// run the map function here instead so that the key is the computed one
 
 // s->gzhead == Z_NULL
 
@@ -11522,11 +9554,7 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error.
 
-// screensize shrink.
-
 // see above comment of firstName method
-
-// see https://babeljs.io/docs/en/babel-plugin-transform-template-literals#loose
 
 // sell copies of the Software, and to permit persons to whom the Software is
 
@@ -11541,8 +9569,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // set the new location immediately.
 
 // set up data events if they are asked for
-
-// setState callbacks and unmounting in testing, so always make sure that
 
 // setting context.delegate to null, and returning the ContinueSentinel.
 
@@ -11577,8 +9603,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // slightly revisited to rely on looping instead of recursion
 
 // slow case. multiple pipe destinations.
-
-// slowly decelerate to a resting point.
 
 // so Buffer.isBuffer(Buffer.prototype) will be false
 
@@ -11648,8 +9672,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // struct ct_data_s dyn_ltree[HEAP_SIZE];   /* literal and length tree */
 
-// styled-components's API removes the mapping between components and styles.
-
 // such a pathological inflating mechanism, there'd be no way to tell
 
 // support once('readable', fn) cycles. This means that calling
@@ -11674,8 +9696,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // temp disabled per https://github.com/ljharb/object.assign/issues/17
 
-// temporary style
-
 // testnet values, let me know. I believe current senitment is that
 
 // that Readable wants before the first _read call, so unset the
@@ -11689,8 +9709,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // that to be increased. Set to zero for unlimited.
 
 // that we're awaiting a 'readable' event emission.
-
-// that were committed on `open={true}`
 
 // the 'readable' event and move on.
 
@@ -11710,11 +9728,7 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // the `unique` module
 
-// the actual props Component might receive due to merging with defaultProps.
-
 // the amount that is being written when _write is called.
-
-// the background and the text.
 
 // the callback that the user supplies to write(chunk,encoding,cb)
 
@@ -11724,13 +9738,9 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // the character value of the final character is encoded as a 6-bit binary number.
 
-// the combined list
-
 // the common path parts
 
 // the cost of the shortest paths to any or all of those nodes as
-
-// the current version with just one short number and use it for classes generation
 
 // the drain event emission and buffering.
 
@@ -11755,8 +9765,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // the method takes exactly one argument, since that happens to be true
 
 // the minimum depth. Otherwise those values would be too verbose compared
-
-// the module.
 
 // the no-half-open enforcer
 
@@ -11834,8 +9842,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // this is primarily because using the reduce we only perform the regex
 
-// this is to be used in complex animations
-
 // this logic is optimized to support for await loops,
 
 // this must be 0 before 'finish' can be emitted
@@ -11845,10 +9851,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // this same function
 
 // this._events to be assigned to a new object
-
-// this.containers[containerIndex] = {
-
-// this.modals[modalIndex] = modal
 
 // throw the exception.
 
@@ -11875,8 +9877,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // to is absolute
 
 // to is relative, drop the filename
-
-// to learn the context in which each easing should be used.
 
 // to make it re-entrance safe in case destroy() is called within callbacks
 
@@ -11911,8 +9911,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // try to find the right one.
 
 // two GF numbers, no more).
-
-// two indexes within its tonal palette.
 
 // type is a string, number, bigint or boolean. The reason is that those values
 
@@ -11986,8 +9984,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // variables correct.
 
-// variant === temporary
-
 // vertical
 
 // very first line, add the line to the result.
@@ -11996,8 +9992,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // wan't to early return out of the rest of the checks. However we can check
 
-// want to crash if focus-visible malfunctioned?
-
 // warranty. In no event will the authors be held liable for any damages
 
 // way. Do not accept thenables that use a function as `obj` and that have no
@@ -12005,8 +9999,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // we always attempt to the parse the incoming parameters into JSON
 
 // we can be expecting either 'end' or
-
-// we can cancel any pending setState callbacks after we unmount.
 
 // we can explicitly access globalThis. In older engines we can escape
 
@@ -12017,8 +10009,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // we defer if data is null
 
 // we did not generate a valid codePoint so insert a
-
-// we end up with very hard-to-track-down side effects.
 
 // we flow only if there is no one listening
 
@@ -12036,10 +10026,6 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // we should always use mainnet, and use BIP-44 to derive the network
 
-// we use a counter. Also it is more accurate, because user can manually reevaluate
-
-// we use our own heuristic for those browsers
-
 // we wait for the next tick, because it might
 
 // we will use it if it is in the list of acceptable separators (dash or no separator)
@@ -12053,10 +10039,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // when a corresponding condition is not met, with a message that
 
 // when end() has been called, and returned
-
-// when it's hidden.
-
-// when modal was unmounted before modalRef gets null
 
 // when the dest drains, it reduces the awaitDrain counter
 
@@ -12074,27 +10056,17 @@ PERFORMANCE OF THIS SOFTWARE.
 
 // whether or not we matched exactly
 
-// which happen after the first `rules.add()` call.
-
 // which is checked by comparing their type tags.
 
-// will be returned from that function.
-
 // will get processed, now that we've asked for it.
-
-// will read this wrong value. We only read from `nodeToRestore` in effects
 
 // will result in an all-zero data string
 
 // window index
 
-// with `none`.`
-
 // without limitation the rights to use, copy, modify, merge, publish,
 
 // without triggering the next() queue
-
-// won't be able to remove the CSS rule from the DOM.
 
 // would be consumed, and then the rest would wait (un-transformed) until
 
@@ -12165,14 +10137,6 @@ PERFORMANCE OF THIS SOFTWARE.
 // {{{1 numeric encode
 
 // {{{1 url encode
-
-// }
-
-// }, {});
-
-// };
-
-// ⚠️ sticky is not supported by IE 11.
 
 //# sourceMappingURL=_version.js.map
 
